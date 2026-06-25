@@ -1,13 +1,13 @@
 // src/App.jsx
 import { useState, useEffect } from "react";
-import { CheckCircle2, XCircle, RotateCcw, Trophy, ChevronRight, Home, Shuffle } from "lucide-react";
+import { CheckCircle2, XCircle, RotateCcw, Trophy, ChevronRight, Home, Shuffle, Lock, AlertCircle } from "lucide-react";
 import quizData from './computerData.js';
 // import quizData from './organizationsData.js';
 // import quizData from './pakistanData.js';
 // import quizData from './gkData.js'
 
 // Function to shuffle array and get random questions
-const getRandomQuestions = (questions, count = 20) => {
+const getRandomQuestions = (questions, count = 100) => {
   const shuffled = [...questions];
   for (let i = shuffled.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -30,6 +30,7 @@ export default function App() {
   const [quizQuestions, setQuizQuestions] = useState([]);
   const [quizStarted, setQuizStarted] = useState(false);
   const [showStartScreen, setShowStartScreen] = useState(true);
+  const [showExitConfirm, setShowExitConfirm] = useState(false);
 
   const allQuestions = quizData.questions || [];
   const totalAvailableQuestions = allQuestions.length;
@@ -46,6 +47,7 @@ export default function App() {
     setScore(0);
     setAnswers([]);
     setQuizFinished(false);
+    setShowExitConfirm(false);
   };
 
   const handleSelect = (index) => {
@@ -73,13 +75,24 @@ export default function App() {
   };
 
   const handleRestart = () => {
+    setShowExitConfirm(false);
     startNewQuiz();
   };
 
   const goHome = () => {
+    setShowExitConfirm(false);
     setShowStartScreen(true);
     setQuizStarted(false);
     setQuizFinished(false);
+  };
+
+  const handleBackAttempt = () => {
+    // Only show confirm if quiz has started and not finished
+    if (quizStarted && !quizFinished) {
+      setShowExitConfirm(true);
+    } else {
+      goHome();
+    }
   };
 
   const questions = quizQuestions;
@@ -90,6 +103,37 @@ export default function App() {
   useEffect(() => {
     // Auto-start disabled
   }, []);
+
+  // ============ EXIT CONFIRMATION MODAL ============
+  if (showExitConfirm) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-indigo-50 to-purple-50 flex items-center justify-center p-3 sm:p-4">
+        <div className="bg-white rounded-2xl shadow-xl max-w-md w-full p-6 sm:p-8 text-center">
+          <div className="w-16 h-16 mx-auto bg-red-100 rounded-full flex items-center justify-center mb-4">
+            <AlertCircle className="w-8 h-8 text-red-500" />
+          </div>
+          <h2 className="text-2xl font-bold text-gray-800 mb-2">Exit Quiz?</h2>
+          <p className="text-gray-600 mb-6">
+            You haven't completed the quiz yet. Your progress will be lost if you exit now.
+          </p>
+          <div className="flex flex-col xs:flex-row gap-3">
+            <button
+              onClick={() => setShowExitConfirm(false)}
+              className="flex-1 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-6 rounded-xl transition-colors"
+            >
+              Continue Quiz
+            </button>
+            <button
+              onClick={goHome}
+              className="flex-1 bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-6 rounded-xl transition-colors"
+            >
+              Exit Anyway
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   // ============ START SCREEN ============
   if (showStartScreen) {
@@ -245,14 +289,17 @@ export default function App() {
       <div className="bg-white rounded-2xl shadow-xl max-w-2xl w-full p-4 sm:p-8">
         <div className="flex justify-between items-center mb-3 sm:mb-4">
           <button
-            onClick={goHome}
-            className="flex items-center gap-1 sm:gap-2 text-gray-500 hover:text-indigo-600 transition-colors text-xs sm:text-sm"
+            onClick={handleBackAttempt}
+            className="flex items-center gap-1 sm:gap-2 text-gray-500 hover:text-red-600 transition-colors text-xs sm:text-sm"
           >
             <Home className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-            <span className="hidden xs:inline">Home</span>
+            <span className="hidden xs:inline">Exit Quiz</span>
           </button>
-          <div className="text-xs sm:text-sm text-gray-500 font-medium">
-            {currentQuestion + 1} / {totalQuestions}
+          <div className="flex items-center gap-2">
+            <Lock className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-gray-400" />
+            <div className="text-xs sm:text-sm text-gray-500 font-medium">
+              {currentQuestion + 1} / {totalQuestions}
+            </div>
           </div>
         </div>
 

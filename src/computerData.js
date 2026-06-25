@@ -215,9 +215,9 @@ const quizData = {
     },
     {
       question: "1024 KB is equal to:",
-      options: ["100 MB", "10 MB", "1000 MB", "1 MB"],
-      correctAnswer: 3,
-      explanation: "1024 KB equals 1 MB (Megabyte)."
+      options: ["Both C And D", "1 GB", "0.001 GB", "1 MB"],
+      correctAnswer: 0,
+      explanation: "1024 KB equals 1 MB (Megabyte) or 0.001 GB."
     },
     {
       question: "MS Word is an:",
@@ -286,14 +286,14 @@ const quizData = {
       explanation: "Fault tolerance is the ability to continue operating despite failures."
     },
     {
-      question: "An electronic logic gate whose output is logic 0 only when all inputs are logic 1 is:",
+      question: "An electronic logic gate whose output is logic 1 only when all inputs are logic 0 is:",
       options: ["OR", "NAND", "NOR", "NOT"],
-      correctAnswer: 1,
-      explanation: "NAND gate outputs 0 only when all inputs are 1."
+      correctAnswer: 2,
+      explanation: "NOR gate outputs 1 only when all inputs are 0."
     },
     {
       question: "What is used by the internet to communicate between devices and networks?",
-      options: ["Internet protocol suite", "Email", "Website", "HTTPS"],
+      options: ["TCP/IP", "Email", "Website", "HTTPS"],
       correctAnswer: 0,
       explanation: "TCP/IP is the fundamental protocol suite of the internet."
     },
@@ -317,15 +317,15 @@ const quizData = {
     },
     {
       question: "Microsoft Windows is a software which is developed by:",
-      options: ["Sun", "Apple", "None of these", "Dell"],
+      options: ["Sun", "Apple", "Microsoft Corporation", "Dell"],
       correctAnswer: 2,
       explanation: "Microsoft Windows is developed by Microsoft Corporation."
     },
     {
       question: "________ is not necessary while performing mail merge operation:",
       options: ["Unique fields", "Super fields", "Word fields", "Primary fields"],
-      correctAnswer: 1,
-      explanation: "Super fields are not needed for mail merge."
+      correctAnswer: 2,
+      explanation: "Word fields are not needed for mail merge."
     },
     {
       question: "Area formula helps for performing ________ calculations:",
@@ -359,9 +359,9 @@ const quizData = {
     },
     {
       question: "Time taken by a computer to process a job or instruction is called:",
-      options: ["Delay time", "Real time", "Execution time", "Waiting time"],
-      correctAnswer: 2,
-      explanation: "Execution time is the time taken to complete a task."
+      options: ["Response time", "Process time", "Execution time", "All"],
+      correctAnswer: 3,
+      explanation: "Response time, Process time, Execution time is the time taken to complete a task."
     },
     {
       question: "Where is a deleted file stored on a computer?",
@@ -451,7 +451,7 @@ const quizData = {
       question: "Which of the following is a graphic change format extension?",
       options: ["JPEG", "MPG", "All of these", "GIF"],
       correctAnswer: 3,
-      explanation: "GIF, JPEG, and MPG are all graphic/change format extensions."
+      explanation: "GIF graphic/change format extensions."
     },
     {
       question: "Which device stores data permanently:",
@@ -533,13 +533,13 @@ const quizData = {
     },
     {
       question: "What is the default number of lines to drop for drop cap:",
-      options: ["20", "15", "10", "03"],
+      options: ["2", "4", "5", "3"],
       correctAnswer: 3,
       explanation: "The default drop cap is set to 3 lines."
     },
     {
       question: "Which shortcut key is used to center align the selected text:",
-      options: ["Ctrl+M", "Ctrl+D", "Ctrl+C", "Ctrl+E"],
+      options: ["Ctrl+M", "Ctrl+D", "Alt+E", "Ctrl+E"],
       correctAnswer: 3,
       explanation: "Ctrl+E is used to center align text in MS Word."
     },
@@ -625,7 +625,7 @@ const quizData = {
       question: "Cursor is a:",
       options: ["Pixel", "Thin Blinking line", "Pointing device", "All of these"],
       correctAnswer: 2,
-      explanation: "A cursor is a thin blinking line on screen."
+      explanation: "A cursor is a Pointing device."
     },
     {
       question: "The Software which contains rows and columns is called:",
@@ -637,7 +637,7 @@ const quizData = {
       question: "To exit from Microsoft PowerPoint window, we use:",
       options: ["Click the document close button", "Double click the applications control menu icon", "Click the application minimize button", "Double click the document control menu icon"],
       correctAnswer: 0,
-      explanation: "Double-clicking the applications control menu icon exits from Microsoft PowerPoint."
+      explanation: "Click the document close button from Microsoft PowerPoint."
     },
     {
       question: "In MS Excel to delete duplicate values which menu is used:",
@@ -700,7 +700,7 @@ const quizData = {
       explanation: "PowerPoint adds a blank Title slide by default."
     },
     {
-      question: "What is the shortcut key for paragraph break:",
+      question: "What is the shortcut key for line break within a paragraph:",
       options: ["Ctrl+Shift+Enter", "Alt+Enter", "Ctrl+Enter", "Shift+Enter"],
       correctAnswer: 3,
       explanation: "Shift+Enter inserts a line break within a paragraph."
@@ -725,7 +725,7 @@ const quizData = {
     },
     {
       question: "Which one is not a function in MS Excel:",
-      options: ["MAX", "MIN", "SUM", "AVG"],
+      options: ["MAX", "MIN", "AVERAGE", "None"],
       correctAnswer: 3,
       explanation: "AVG is not a built-in function in Excel; AVERAGE is used instead."
     },
@@ -815,7 +815,7 @@ const quizData = {
     },
     {
       question: "Which of the following option can remove the borders in MS Excel:",
-      options: ["Not possible in MS Excel", "Use no border", "Press enter", "Use formula"],
+      options: ["Not possible in MS Excel", "No border", "Press enter", "Use formula"],
       correctAnswer: 1,
       explanation: "No Border option removes all borders from selected cells."
     },
@@ -935,9 +935,9 @@ const quizData = {
     },
     {
       question: "Which of the following is not a search engine:",
-      options: ["Google", "Yahoo", "lol", "Bing"],
+      options: ["Google", "Yahoo", "Ubantu", "Bing"],
       correctAnswer: 2,
-      explanation: "lol is not a search engine."
+      explanation: "Ubantu is not a search engine."
     },
     {
       question: "Times new roman, Arial etc are examples of:",
@@ -1096,12 +1096,6 @@ const quizData = {
       explanation: ".docx is a file extension for Word documents."
     },
     {
-      question: "SAARC was established in:",
-      options: ["1987", "1981", "1999", "1985"],
-      correctAnswer: 3,
-      explanation: "SAARC was established in 1985."
-    },
-    {
       question: "In MS-Word, Tabs stop position cannot be the following alignment:",
       options: ["Center Alignment", "Justify Alignment", "Decimal Alignment", "Bar Alignment"],
       correctAnswer: 1,
@@ -1163,7 +1157,7 @@ const quizData = {
     },
     {
       question: "How is a hyperlink added in PowerPoint?",
-      options: ["Both A & B", "Hyperlinks can't be inserted in slides", "Choose Insert >> Hyperlink", "Press Ctrl + K"],
+      options: ["Both C & D", "Hyperlinks can't be inserted in slides", "Choose Insert >> Hyperlink", "Press Ctrl + K"],
       correctAnswer: 0,
       explanation: "Both Insert >> Hyperlink and Ctrl+K can add hyperlinks."
     },
@@ -1385,7 +1379,7 @@ const quizData = {
     },
     {
       question: "In Excel, the graph that is shaped like a pie and is used to analyze the data is called:",
-      options: ["Chart", "Scatter Chart", "Bar Chart", "Line Chart"],
+      options: ["Pie Chart", "Scatter Chart", "Bar Chart", "Line Chart"],
       correctAnswer: 0,
       explanation: "A pie chart is shaped like a pie and is used to analyze data."
     },
@@ -1571,7 +1565,7 @@ const quizData = {
     },
     {
       question: "Silicon Valley is famous for:",
-      options: ["Textile", "Computers", "Film making", "Automobile Manufacturing"],
+      options: ["Textile", "Technology", "Film making", "Automobile Manufacturing"],
       correctAnswer: 1,
       explanation: "Silicon Valley is famous for computers and technology."
     },
@@ -1601,7 +1595,7 @@ const quizData = {
     },
     {
       question: "Query can be used to select data from:",
-      options: ["Both A & B", "None of these", "Multiple tables", "Single tables"],
+      options: ["Both C & D", "None of these", "Multiple tables", "Single tables"],
       correctAnswer: 0,
       explanation: "Queries can select data from single and multiple tables."
     },
@@ -1793,7 +1787,7 @@ const quizData = {
     },
     {
       question: "PostScript is a:",
-      options: ["None of these", "Scripting language", "Both A & B", "Programming language"],
+      options: ["None of these", "Scripting language", "Both B & D", "Programming language"],
       correctAnswer: 2,
       explanation: "PostScript is both a programming and scripting language."
     },
@@ -1888,10 +1882,10 @@ const quizData = {
       explanation: "UTF-8 is a valid encoding format."
     },
     {
-      question: "Eight bits are equal to:",
+      question: "Four bits are equal to:",
       options: ["Word", "Nibble", "Kilobyte", "Byte"],
-      correctAnswer: 3,
-      explanation: "Eight bits equal one byte."
+      correctAnswer: 1,
+      explanation: "Four bits equal one Nibble."
     },
     {
       question: "What is the shortcut-key for manual line break in MS Word:",
@@ -2052,8 +2046,8 @@ const quizData = {
     {
       question: "What is the smallest width of a column:",
       options: ["0.5", "0", "1", "None of these"],
-      correctAnswer: 1,
-      explanation: "The smallest column width is 0."
+      correctAnswer: 0,
+      explanation: "The smallest column width is 0.5"
     },
     {
       question: "Which of the following is not a part of the control panel?",
