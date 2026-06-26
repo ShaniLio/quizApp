@@ -2003,7 +2003,7 @@ const quizData = {
     },
     {
       question: "To insert a hyperlink in a slide:",
-      options: ["Choose to insert >> hyperlink", "Both A & B", "Press Ctrl + K", "Hyperlinks can't be inserted in slides"],
+      options: ["Choose to insert >> hyperlink", "Both A & C", "Press Ctrl + K", "Hyperlinks can't be inserted in slides"],
       correctAnswer: 1,
       explanation: "Both Insert >> Hyperlink and Ctrl+K can insert hyperlinks."
     },

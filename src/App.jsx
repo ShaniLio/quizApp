@@ -1,7 +1,8 @@
 // src/App.jsx
 import { useState, useEffect } from "react";
 import { CheckCircle2, XCircle, RotateCcw, Trophy, ChevronRight, Home, Shuffle, Lock, AlertCircle } from "lucide-react";
-import quizData from './computerData.js';
+// import quizData from './computerData.js';
+import quizData from './pastPaperData.js';
 // import quizData from './organizationsData.js';
 // import quizData from './pakistanData.js';
 // import quizData from './gkData.js'
