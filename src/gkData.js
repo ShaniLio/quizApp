@@ -12,8 +12,8 @@ const quizData = {
     {
       question: "Who had the longest period of rule to his credit?",
       options: ["Gen. Zia-ul-Haq", "Ch. Fazal Elahi", "Gen. Ayub Khan", "Ghulam Ishaq Khan"],
-      correctAnswer: 2,
-      explanation: "Ayub Khan ruled Pakistan for the longest period among these leaders."
+      correctAnswer: 0,
+      explanation: "Gen. Zia-ul-Haq ruled Pakistan for the longest period among these leaders."
     },
     {
       question: "Who had the longest tenure as the Governor-General of Pakistan?",
@@ -222,8 +222,8 @@ const quizData = {
     {
       question: "Which is the largest University in Pakistan?",
       options: ["Sindh University", "Punjab University", "Gomal University", "Karachi University"],
-      correctAnswer: 3,
-      explanation: "Karachi University is the largest university in Pakistan."
+      correctAnswer: 1,
+      explanation: "Punjab University is the largest university in Pakistan."
     },
     {
       question: "Which is the oldest University in Pakistan?",
@@ -288,8 +288,8 @@ const quizData = {
     {
       question: "Which is the longest road in Pakistan?",
       options: ["Super Highway", "Motorway", "Pakistan Highway", "G.T. Road"],
-      correctAnswer: 3,
-      explanation: "G.T. Road is the longest road in Pakistan."
+      correctAnswer: 2,
+      explanation: "Pakistan Highway Road is the longest road in Pakistan."
     },
     {
       question: "Which is the highest road in Pakistan?",
@@ -348,8 +348,8 @@ const quizData = {
     {
       question: "On which date, Z.A. Bhutto took over as the first Civilian Martial Law Administrator?",
       options: ["20th Dec., 1971", "26th Dec., 1971", "29th Dec., 1971", "24th Dec., 1971"],
-      correctAnswer: 3,
-      explanation: "Z.A. Bhutto took over on 24th December 1971 as the first Civilian Martial Law Administrator."
+      correctAnswer: 0,
+      explanation: "Z.A. Bhutto took over on 20th December 1971 as the first Civilian Martial Law Administrator."
     },
     {
       question: "On which date, first Martial Law was imposed in Pakistan?",
@@ -384,8 +384,8 @@ const quizData = {
     {
       question: "Identify the first Governor of Sindh Province:",
       options: ["Mian Amin-ud-Din", "G.H. HidayatUllah", "G.B. Constantine", "Sh. Din Muhammad"],
-      correctAnswer: 2,
-      explanation: "G.B. Constantine was the first Governor of Sindh Province."
+      correctAnswer: 1,
+      explanation: "G.H. HidayatUllah was the first Governor of Sindh Province."
     },
     {
       question: "Who was the first Chief Minister of Sindh?",
@@ -528,14 +528,14 @@ const quizData = {
     {
       question: "Give the name of the player, who scored the golden goal against India to enable Pakistan to win its first ever gold medal in Hockey Olympic Tournament:",
       options: ["Naseer Bunda", "Islah-ud-Din", "Munir Ahmed", "Ghulam Rasool"],
-      correctAnswer: 3,
-      explanation: "Ghulam Rasool scored the golden goal against India."
+      correctAnswer: 0,
+      explanation: "Naseer Bunda scored the golden goal against India."
     },
     {
       question: "Who was the first woman Governor of Gilgit-Baltistan region (took oath on 23rd March, 2010)?",
       options: ["Sherry Rehman", "Shama Khalid", "Kashmala Tariq", "Zuhra Jabeen"],
-      correctAnswer: 2,
-      explanation: "Kashmala Tariq was the first woman Governor of Gilgit-Baltistan."
+      correctAnswer: 0,
+      explanation: "Sherry Rehman was the first woman Governor of Gilgit-Baltistan."
     },
     {
       question: "Identify the first woman President of the Supreme Court Bar Association:",
@@ -654,8 +654,8 @@ const quizData = {
     {
       question: "During the period of One-Unit who was the first governor of West Pakistan?",
       options: ["Muhammad Musa Khan", "Mushtaq Ahmad Gormani", "Ameer Muhammad Khan", "Akhtar Hussain"],
-      correctAnswer: 2,
-      explanation: "Ameer Muhammad Khan was the first governor of West Pakistan."
+      correctAnswer: 1,
+      explanation: "Mushtaq Ahmad Gormani was the first governor of West Pakistan."
     },
     {
       question: "When did Pakistan become Republic?",
@@ -1044,8 +1044,8 @@ const quizData = {
     {
       question: "Lowari road tunnel is the longest in Pakistan which has a length of:",
       options: ["5 miles", "6 miles", "7 miles", "8 miles"],
-      correctAnswer: 3,
-      explanation: "Lowari road tunnel is 8 miles long."
+      correctAnswer: 1,
+      explanation: "Lowari road tunnel is 6.5 miles long."
     },
     {
       question: "The longest water tunnel of Pakistan is 3.5 miles long. It is located in:",
