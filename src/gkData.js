@@ -354,8 +354,8 @@ const quizData = {
     {
       question: "On which date, first Martial Law was imposed in Pakistan?",
       options: ["7th Oct., 1958", "17th Nov., 1958", "7th Nov., 1958", "27th Nov., 1958"],
-      correctAnswer: 2,
-      explanation: "First Martial Law was imposed on 7th November 1958."
+      correctAnswer: 0,
+      explanation: "First Martial Law was imposed on 7th Oct 1958."
     },
     {
       question: "Identify the place, which has the largest reserves of coal in Pakistan:",
