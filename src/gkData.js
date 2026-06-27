@@ -534,8 +534,8 @@ const quizData = {
     {
       question: "Who was the first woman Governor of Gilgit-Baltistan region (took oath on 23rd March, 2010)?",
       options: ["Sherry Rehman", "Shama Khalid", "Kashmala Tariq", "Zuhra Jabeen"],
-      correctAnswer: 0,
-      explanation: "Sherry Rehman was the first woman Governor of Gilgit-Baltistan."
+      correctAnswer: 1,
+      explanation: "Shama Khalid was the first woman Governor of Gilgit-Baltistan."
     },
     {
       question: "Identify the first woman President of the Supreme Court Bar Association:",
@@ -611,15 +611,15 @@ const quizData = {
     },
     {
       question: "Who was the first Muslim C-in-C of Pakistan Army?",
-      options: ["Gen. Frank Mescri", "Gen. Maservee", "Gen. Azam Khan", "Gen. Musa Khan"],
+      options: ["Gen. Frank Mescri", "Gen. Maservee", "Muhammad Ayub Khan", "Gen. Musa Khan"],
       correctAnswer: 3,
-      explanation: "General Musa Khan was the first Muslim C-in-C of Pakistan Army."
+      explanation: "Muhammad Ayub Khan was the first Muslim C-in-C of Pakistan Army."
     },
     {
       question: "Who was the first Muslim Governor of KP?",
-      options: ["M. Khan", "Mushtaq", "Noor-ul-Amin", "Gen. Azam Khan"],
+      options: ["M. Khan", "Mushtaq", "Noor-ul-Amin", "Mohammad Khurshid"],
       correctAnswer: 3,
-      explanation: "Gen. Azam Khan was the first Muslim Governor of KP."
+      explanation: "Mohammad Khurshid was the first Muslim Governor of KP."
     },
     {
       question: "Pakistan's highest mountain peak K-2 is located in the:",
@@ -672,8 +672,8 @@ const quizData = {
     {
       question: "Who is the first C-in-C of Pakistan Air Force?",
       options: ["Air Marshal Asghar Khan", "Air Marshal A. Noor Khan", "Air Marshal Zafar", "Air Marshal Raheem"],
-      correctAnswer: 1,
-      explanation: "Air Marshal A. Noor Khan was the first C-in-C of Pakistan Air Force."
+      correctAnswer: 0,
+      explanation: "Air Marshal Asghar Khan was the first C-in-C of Pakistan Air Force."
     },
     {
       question: "The largest consumer of petroleum products in the country is:",
@@ -791,9 +791,9 @@ const quizData = {
     },
     {
       question: "Karachi is the largest city of Pakistan which has a population of:",
-      options: ["7.6 million", "8.5 million", "9.9 million", "10.6 million"],
+      options: ["7.6 million", "8.5 million", "21.4 million", "10.6 million"],
       correctAnswer: 2,
-      explanation: "Karachi has a population of approximately 9.9 million."
+      explanation: "Karachi has a population of approximately 21.4 million."
     },
     {
       question: "Which is the largest canal of Pakistan?",
@@ -1277,9 +1277,9 @@ const quizData = {
     },
     {
       question: "Who was the first female Federal Minister of Pakistan?",
-      options: ["Kalsoom Begum", "Kalsoom Nawaz", "Abida Hussain", "Tahmina Daultana"],
-      correctAnswer: 2,
-      explanation: "Abida Hussain was the first female Federal Minister of Pakistan."
+      options: ["Kalsoom Begum", "Begum Kulsum Saifullah Khan", "Abida Hussain", "Tahmina Daultana"],
+      correctAnswer: 1,
+      explanation: "Begum Kulsum Saifullah Khan was the first female Federal Minister of Pakistan."
     },
     {
       question: "Who was the first PM who appointed 4 Army Chiefs?",
