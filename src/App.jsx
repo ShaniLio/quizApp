@@ -2,13 +2,15 @@
 import { useState, useEffect } from "react";
 import { CheckCircle2, XCircle, RotateCcw, Trophy, ChevronRight, Home, Shuffle, Lock, AlertCircle } from "lucide-react";
 // import quizData from './computerData.js';
-import quizData from './pastPaperData.js';
+// import quizData from './generalScienceData';
+// import quizData from './englishData';
+// import quizData from './pastPaperData.js';
 // import quizData from './organizationsData.js';
 // import quizData from './pakistanData.js';
-// import quizData from './gkData.js'
+import quizData from './gkData.js'
 
 // Function to shuffle array and get random questions
-const getRandomQuestions = (questions, count = 100) => {
+const getRandomQuestions = (questions, count = 300) => {
   const shuffled = [...questions];
   for (let i = shuffled.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -19,7 +21,7 @@ const getRandomQuestions = (questions, count = 100) => {
 
 export default function App() {
   // ============ CONFIGURATION ============
-  const QUESTIONS_PER_QUIZ = 100;
+  const QUESTIONS_PER_QUIZ = 300;
 
   // ============ STATE ============
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -98,7 +100,7 @@ export default function App() {
 
   const questions = quizQuestions;
   const question = questions[currentQuestion] || null;
-  const progress = questions.length > 0 ? ((currentQuestion + 1) / questions.length) * 100 : 0;
+  const progress = questions.length > 0 ? ((currentQuestion + 1) / questions.length) * 300 : 0;
   const totalQuestions = questions.length;
 
   useEffect(() => {

@@ -1201,8 +1201,8 @@ const quizData = {
     {
       question: "Number of Rakats in Maghrib (Farz):",
       options: ["2", "4", "3", "5"],
-      correctAnswer: 2,
-      explanation: "Maghrib has 3 Farz Rakats."
+      correctAnswer: 0,
+      explanation: "Maghrib has 2 Farz Rakats."
     },
     {
       question: "Total Rakats farz in a day:",
