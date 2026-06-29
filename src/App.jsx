@@ -10,7 +10,7 @@ import { CheckCircle2, XCircle, RotateCcw, Trophy, ChevronRight, Home, Shuffle, 
 import quizData from './gkData.js'
 
 // Function to shuffle array and get random questions
-const getRandomQuestions = (questions, count = 50) => {
+const getRandomQuestions = (questions, count = 100) => {
   const shuffled = [...questions];
   for (let i = shuffled.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -21,7 +21,7 @@ const getRandomQuestions = (questions, count = 50) => {
 
 export default function App() {
   // ============ CONFIGURATION ============
-  const QUESTIONS_PER_QUIZ = 50;
+  const QUESTIONS_PER_QUIZ = 100;
 
   // ============ STATE ============
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -100,7 +100,7 @@ export default function App() {
 
   const questions = quizQuestions;
   const question = questions[currentQuestion] || null;
-  const progress = questions.length > 0 ? ((currentQuestion + 1) / questions.length) * 50 : 0;
+  const progress = questions.length > 0 ? ((currentQuestion + 1) / questions.length) * 100 : 0;
   const totalQuestions = questions.length;
 
   useEffect(() => {
