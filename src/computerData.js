@@ -444,7 +444,7 @@ const quizData = {
   {
     "question": "Area formula helps for performing calculations.",
     "options": ["Multiple", "Composite", "Nested", "All of these"],
-    "correctAnswer": 1,
+    "correctAnswer": 3,
     "explanation": "Area formulas can be used in composite calculations. (Note: The question is somewhat vague, but the answer key indicated 'Composite')."
   },
   {
@@ -744,8 +744,8 @@ const quizData = {
   {
     "question": "Cursor is a:",
     "options": ["Thin Blinking line", "Pointing device", "Pixel", "All of these"],
-    "correctAnswer": 0,
-    "explanation": "A cursor is typically a thin blinking line indicating where text will be inserted."
+    "correctAnswer": 1,
+    "explanation": "A cursor is typically a Pointing device."
   },
   {
     "question": "The Software which contains rows and columns is called:",
