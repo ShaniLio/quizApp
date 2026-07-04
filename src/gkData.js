@@ -165,7 +165,7 @@ const quizData = {
   },
   {
     "question": "Which is the place of highest rainfall?",
-    "options": ["District Sialkot", "District Jhang", "District Gurat", "District Multan"],
+    "options": ["Muree", "District Jhang", "District Gurat", "District Multan"],
     "correctAnswer": 0
   },
   {
@@ -315,7 +315,7 @@ const quizData = {
   },
   {
     "question": "Which is the largest District in Pakistan?",
-    "options": ["Sargodha", "Khuzdar", "Muzaffargarh", "Gujranwala"],
+    "options": ["Sargodha", "Chagai", "Muzaffargarh", "Gujranwala"],
     "correctAnswer": 1
   },
   {
@@ -861,7 +861,7 @@ const quizData = {
   {
     "question": "Which is the largest Nuclear Power Plant of Pakistan?",
     "options": ["KANUPP", "CHASHNUP-I", "CHASHNUP-II", "None of these"],
-    "correctAnswer": 1
+    "correctAnswer": 0
   },
   {
     "question": "The largest oilfield of Pakistan is:",
@@ -1080,7 +1080,7 @@ const quizData = {
   },
   {
     "question": "Give the name of the first jet fighter of Pakistan which was built with the cooperation of China?",
-    "options": ["F-17 Fighter", "Pak-C Jet", "Thunder", "JM-15 Thunder"],
+    "options": ["F-17 Fighter", "Pak-C Jet", "F-17 Thunder", "JM-15 Thunder"],
     "correctAnswer": 2
   },
   {
