@@ -1,6 +1,6 @@
 const quizData = {
-  title: "FIA UDC/LDC Preparation - Synonyms",
-  description: " FIA UDC/LDC Past Papers",
+  title: "FIA Preparation",
+  description: "",
   questions: [
   {
     "question": "DOS stands for?",
@@ -959,7 +959,7 @@ const quizData = {
   {
     "question": "Indus River falls into the Arabian Sea near:",
     "options": ["Gwadar", "Thatta", "Karachi", "Badin"],
-    "correctAnswer": 1,
+    "correctAnswer": 2,
     "explanation": "The primary delta branches of the lower Indus system complete their downstream flow paths into the sea coast zones near Thatta."
   },
   {
