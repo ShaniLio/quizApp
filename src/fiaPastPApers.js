@@ -4,1539 +4,2877 @@ const quizData = {
   questions: [
   {
     "question": "DOS stands for?",
-    "options": ["Disk operating system", "Data operating system", "Disk open system", "Device operating system"],
+    "options": ["Disk operating system", "Data operating system", "Digital operating system", "Disk open system"],
     "correctAnswer": 0,
-    "explanation": "DOS is an acronym for Disk Operating System, a type of operating system used primarily in early personal computers."
+    "explanation": "DOS stands for Disk operating system."
   },
   {
     "question": "Which is the smallest unit of memory/data in computer?",
     "options": ["Byte", "Bit", "Nibble", "Kilobyte"],
     "correctAnswer": 1,
-    "explanation": "A bit (binary digit) is the smallest fundamental unit of data storage and memory in computer systems."
+    "explanation": "Bit is the smallest unit of memory/data in a computer."
   },
   {
     "question": "The Largest Continent (by Area and Population) of the World is?",
-    "options": ["Africa", "North America", "Europe", "Asia"],
-    "correctAnswer": 3,
-    "explanation": "Asia is the largest continent on Earth by both total geographic land area and population."
+    "options": ["Africa", "North America", "Asia", "Europe"],
+    "correctAnswer": 2,
+    "explanation": "The Largest Continent (by Area and Population) of the World is Asia."
   },
   {
     "question": "\"Myanmar\" is the new/old name of?",
-    "options": ["Burma", "Ceylon", "Siam", "Persia"],
-    "correctAnswer": 0,
-    "explanation": "The official name of the country was changed from Burma to Myanmar by the ruling military government in 1989."
+    "options": ["Ceylon", "Burma", "Siam", "Malaya"],
+    "correctAnswer": 1,
+    "explanation": "\"Myanmar\" is the name of Burma."
   },
   {
     "question": "Who was considered as Father/Expert of Modern Optics?",
-    "options": ["Al-Kindi", "Hasan Ibn al-Haytham", "Ibn Sina", "Al-Biruni"],
-    "correctAnswer": 1,
-    "explanation": "Hasan Ibn al-Haytham (Alhazen) made significant contributions to the principles of optics and visual perception, earning him the title of the father of modern optics."
+    "options": ["Al-Kindi", "Ibn al-Haitham", "Hasan Ibn al-Haytham", "Al-Biruni"],
+    "correctAnswer": 2,
+    "explanation": "Hasan Ibn al-Haytham was considered as Father/Expert of Modern Optics."
   },
   {
     "question": "ALU stands for what?",
-    "options": ["Algorithm Logic Unit", "Arithmetic Local Unit", "Arithmetic Logic Unit", "Advanced Logic Unit"],
-    "correctAnswer": 2,
-    "explanation": "ALU stands for Arithmetic Logic Unit, which is a digital circuit within a processor that performs arithmetic and bitwise logical operations."
+    "options": ["Arithmetic Logic Unit", "Array Logic Unit", "Application Logic Unit", "Arithmetic Local Unit"],
+    "correctAnswer": 0,
+    "explanation": "ALU stands for Arithmetic Logic Unit."
   },
   {
     "question": "The highest waterfall of the world is?",
-    "options": ["Niagara Falls", "Angel falls", "Victoria Falls", "Iguazu Falls"],
+    "options": ["Niagara falls", "Angel falls", "Victoria falls", "Tugela falls"],
     "correctAnswer": 1,
-    "explanation": "Angel Falls in Venezuela is the world's highest uninterrupted waterfall, with a height of 979 meters."
+    "explanation": "The highest waterfall of the world is Angel falls."
   },
   {
     "question": "Who was the First woman Governor of State Bank of Pakistan?",
     "options": ["Dr. Shamshad Akhter", "Ayesha Ghaus Pasha", "Hina Rabbani Khar", "Dr. Maliha Lodhi"],
     "correctAnswer": 0,
-    "explanation": "Dr. Shamshad Akhter served as the first female Governor of the State Bank of Pakistan from 2006 to 2009."
+    "explanation": "The First woman Governor of State Bank of Pakistan was Dr. Shamshad Akhter."
   },
   {
     "question": "Ankara is the capital of which country?",
-    "options": ["Iran", "Egypt", "Syria", "Turkey"],
-    "correctAnswer": 3,
-    "explanation": "Ankara is the cosmopolitan capital city of Turkey (now officially Türkiye), located in the central Anatolia region."
+    "options": ["Iran", "Turkey", "Egypt", "Syria"],
+    "correctAnswer": 1,
+    "explanation": "Ankara is the capital of Turkey."
   },
   {
     "question": "The First Constituent Assembly of Pakistan was dissolved By?",
-    "options": ["Prime Minister", "Governor General", "Chief Justice", "President"],
-    "correctAnswer": 1,
-    "explanation": "The First Constituent Assembly of Pakistan was dissolved by Governor-General Malik Ghulam Muhammad on October 24, 1954."
+    "options": ["Prime Minister", "President", "Governor General", "Chief Justice"],
+    "correctAnswer": 2,
+    "explanation": "The First Constituent Assembly of Pakistan was dissolved By Governor General."
   },
   {
     "question": "Under which amendment military courts were formed in Pakistan?",
     "options": ["18", "19", "20", "21"],
     "correctAnswer": 3,
-    "explanation": "The 21st Amendment to the Constitution of Pakistan established military courts to try civilian terrorism suspects following the APS Peshawar attack."
+    "explanation": "Under the 21st amendment military courts were formed in Pakistan."
   },
   {
     "question": "HTML is used for creating?",
-    "options": ["Operating Systems", "Webpages", "Databases", "Spreadsheets"],
-    "correctAnswer": 1,
-    "explanation": "HTML (HyperText Markup Language) is the foundational markup language used to structure and display webpages on the internet."
+    "options": ["Webpages", "Operating Systems", "Databases", "Spreadsheets"],
+    "correctAnswer": 0,
+    "explanation": "HTML is used for creating Webpages."
   },
   {
     "question": "SCO stands for?",
-    "options": ["Shanghai Cooperation Organisation", "South Cooperation Organization", "Scientific Cooperation Office", "State Cooperation Order"],
-    "correctAnswer": 0,
-    "explanation": "SCO stands for the Shanghai Cooperation Organisation, a Eurasian political, economic, and security alliance founded in 2001."
+    "options": ["Sark Cooperation Organisation", "Shanghai Cooperation Organisation", "State Cooperation Organisation", "Social Cooperation Organisation"],
+    "correctAnswer": 1,
+    "explanation": "SCO stands for Shanghai Cooperation Organisation."
   },
   {
     "question": "Rani Kot in Jamshoro district is most easily approachable from?",
-    "options": ["Sehwan", "Sann", "Hyderabad", "Kotri"],
+    "options": ["Sehwan", "Sann", "Hyderabad", "Karachi"],
     "correctAnswer": 1,
-    "explanation": "Ranikot Fort, located in the Kirthar Range of Jamshoro District, is most easily reached via the town of Sann."
+    "explanation": "Rani Kot in Jamshoro district is most easily approachable from Sann."
   },
   {
     "question": "Indus River falls into Arabian Sea near?",
-    "options": ["Karachi", "Thatta", "Gwadar", "Badin"],
-    "correctAnswer": 0,
-    "explanation": "The Indus River flows southwards through Pakistan and discharges into the Arabian Sea near Karachi."
+    "options": ["Badin", "Karachi", "Thatta", "Gwadar"],
+    "correctAnswer": 1,
+    "explanation": "Indus River falls into Arabian Sea near Karachi."
   },
   {
     "question": "In which country summer monsoon does not cause rain?",
     "options": ["India", "Pakistan", "Bangladesh", "England"],
     "correctAnswer": 3,
-    "explanation": "England experiences a temperate maritime climate where seasonal monsoon systems do not play a role in weather patterns."
+    "explanation": "In England, summer monsoon does not cause rain."
   },
   {
     "question": "Skardu is district of?",
-    "options": ["Khyber Pakhtunkhwa", "Azad Kashmir", "Gilgit-Baltistan", "Balochistan"],
-    "correctAnswer": 2,
-    "explanation": "Skardu is the capital of Skardu District and the Baltistan Division in the territory of Gilgit-Baltistan, Pakistan."
+    "options": ["Azad Kashmir", "Gilgit-Baltistan", "KPK", "Balochistan"],
+    "correctAnswer": 1,
+    "explanation": "Skardu is district of Gilgit-Baltistan."
   },
   {
     "question": "MNA stands for?",
-    "options": ["Member of National Assembly", "Minister of National Affairs", "Member of National Association", "Master of National Administration"],
+    "options": ["Member of National Assembly", "Member of National Association", "Manager of National Assembly", "Member of New Assembly"],
     "correctAnswer": 0,
-    "explanation": "In Pakistan, MNA stands for Member of the National Assembly, a representative elected to the lower house of parliament."
+    "explanation": "MNA stands for Member of National Assembly."
   },
   {
     "question": "Islamic banking started in Pakistan?",
-    "options": ["1970", "1977", "1980", "1985"],
+    "options": ["1970", "1975", "1980", "1985"],
     "correctAnswer": 2,
-    "explanation": "The formal process to Islamize the banking and financial sector in Pakistan was initiated in 1980 under the regime of Zia-ul-Haq."
+    "explanation": "Islamic banking started in Pakistan in 1980."
   },
   {
     "question": "Sher e Bangal was the title of which personality?",
-    "options": ["A. K. Fazlul Huq", "Huseyn Shaheed Suhrawardy", "Khwaja Nazimuddin", "Sheikh Mujibur Rahman"],
-    "correctAnswer": 0,
-    "explanation": "A. K. Fazlul Huq, a key political leader in British India and later Pakistan, was widely honored with the title 'Sher-e-Bangla' (Tiger of Bengal)."
+    "options": ["Sir Syed Ahmed Khan", "Fazal ul Haq", "Allama Iqbal", "Liaquat Ali Khan"],
+    "correctAnswer": 1,
+    "explanation": "Sher e Bangal was the title of Fazal ul Haq."
   },
   {
     "question": "Where is computer's BIOS stored?",
-    "options": ["Hard Drive", "RAM", "Flash memory chip", "Cache Memory"],
+    "options": ["Hard disk", "RAM", "Flash memory chip", "Cache"],
     "correctAnswer": 2,
-    "explanation": "The computer's BIOS (Basic Input/Output System) is stored on a non-volatile flash memory chip on the motherboard."
+    "explanation": "Computer's BIOS is stored in Flash memory chip."
   },
   {
     "question": "1956 constitution is promulgated in?",
-    "options": ["23 March 1956", "14 August 1956", "25 December 1956", "12 March 1956"],
-    "correctAnswer": 0,
-    "explanation": "The first constitution of Pakistan was adopted and officially promulgated on March 23, 1956, turning the country into an Islamic Republic."
+    "options": ["14 August 1956", "23 March 1956", "25 December 1956", "12 March 1956"],
+    "correctAnswer": 1,
+    "explanation": "1956 constitution is promulgated on 23 March 1956."
   },
   {
     "question": "The Continent Antarctica covers the total area of world?",
-    "options": ["1.50%", "2.75%", "5.10%", "9.30%"],
+    "options": ["1.5%", "2.75%", "5.5%", "10%"],
     "correctAnswer": 1,
-    "explanation": "Antarctica covers roughly 2.75% of the total surface area of the globe (land and water combined)."
+    "explanation": "The Continent Antarctica covers the total area of world by 2.75%."
   },
   {
     "question": "Kharif crop sown in which month?",
     "options": ["October", "January", "April", "December"],
     "correctAnswer": 2,
-    "explanation": "Kharif crops, also known as monsoon crops, are typically sown at the beginning of the first summer rains, usually around April to June."
+    "explanation": "Kharif crop is sown in April."
   },
   {
     "question": "Earthquake waves ....... in velocity upon entering in the mantle?",
-    "options": ["Decrease", "Increase", "Remain constant", "Disappear"],
+    "options": ["Decrease", "Increase", "Remain same", "Stop"],
     "correctAnswer": 1,
-    "explanation": "Seismic waves typically increase in velocity when passing from the crust into the denser, more rigid rocks of the upper mantle."
+    "explanation": "Earthquake waves Increase in velocity upon entering in the mantle."
   },
   {
     "question": "Tik Tok is company of which country?",
-    "options": ["USA", "Japan", "South Korea", "China"],
-    "correctAnswer": 3,
-    "explanation": "TikTok is a popular short-form video hosting service owned by the Chinese internet technology company ByteDance."
+    "options": ["USA", "Japan", "China", "South Korea"],
+    "correctAnswer": 2,
+    "explanation": "Tik Tok is a company of China."
   },
   {
     "question": "Snapchat is owned by?",
-    "options": ["Snap Inc", "Facebook", "Google", "Twitter"],
-    "correctAnswer": 0,
-    "explanation": "Snapchat is an American multimedia instant messaging app developed by Snap Inc., originally Snapchat Inc."
+    "options": ["Meta", "Google", "Snap Inc", "ByteDance"],
+    "correctAnswer": 2,
+    "explanation": "Snapchat is owned by Snap Inc."
   },
   {
     "question": "LDA stand for?",
-    "options": ["Lahore Development Authority", "Local Development Agency", "Land Development Association", "Lawyers Development Authority"],
+    "options": ["Lahore Development Authority", "Lahore District Association", "Legal Development Agency", "Local Development Authority"],
     "correctAnswer": 0,
-    "explanation": "LDA is the abbreviation for Lahore Development Authority, the regulatory urban planning organization of Lahore, Pakistan."
+    "explanation": "LDA stand for Lahore Development Authority."
   },
   {
     "question": "What was the old name of Sri Lanka?",
-    "options": ["Siam", "Burma", "Ceylon", "Formosa"],
+    "options": ["Burma", "Siam", "Ceylon", "Persia"],
     "correctAnswer": 2,
-    "explanation": "Sri Lanka was known as Ceylon under British colonial rule and retained that name until officially becoming a republic in 1972."
+    "explanation": "The old name of Sri Lanka was Ceylon."
   },
   {
     "question": "A program written in a high level language is referred to as?",
-    "options": ["Object code", "Source code", "Machine code", "Executable code"],
+    "options": ["Object code", "Source code", "Machine code", "User code"],
     "correctAnswer": 1,
-    "explanation": "Source code is the human-readable version of a program written in a high-level programming language before translation."
+    "explanation": "A program written in a high level language is referred to as Source code."
   },
   {
-    "question": "If volume of a sphere is $v=4/3\\pi r^3$ then here the value of radius (r) will be?",
-    "options": ["$r=\\sqrt[3]{\\frac{3V}{4\\pi}}$", "$r=\\sqrt{\\frac{3V}{4\\pi}}$", "$r=\\frac{3V}{4\\pi}$", "$r=\\sqrt[3]{\\frac{4V}{3\\pi}}$"],
+    "question": "If volume of a sphere is v=4/3πr^3 then here the value of radius (r) will be?",
+    "options": ["r=³√[3*V/(4*π)]", "r=²√[3*V/(4*π)]", "r=[3*V/(4*π)]", "r=³√[4*V/(3*π)]"],
     "correctAnswer": 0,
-    "explanation": "By isolating the variable r in the sphere volume formula, we multiply by 3, divide by $4\\pi$, and then take the cube root."
+    "explanation": "Rearranging the sphere volume formula for radius yields r=³√[3*V/(4*π)]."
   },
   {
     "question": "EDVAC Stand for?",
-    "options": ["electronic discrete variable automatic computer", "electronic device variable auto computer", "electrical digital variable automatic calculator", "electronic delayed variable automatic computer"],
-    "correctAnswer": 0,
-    "explanation": "EDVAC stands for Electronic Discrete Variable Automatic Computer, one of the earliest electronic binary stored-program computers."
+    "options": ["electronic direct variable automatic computer", "electronic discrete variable automatic computer", "electrical discrete variable automatic computer", "electronic discrete value automatic computer"],
+    "correctAnswer": 1,
+    "explanation": "EDVAC Stand for electronic discrete variable automatic computer."
   },
   {
     "question": "AI stands for?",
-    "options": ["Automated Information", "Artificial Intelligence", "Advanced Integration", "Applied Internet"],
-    "correctAnswer": 1,
-    "explanation": "AI stands for Artificial Intelligence, the simulation of human intelligence processes by machines and computer systems."
+    "options": ["Artificial Intelligence", "Automated Information", "Advanced Integration", "Applied Intelligence"],
+    "correctAnswer": 0,
+    "explanation": "AI stands for Artificial Intelligence."
   },
   {
-    "question": "The $ab / c / cd / a$ is equal to?",
-    "options": ["$a^2b / c^2d$", "$ab / d$", "$a / c$", "$b / d$"],
-    "correctAnswer": 0,
-    "explanation": "Simplifying the algebraic fraction expression yields $\\frac{ab}{c} \\div \\frac{cd}{a} = \\frac{ab}{c} \\times \\frac{a}{cd} = \\frac{a^2b}{c^2d}$."
+    "question": "The (ab/c) / (cd/a) is equal to?",
+    "options": ["ab/d", "a^2b/c^2d", "a/c", "b/d"],
+    "correctAnswer": 1,
+    "explanation": "Simplifying the algebraic fraction (ab/c) * (a/cd) gives a^2b/c^2d."
   },
   {
     "question": "In Pakistan, most trades occur by which means?",
-    "options": ["By rail", "By air", "By road", "By sea"],
-    "correctAnswer": 2,
-    "explanation": "Road transport forms the backbone of Pakistan's domestic logistics and cargo distribution infrastructure."
+    "options": ["By rail", "By air", "By sea", "By road"],
+    "correctAnswer": 3,
+    "explanation": "In Pakistan, most trades occur By road."
   },
   {
     "question": "if the ratio of two numbers is 5:7 and if 5 subtracted from the sum of these two numbers, 79 obtained, then the numbers are?",
-    "options": ["25:35", "35:49", "40:56", "50:70"],
+    "options": ["25:35", "35:49", "40:56", "30:42"],
     "correctAnswer": 1,
-    "explanation": "Let the numbers be $5x$ and $7x$. Their sum is $12x$. Given $12x - 5 = 79 \\Rightarrow 12x = 84 \\Rightarrow x = 7$. The numbers are $5(7)=35$ and $7(7)=49$."
+    "explanation": "If the numbers are 5x and 7x, their sum is 12x. 12x - 5 = 79 => 12x = 84 => x = 7. The numbers are 35 and 49."
   },
   {
     "question": "If sales tax is 3%, how much tax would you pay for an item that costs $2000?",
     "options": ["$30", "$50", "$60", "$90"],
     "correctAnswer": 2,
-    "explanation": "The tax is calculated as 3% of $2000, which equals $\\frac{3}{100} \\times 2000 = 60$."
+    "explanation": "3% of $2000 is (3/100) * 2000 = $60."
   },
   {
     "question": "Which one of the following is owned by Google?",
-    "options": ["Instagram", "Youtube", "Twitter", "Snapchat"],
-    "correctAnswer": 1,
-    "explanation": "YouTube was acquired by Google in November 2006 for $1.65 billion and operates as one of its primary subsidiaries."
+    "options": ["Instagram", "Facebook", "Youtube", "TikTok"],
+    "correctAnswer": 2,
+    "explanation": "Youtube is owned by Google."
   },
   {
     "question": "Greenland is discovered by?",
     "options": ["Christopher Columbus", "Icelandic Vikings", "Vasco da Gama", "Marco Polo"],
     "correctAnswer": 1,
-    "explanation": "Greenland was explored and settled by Norsemen / Icelandic Vikings led by Erik the Red in the late 10th century."
+    "explanation": "Greenland was discovered by Icelandic Vikings."
   },
   {
     "question": "In Islam every one is?",
-    "options": ["Divided", "Equal", "Ranked by wealth", "Different by race"],
-    "correctAnswer": 1,
-    "explanation": "Islamic theology emphasizes the fundamental equality of all human beings regardless of race, color, or social status."
+    "options": ["Equal", "Divided by race", "Ranked by wealth", "None of these"],
+    "correctAnswer": 0,
+    "explanation": "In Islam every one is Equal."
   },
   {
     "question": "What is the LCM of 70 and 80?",
-    "options": ["150", "240", "480", "560"],
-    "correctAnswer": 3,
-    "explanation": "The Least Common Multiple (LCM) of 70 and 80 is 560, the smallest positive integer divisible by both numbers."
+    "options": ["150", "560", "280", "1120"],
+    "correctAnswer": 1,
+    "explanation": "The Least Common Multiple (LCM) of 70 and 80 is 560."
   },
   {
     "question": "Mayanmar is the changed name of?",
-    "options": ["BURMA", "CEYLON", "SIAM", "PERSIA"],
-    "correctAnswer": 0,
-    "explanation": "Burma was officially renamed Myanmar by the country's authorities in 1989."
+    "options": ["CEYLON", "BURMA", "SIAM", "SUMATRA"],
+    "correctAnswer": 1,
+    "explanation": "Myanmar is the changed name of BURMA."
   },
   {
     "question": "which printer is not a type of impact printer?",
     "options": ["Dot matrix printer", "Daisy wheel printer", "Laser printer", "Line printer"],
     "correctAnswer": 2,
-    "explanation": "A laser printer is a non-impact printer that uses a laser beam and electrostatic toner to generate an image."
+    "explanation": "Laser printer is not a type of impact printer."
   },
   {
     "question": "The first charter of 1973 constitution deals?",
-    "options": ["Islamic provisions", "Fundamental rights", "Administrative relations", "Judiciary"],
-    "correctAnswer": 1,
-    "explanation": "The initial essential chapters of the 1973 Constitution of Pakistan establish safeguarded fundamental human rights for all citizens."
+    "options": ["Fundamental rights", "Islamic provisions", "Directive principles", "Judiciary"],
+    "correctAnswer": 0,
+    "explanation": "The first chapter/charter of the 1973 constitution deals with Fundamental rights."
   },
   {
     "question": "Which city hosted the 16th Asian Game 2010?",
-    "options": ["Incheon in South Korea", "Guangzhou in China", "Tokyo in Japan", "Doha in Qatar"],
+    "options": ["Tokyo in Japan", "Guangzhou in China", "Seoul in South Korea", "New Delhi in India"],
     "correctAnswer": 1,
-    "explanation": "The 16th Asian Games were held in Guangzhou, China, from November 12 to November 27, 2010."
+    "explanation": "Guangzhou in China hosted the 16th Asian Game 2010."
   },
   {
     "question": "First quarter of 2021, inflation rate in Pakistan was?",
-    "options": ["5.50%", "7.20%", "8.85%", "11.10%"],
+    "options": ["5.5%", "7.2%", "8.85%", "10.1%"],
     "correctAnswer": 2,
-    "explanation": "The average rate of inflation recorded in Pakistan during the initial months of calendar year 2021 was 8.85%."
+    "explanation": "In the first quarter of 2021, the inflation rate in Pakistan was 8.85%."
   },
   {
     "question": "What enables a computer to work smoothly with printers?",
-    "options": ["Monitors", "Drivers", "Keyboards", "Cables"],
-    "correctAnswer": 1,
-    "explanation": "A printer driver translates the computer data into a format that the specific hardware device can understand and execute."
+    "options": ["Drivers", "Compilers", "Browsers", "Monitors"],
+    "correctAnswer": 0,
+    "explanation": "Drivers enable a computer to work smoothly with printers."
   },
   {
     "question": "Seychellels is located in?",
     "options": ["Pacific ocean", "Atlantic ocean", "Indian ocean", "Arctic ocean"],
     "correctAnswer": 2,
-    "explanation": "Seychelles is an archipelago nation made up of 115 islands situated in the warm waters of the Indian Ocean."
+    "explanation": "Seychelles is located in the Indian ocean."
   },
   {
     "question": "The central section of the Sindh Sagar Doāb is located in which desert?",
     "options": ["Thar", "Thal", "Cholistan", "Kharan"],
     "correctAnswer": 1,
-    "explanation": "The Thal desert is located in Punjab, Pakistan, primarily between the Indus and Jhelum/Chenab rivers within the Sindh Sagar Doab region."
+    "explanation": "The central section of the Sindh Sagar Doāb is located in the Thal desert."
   },
   {
     "question": "The Objective Resolution was passed on?",
-    "options": ["12 March 1949", "23 March 1940", "14 August 1947", "25 December 1948"],
-    "correctAnswer": 0,
-    "explanation": "The Objectives Resolution was adopted by the Constituent Assembly of Pakistan on March 12, 1949."
+    "options": ["14 August 1947", "23 March 1940", "12 March 1949", "11 September 1948"],
+    "correctAnswer": 2,
+    "explanation": "The Objective Resolution was passed on 12 March 1949."
   },
   {
     "question": "How many countries are the members of SAARC?",
-    "options": ["5", "6", "7", "8"],
-    "correctAnswer": 3,
-    "explanation": "SAARC consists of eight member nations: Afghanistan, Bangladesh, Bhutan, India, Maldives, Nepal, Pakistan, and Sri Lanka."
+    "options": ["6", "7", "8", "9"],
+    "correctAnswer": 2,
+    "explanation": "There are 8 countries that are members of SAARC."
   },
   {
     "question": "Who becomes Acting President in the absence of President of Pakistan?",
-    "options": ["Prime Minister", "Speaker National Assembly", "Chairman Senate", "Chief Justice"],
+    "options": ["Prime Minister", "Speaker National Assembly", "Chairman Senate", "Chief Justice of Pakistan"],
     "correctAnswer": 2,
-    "explanation": "According to the Constitution of Pakistan, if the office of the President becomes vacant, the Chairman of the Senate acts as President."
+    "explanation": "Chairman Senate becomes Acting President in the absence of the President of Pakistan."
   },
   {
     "question": "Nehru report was preparedic in the chairmanship of?",
     "options": ["Jawaharlal Nehru", "Motilal Nehru", "Mahatma Gandhi", "Subhas Chandra Bose"],
     "correctAnswer": 1,
-    "explanation": "The Nehru Report of 1928 was a memorandum outlining a proposed new dominion status constitution for India, chaired by Motilal Nehru."
+    "explanation": "The Nehru report was prepared under the chairmanship of Motilal Nehru."
   },
   {
     "question": "Ctrl + Z used for?",
-    "options": ["Copy", "Paste", "Undo", "Redo"],
-    "correctAnswer": 2,
-    "explanation": "Ctrl + Z is a universally standard keyboard shortcut used to undo the immediately preceding action in most applications."
+    "options": ["Redo", "Undo", "Cut", "Copy"],
+    "correctAnswer": 1,
+    "explanation": "Ctrl + Z is used for Undo."
   },
   {
     "question": "How columns are numbered in MS Excel?",
-    "options": ["Numeric", "Alphabetic", "Roman numerals", "Alphanumeric"],
+    "options": ["Numeric", "Alphabetic", "Roman", "Alphanumeric"],
     "correctAnswer": 1,
-    "explanation": "Columns in Microsoft Excel spreadsheets are identified by letters (A, B, C, ...), while rows are labeled with numbers."
+    "explanation": "Columns are numbered alphabetically (A, B, C...) in MS Excel."
   },
   {
     "question": "The most electronegative element of the periodic table is?",
     "options": ["Oxygen", "Chlorine", "Fluorine", "Nitrogen"],
     "correctAnswer": 2,
-    "explanation": "Fluorine is the most electronegative chemical element on the Pauling scale, with a value of approximately 3.98."
+    "explanation": "The most electronegative element of the periodic table is Fluorine."
   },
   {
     "question": "How many Articles/Clauses were there in the charter of Madina?",
-    "options": ["25", "40", "47 (53)", "60"],
-    "correctAnswer": 2,
-    "explanation": "The Constitution of Medina (Mithaq al-Madina) consists of roughly 47 to 53 distinct articles depending on historical textual subdivisions."
+    "options": ["40", "47 (53)", "50", "60"],
+    "correctAnswer": 1,
+    "explanation": "There were 47 (53) Articles/Clauses in the charter of Madina."
   },
   {
     "question": "When did Pakistan join SEATO?",
     "options": ["1947", "1950", "1954", "1956"],
     "correctAnswer": 2,
-    "explanation": "Pakistan signed the Southeast Asia Collective Defense Treaty (SEATO) in September 1954 to secure external military alliance assistance."
+    "explanation": "Pakistan joined SEATO in 1954."
   },
   {
     "question": "The Largest export of Pakistan is?",
-    "options": ["Rice", "Leather items", "Taxtile", "Surgical instruments"],
+    "options": ["Rice", "Leather", "Taxtile", "Sports goods"],
     "correctAnswer": 2,
-    "explanation": "The textile sector accounts for the largest share of Pakistan's total merchant goods exports to world markets."
+    "explanation": "The Largest export of Pakistan is Textile (spelled Taxtile in text)."
   },
   {
     "question": "Al Furqan meaning Quran name?",
-    "options": ["The Criterion", "The Book", "The Light", "The Reminder"],
-    "correctAnswer": 0,
-    "explanation": "Al-Furqan is an honorific name for the Holy Quran, translating directly as 'The Criterion' between truth and falsehood."
+    "options": ["The Holy", "The Criterion", "The Book", "The Guidance"],
+    "correctAnswer": 1,
+    "explanation": "Al Furqan means The Criterion."
   },
   {
     "question": "Who was the First Pakistani to climb K-2?",
     "options": ["Nazir Sabir", "Ashraf Aman", "Samina Baig", "Ali Sadpara"],
     "correctAnswer": 1,
-    "explanation": "Ashraf Aman became the first Pakistani climber to successfully reach the summit of K2 on August 7, 1977."
+    "explanation": "The First Pakistani to climb K-2 was Ashraf Aman."
   },
   {
     "question": "What is the first slide called in Microsoft PowerPoint?",
-    "options": ["Content slide", "Intro slide", "Title slide", "Main slide"],
+    "options": ["Main slide", "Home slide", "Title slide", "Intro slide"],
     "correctAnswer": 2,
-    "explanation": "The initial default layout slide generated in a blank layout deck is categorized specifically as a Title Slide."
+    "explanation": "The first slide in Microsoft PowerPoint is called the Title slide."
   },
   {
     "question": "The Zakat and Ushr Ordinance was promulgated on?",
-    "options": ["20th June 1980", "15th August 1981", "12th March 1979", "1st January 1983"],
+    "options": ["20th June 1980", "12th March 1979", "1st January 1981", "23rd March 1980"],
     "correctAnswer": 0,
-    "explanation": "The comprehensive legal Zakat and Ushr system framework was formalized into statutory law via an ordinance issued on June 20, 1980."
+    "explanation": "The Zakat and Ushr Ordinance was promulgated on 20th June 1980."
   },
   {
     "question": "Sir Creek is located between?",
-    "options": ["Pakistan & Iran", "Pakistan & India", "India & Bangladesh", "Pakistan & Afghanistan"],
-    "correctAnswer": 1,
-    "explanation": "Sir Creek is a 96-km tidal estuary channel disputed strip located in the marshy Rann of Kutch region separating Pakistan and India."
+    "options": ["Pakistan & Iran", "Pakistan & Afghanistan", "Pakistan & India", "India & China"],
+    "correctAnswer": 2,
+    "explanation": "Sir Creek is located between Pakistan & India."
   },
   {
     "question": "Which of following places is the rainiest of Pakistan?",
-    "options": ["Murree", "Rawalpindi", "Lahore", "Karachi"],
-    "correctAnswer": 0,
-    "explanation": "Murree receives the highest average annual precipitation recorded across locations in Pakistan due to sub-Himalayan monsoon proximity."
+    "options": ["Chitral", "Murree", "Rawalpindi", "Sialkot"],
+    "correctAnswer": 1,
+    "explanation": "Murree is the rainiest place in Pakistan."
   },
   {
     "question": "What is the total length of Thal desert?",
     "options": ["approximately 100 miles", "approximately 150 miles", "approximately 190 miles", "approximately 250 miles"],
     "correctAnswer": 2,
-    "explanation": "The sub-tropical Thal desert spans a total geographic stretch length of approximately 190 miles within Punjab."
+    "explanation": "The total length of Thal desert is approximately 190 miles."
   },
   {
     "question": "What is the Ratio of Zakat in grams on Gold?",
-    "options": ["52.5 grams", "70.2 grams", "87.48 grams of gold", "100 grams"],
-    "correctAnswer": 2,
-    "explanation": "The legal Islamic nisab threshold for gold ownership equals 7.5 tolas, which is metrically equivalent to 87.48 grams."
+    "options": ["50 grams", "87.48 grams of gold", "100 grams", "71.5 grams"],
+    "correctAnswer": 1,
+    "explanation": "The Ratio of Zakat in grams on Gold is 87.48 grams of gold (equivalent to 7.5 tolas)."
   },
   {
     "question": "The longest cell in human body is?",
     "options": ["Blood cell", "Muscle cell", "Nerve cell", "Bone cell"],
     "correctAnswer": 2,
-    "explanation": "Neurons / Nerve cells are specialized physiological structures that can extend remarkable structural biological lengths across limbs."
+    "explanation": "The longest cell in the human body is the Nerve cell."
   },
   {
     "question": "How many prayers have no Azan?",
-    "options": ["1", "2", "3", "5"],
+    "options": ["1", "2", "3", "4"],
     "correctAnswer": 2,
-    "explanation": "Funeral prayers (Namaz-e-Janaza), Eid prayers, and solar/lunar eclipse prayer variants are performed directly without an external ritual call."
+    "explanation": "3 prayers have no Azan (e.g., Eid prayers and Janaza prayer)."
   },
   {
     "question": "What is the new name of East Pakistan?",
     "options": ["Bangladesh", "Sri Lanka", "Myanmar", "Maldives"],
     "correctAnswer": 0,
-    "explanation": "East Pakistan separated to establish sovereign independence under the geographic name of Bangladesh following the events of 1971."
+    "explanation": "The new name of East Pakistan is Bangladesh."
   },
   {
     "question": "Pakistan biggest oil refinery, Named?",
-    "options": ["PARCO", "Attock Refinery", "National Refinery", "Bусо"],
-    "correctAnswer": 3,
-    "explanation": "Byco Petroleum (now renamed Cnergyico) holds the largest installed production refining capacity infrastructure in Pakistan."
+    "options": ["Attock", "Byco", "Pak-Arab", "National Refinery"],
+    "correctAnswer": 1,
+    "explanation": "Pakistan's biggest oil refinery is named Byco (spelled Bусо)."
   },
   {
     "question": "What is the GDP ratio in Pakistan during 2020-21?",
-    "options": ["2.15", "3.94", "4.80", "5.20"],
+    "options": ["2.11", "3.94", "4.85", "5.12"],
     "correctAnswer": 1,
-    "explanation": "The economic growth rate performance recorded for Pakistan's real Gross Domestic Product in FY 2020-21 reached 3.94%."
+    "explanation": "The GDP growth ratio in Pakistan during 2020-21 was 3.94."
   },
   {
     "question": "1965 war monuments were built over the?",
-    "options": ["Punjab Province", "Sindh Province", "State of Jammu and Kashmir", "Khyber Pakhtunkhwa"],
-    "correctAnswer": 2,
-    "explanation": "Prominent memorial defense installations honoring historical border units were located directly within regions of Jammu and Kashmir."
+    "options": ["State of Jammu and Kashmir", "Lahore border", "Sialkot border", "Sindh border"],
+    "correctAnswer": 0,
+    "explanation": "1965 war monuments were built over the State of Jammu and Kashmir."
   },
   {
     "question": "Tiktok invented year?",
-    "options": ["2014", "2015", "2016", "2018"],
+    "options": ["2014", "2015", "2016", "2017"],
     "correctAnswer": 2,
-    "explanation": "ByteDance initially launched the short-form mobile video social platform software program in China during September 2016."
+    "explanation": "TikTok was invented in the year 2016."
   },
   {
     "question": "1 bit is equal to?",
-    "options": ["0.125", "0.25", "0.5", "1.0"],
+    "options": ["0.125", "1 byte", "8 bytes", "0.5"],
     "correctAnswer": 0,
-    "explanation": "Since 8 bits constitute a single standard byte file block, a solitary digital data bit equals exactly $1/8 = 0.125$ of a byte structure."
+    "explanation": "1 bit is equal to 0.125 bytes."
   },
   {
     "question": "Growth hormone secreted by pituitary gland regulates the function of?",
-    "options": ["Only Liver Cells", "Most of Somatic Cells", "Nerve Cells Only", "Kidney Cells Only"],
+    "options": ["Only Liver Cells", "Most of Somatic Cells", "Nerve Cells", "Kidney Cells"],
     "correctAnswer": 1,
-    "explanation": "Pituitary growth hormone acts systemically to coordinate cellular size multiplication and physiological development throughout structural somatic tissue cells."
+    "explanation": "Growth hormone secreted by the pituitary gland regulates the function of Most of Somatic Cells."
   },
   {
     "question": "How many times has Brazil won the World Cup Football Championship?",
     "options": ["3", "4", "5", "6"],
     "correctAnswer": 2,
-    "explanation": "Brazil holds the record as the most successful national football association squad with 5 tournament titles."
+    "explanation": "Brazil has won the World Cup Football Championship 5 times."
   },
   {
     "question": "Which country launched a 10-year space program in 2021?",
-    "options": ["Iran", "Turkiye", "Saudi Arabia", "Pakistan"],
+    "options": ["Iran", "Turkiye", "Pakistan", "Saudi Arabia"],
     "correctAnswer": 1,
-    "explanation": "President Recep Tayyip Erdoğan announced a strategic national space roadmap program layout for Turkey during early 2021."
+    "explanation": "Turkiye launched a 10-year space program in 2021."
   },
   {
     "question": "The antonym of EXONERATE is?",
-    "options": ["Absolve", "Acquit", "Charge", "Dismiss"],
+    "options": ["Acquit", "Free", "Charge", "Clear"],
     "correctAnswer": 2,
-    "explanation": "To exonerate means to declare someone free from blame, making 'charge' or accuse its contextual semantic opposite."
+    "explanation": "The antonym of EXONERATE is Charge."
   },
   {
     "question": "Synonym of massacre?",
-    "options": ["Murder", "Slaughter", "Assassination", "Injury"],
+    "options": ["Build", "Slaughter", "Save", "Protect"],
     "correctAnswer": 1,
-    "explanation": "Massacre implies the indiscriminate killing of large groups of living beings, rendering 'slaughter' its closest synonym."
+    "explanation": "The synonym of massacre is Slaughter."
   },
   {
     "question": "IC stand for?",
-    "options": ["Internal Computer", "Integrated Circuit", "Information Controller", "Integrated Core"],
+    "options": ["Internal Circuit", "Integrated Circuit", "Information Circuit", "Intel Core"],
     "correctAnswer": 1,
-    "explanation": "IC is an electronic engineering term representing an Integrated Circuit microchip semiconductor assembly."
+    "explanation": "IC stands for Integrated Circuit."
   },
   {
     "question": "The World biggest oil refinery is situated?",
-    "options": ["Saudi Arabia", "USA", "Russia", "India"],
-    "correctAnswer": 3,
-    "explanation": "The Jamnagar Refinery complex operated by Reliance Industries in Gujarat, India, is the largest oil refinery facility globally."
+    "options": ["Saudi Arabia", "USA", "India", "Russia"],
+    "correctAnswer": 2,
+    "explanation": "The World's biggest oil refinery is situated in India."
   },
   {
     "question": "ASCII stands for?",
-    "options": ["American Standard Code for Information Interchange", "Asian Standard Code for Information Interchange", "American System Code for Internal Information", "Advanced Standard Code for Information Integration"],
+    "options": ["American Standard Code for Information Interchange", "African Standard Code for Information Interchange", "American System Code for Information Interchange", "Asian Standard Code for Information Interchange"],
     "correctAnswer": 0,
-    "explanation": "ASCII is a character encoding standard designed for electronic communications to represent text characters in computing equipment."
+    "explanation": "ASCII stands for American Standard Code for Information Interchange."
   },
   {
     "question": "CNN stands for ?",
-    "options": ["Cable News Network", "Central News Network", "Commercial News Network", "Current News Network"],
+    "options": ["Cable News Network", "Central News Network", "Core News Network", "Celebrity News Network"],
     "correctAnswer": 0,
-    "explanation": "CNN is a globally recognized multinational news-based pay television channel owned by Warner Bros. Discovery."
+    "explanation": "CNN stands for Cable News Network."
   },
   {
     "question": "Who was the Captain of Pakistan Cricket team during World Cup 2015?",
-    "options": ["Shahid Afridi", "Misbah-ul-Haq", "Younis Khan", "Inzamam-ul-Haq"],
+    "options": ["Shahid Afridi", "Misbah-ulHaq", "Inzamam-ul-Haq", "Younis Khan"],
     "correctAnswer": 1,
-    "explanation": "Misbah-ul-Haq led the Pakistan national cricket squad as captain through the 2015 ICC Cricket World Cup tournament."
+    "explanation": "Misbah-ulHaq was the captain of the Pakistan cricket team during the 2015 World Cup."
   },
   {
     "question": "The Karakoram Highway was constructed with the help of?",
     "options": ["USA", "Russia", "China", "Iran"],
     "correctAnswer": 2,
-    "explanation": "The engineering feat of building the Karakoram Highway was achieved through cooperative joint efforts by Pakistan and China."
+    "explanation": "The Karakoram Highway was constructed with the help of China."
   },
   {
-    "question": "According to Hadith, a person ....... is the best person among all?",
-    "options": ["Who is richest", "Having knowledge of Quran", "Who is strongest", "Who travels a lot"],
+    "question": "According to Hadith, a person is the best person among all?",
+    "options": ["Having wealth", "Having knowledge of Quran", "Having power", "Having long life"],
     "correctAnswer": 1,
-    "explanation": "A well-known Prophetic narration states: 'The best among you are those who learn the Quran and teach it to others.'"
+    "explanation": "According to Hadith, a person is the best person among all who has knowledge of the Quran."
   },
   {
-    "question": "There are ....... obligatory prayers in a day?",
+    "question": "There are obligatory prayers in a day?",
     "options": ["Three", "Four", "Five", "Six"],
     "correctAnswer": 2,
-    "explanation": "Practicing Muslims are scripturally obligated to complete five formal daily prayers (Salah) at designated intervals."
+    "explanation": "There are Five obligatory prayers in a day."
   },
   {
     "question": "Population Wise Largest Province of Pakistan is?",
-    "options": ["Sindh", "Balochistan", "Punjab", "Khyber Pakhtunkhwa"],
-    "correctAnswer": 2,
-    "explanation": "Punjab contains more than half of Pakistan's total aggregate citizen population count."
+    "options": ["Sindh", "Punjab", "Balochistan", "KPK"],
+    "correctAnswer": 1,
+    "explanation": "The population-wise largest province of Pakistan is Punjab."
   },
   {
     "question": "Lake Jackson is located in which country?",
-    "options": ["Canada", "USA", "Australia", "UK"],
-    "correctAnswer": 1,
-    "explanation": "Lake Jackson is a prominent natural reservoir body located within the state of Florida, USA."
+    "options": ["Canada", "UK", "USA", "Australia"],
+    "correctAnswer": 2,
+    "explanation": "Lake Jackson is located in the USA."
   },
   {
     "question": "What is the synonym of \"Awkward\"?",
     "options": ["Graceful", "Clumsy", "Skilled", "Smooth"],
     "correctAnswer": 1,
-    "explanation": "Awkward denotes lacking physical coordination, ease, or social tact, sharing meanings with 'clumsy'."
+    "explanation": "The synonym of \"Awkward\" is Clumsy."
   },
   {
     "question": "A person who has loud voice is called?",
-    "options": ["Stentorian", "Whisperer", "Mute", "Screamer"],
+    "options": ["Stentorian", "Quiet", "Whisperer", "Mute"],
     "correctAnswer": 0,
-    "explanation": "The term stentorian stems from classical literature to characterize an exceptionally powerful, booming vocal output quality."
+    "explanation": "A person who has a loud voice is called Stentorian."
   },
   {
     "question": "\"Ctrl + Down Arrow\" Shortcut key is used in Ms Word to?",
-    "options": ["Moves the cursor one line down", "Moves the cursor one page down", "Moves the cursor one paragraph down", "Moves the cursor to end of document"],
+    "options": ["Moves the cursor one line down", "Moves the cursor one page down", "Moves the cursor one paragraph down", "Moves the cursor to the end"],
     "correctAnswer": 2,
-    "explanation": "Using Ctrl alongside the downward direction navigation button shifts the active insertion cursor block down by one full paragraph unit."
+    "explanation": "\"Ctrl + Down Arrow\" is used in MS Word to move the cursor one paragraph down."
   },
   {
     "question": "CIA stands for?",
-    "options": ["The Central Intelligence Agency", "Central Investigation Association", "Criminal Investigation Agency", "Core Information Authority"],
-    "correctAnswer": 0,
-    "explanation": "The CIA is a civilian foreign intelligence collection agency operating under the federal executive branch of the United States."
+    "options": ["Central Intelligence Agency", "The Central Intelligence Agency", "Central Investigation Agency", "Criminal Intelligence Agency"],
+    "correctAnswer": 1,
+    "explanation": "CIA stands for The Central Intelligence Agency."
   },
   {
     "question": "Which one of the following is included amongst the Ashra Mubashra?",
-    "options": ["Hazrat Saad Bin Abi Waqas", "Hazrat Ameer Hamza", "Hazrat Khalid Bin Waleed", "Hazrat Bilal Habshi"],
+    "options": ["Hazrat Saad Bin Abi Waqas", "Hazrat Ameer Muawiya", "Hazrat Khalid bin Walid", "Hazrat Abu Sufyan"],
     "correctAnswer": 0,
-    "explanation": "Hazrat Saad Bin Abi Waqas was one of the ten companions explicitly promised paradise by the Prophet Muhammad."
+    "explanation": "Hazrat Saad Bin Abi Waqas is included amongst the Ashra Mubashra."
   },
   {
     "question": "The Quaid-e-Azam passed his Bar-at-law examination from?",
     "options": ["Gray's Inn", "Lincoln's Inn", "Inner Temple", "Middle Temple"],
     "correctAnswer": 1,
-    "explanation": "Muhammad Ali Jinnah studied legal history courses and formally qualified as a barrister at London's Lincoln's Inn institution."
+    "explanation": "Quaid-e-Azam passed his Bar-at-law examination from Lincoln's Inn."
   },
   {
     "question": "In which year Urdu Hindi controversy?",
-    "options": ["1857", "1862", "1867", "1875"],
-    "correctAnswer": 2,
-    "explanation": "The divisive language dispute over replacing Urdu text characters with Devanagari script systems initially flared up in Banaras during 1867."
+    "options": ["1857", "1867", "1877", "1885"],
+    "correctAnswer": 1,
+    "explanation": "The Urdu Hindi controversy started in 1867."
   },
   {
-    "question": "Normal human body temperature 98.6\u00b0F corresponds to?",
-    "options": ["$35^{\\circ}C$", "$37^{\\circ}C$", "$39^{\\circ}C$", "$42^{\\circ}C$"],
-    "correctAnswer": 1,
-    "explanation": "Converting thermodynamic values from Fahrenheit to Celsius via standard mathematical models yields approximately $37^{\\circ}C$."
+    "question": "Normal human body temperature 98.6°F corresponds to?",
+    "options": ["35°C", "36°C", "37°C", "38°C"],
+    "correctAnswer": 2,
+    "explanation": "Normal human body temperature 98.6°F corresponds to 37°C."
   },
   {
     "question": "Nisab of zakat for gold is?",
-    "options": ["5.5 tola", "7.5 tola", "10.5 tola", "52.5 tola"],
+    "options": ["5.5 tola", "7.5 tola", "10 tola", "52.5 tola"],
     "correctAnswer": 1,
-    "explanation": "The statutory minimum volume metric asset requirement for standard zakat distribution calculations equals 7.5 tola units for gold items."
+    "explanation": "The Nisab of zakat for gold is 7.5 tola."
   },
   {
     "question": "How many peaks in Pakistan are Higher than 8000 meters?",
-    "options": ["3", "4", "5", "8"],
+    "options": ["3", "4", "5", "6"],
     "correctAnswer": 2,
-    "explanation": "Pakistan contains five independent peak summits extending higher than the international mountain height baseline of 8,000 meters."
+    "explanation": "There are 5 peaks in Pakistan higher than 8000 meters."
   },
   {
     "question": "Lowest military operation award of Pakistan?",
-    "options": ["Nishan-e-Haider", "Tamgha-e-Basalat", "Sitara-e-Jurat", "Tamgha-e-Jurat"],
+    "options": ["Nishan-e-Haider", "Tamgha-e-Basalat", "Sitara-e-Jurat", "Tamgha-e-Imtiaz"],
     "correctAnswer": 1,
-    "explanation": "Tamgha-e-Basalat is an official operational distinction medal conferred by state authorities recognizing active operational tasks."
+    "explanation": "The lowest military operation award listed is Tamgha-e-Basalat."
   },
   {
     "question": "Who was the first ameer e Hajj in 9th Hijri?",
-    "options": ["Hazrat Abu Bakr", "Hazrat Umar", "Hazrat Ali", "Hazrat Usman"],
-    "correctAnswer": 0,
-    "explanation": "The Prophet designated Hazrat Abu Bakr to lead the caravan delegation as the primary head during the 9th year of the Islamic calendar system."
+    "options": ["Hazrat Ali", "Hazrat Abu Bakr", "Hazrat Umar", "Hazrat Usman"],
+    "correctAnswer": 1,
+    "explanation": "Hazrat Abubakar was the first ameer e Hajj in 9th Hijri."
   },
   {
     "question": "SSI stand for?",
-    "options": ["small-scale integration", "super-scale integration", "system-scale integration", "simple-scale integration"],
+    "options": ["small-scale integration", "system-scale integration", "silicon-scale integration", "simple-scale integration"],
     "correctAnswer": 0,
-    "explanation": "In computer semiconductor evolution, SSI denotes initial design structures linking small numbers of circuits."
+    "explanation": "SSI stands for small-scale integration."
   },
   {
     "question": "Who is known as father of E-mail?",
     "options": ["Bill Gates", "Tim Berners-Lee", "Ray Tomlinson", "Steve Jobs"],
     "correctAnswer": 2,
-    "explanation": "Ray Tomlinson introduced the first operational ARPANET electronic messaging design using the ubiquitous '@' separator icon."
+    "explanation": "Ray Tomlinson is known as the father of E-mail."
   },
   {
     "question": "Social networks are organized primarily around?",
-    "options": ["Brands", "People", "Computers", "Interests"],
-    "correctAnswer": 1,
-    "explanation": "Social platform architectures focus layout elements to connect individual users and build organic digital personal network branches."
+    "options": ["Brands", "Computers", "People", "Websites"],
+    "correctAnswer": 2,
+    "explanation": "Social networks are organized primarily around People."
   },
   {
     "question": "Sun spots was discovered by?",
-    "options": ["Isaac Newton", "Galileo", "Johannes Kepler", "Nicolaus Copernicus"],
+    "options": ["Isaac Newton", "Galileo", "Copernicus", "Kepler"],
     "correctAnswer": 1,
-    "explanation": "Galileo Galilei was among the earliest scientists to document solar dark spot movements through telescope observation devices."
+    "explanation": "Sun spots were discovered by Galileo."
   },
   {
     "question": "Which menu in MSWord can be used to change character size and typeface?",
-    "options": ["File", "Edit", "View", "Format"],
-    "correctAnswer": 3,
-    "explanation": "Legacy interface layouts grouped styling functions directly within the formatting drop-down management lists."
+    "options": ["File", "Edit", "Format", "View"],
+    "correctAnswer": 2,
+    "explanation": "The Format menu in MS Word can be used to change character size and typeface."
   },
   {
     "question": "AJK stands for?",
-    "options": ["Azad Jammu and Kashmir", "All Jammu Kashmir", "Asli Jammu Kashmir", "Apex Jammu Kashmir"],
+    "options": ["Azad Jammu and Kashmir", "Ahmad Jammu Kashmir", "All Jammu Kashmir", "None of these"],
     "correctAnswer": 0,
-    "explanation": "AJK represents the administrative geopolitical area recognized officially as Azad Jammu and Kashmir."
+    "explanation": "AJK stands for Azad Jammu and Kashmir."
   },
   {
     "question": "Dhaka formaly called?",
-    "options": ["Dacca", "Daccan", "Dhaki", "Dhak"],
+    "options": ["Dacca", "Dahka", "D those", "Dhaka town"],
     "correctAnswer": 0,
-    "explanation": "The state government altered spelling conventions to shift from colonial variations into modern Dhaka titles."
+    "explanation": "Dhaka was formerly spelled/called Dacca."
   },
   {
     "question": "Ghulam Muhammad Barrage was constructed on river?",
     "options": ["Jhelum", "Chenab", "Indus", "Ravi"],
     "correctAnswer": 2,
-    "explanation": "The Ghulam Muhammad irrigation barrage layout structures traverse straight across the Indus water path near Kotri."
+    "explanation": "Ghulam Muhammad Barrage was constructed on the river Indus."
   },
   {
     "question": "Who was the commanders of the Infidels in the Battle of Uhud?",
     "options": ["Abu Jahl", "Abu Sufyan", "Utbah", "Walid"],
     "correctAnswer": 1,
-    "explanation": "Abu Sufyan served as the strategic field general directing military efforts for the Makkan faction against Muslim defenses at Uhud."
+    "explanation": "Abu Sufyan was the commander of the Infidels in the Battle of Uhud."
   },
   {
     "question": "Allama Iqbal was born on?",
-    "options": ["9 November 1877", "14 August 1876", "25 December 1875", "23 March 1880"],
+    "options": ["9 November 1877", "14 August 1876", "23 March 1877", "25 December 1876"],
     "correctAnswer": 0,
-    "explanation": "The national philosopher-poet Dr. Allama Muhammad Iqbal was born in Sialkot on November 9, 1877."
+    "explanation": "Allama Iqbal was born on 9 November 1877."
   },
   {
     "question": "Anchar Lake is found in?",
-    "options": ["Pakistan", "Jammu and Kashmir India", "Bangladesh", "Nepal"],
+    "options": ["KPK Pakistan", "Jammu and Kashmir India", "Punjab Pakistan", "Gilgit-Baltistan"],
     "correctAnswer": 1,
-    "explanation": "Anchar Lake is a natural wetland body located near the Srinagar region within Jammu and Kashmir."
+    "explanation": "Anchar Lake is found in Jammu and Kashmir India."
   },
   {
-    "question": "You surprise me?",
-    "options": ["I am surprised by you", "You are surprised by me", "I have been surprised", "You surprise me"],
-    "correctAnswer": 0,
-    "explanation": "Transforming active sentence constructions into passive layout systems turns the statement into 'I am surprised by you'."
+    "question": "Change the voice: You surprise me?",
+    "options": ["I am surprised at you", "I am surprised by you", "You are surprised by me", "I have been surprised by you"],
+    "correctAnswer": 1,
+    "explanation": "The passive form given in the text is 'I am surprised by you'."
   },
   {
     "question": "What is the most appropriate synonym of \"Loyal\"?",
-    "options": ["Disobedient", "Faithful", "Treacherous", "Fickle"],
+    "options": ["Disloyal", "Faithful", "Dishonest", "False"],
     "correctAnswer": 1,
-    "explanation": "Loyal represents steadfast devotion to causes or individuals, directly mirroring meanings expressed via 'faithful'."
+    "explanation": "The most appropriate synonym of \"Loyal\" is Faithful."
   },
   {
     "question": "The largest dam of Pakistan is?",
-    "options": ["Mangla Dam", "Warsak Dam", "Tarbela Dam", "Diamer-Bhasha Dam"],
+    "options": ["Mangla Dam", "Warsak Dam", "Tarbela Dam", "Mirani Dam"],
     "correctAnswer": 2,
-    "explanation": "Tarbela Dam is the single largest structural reservoir asset constructed in Pakistan to date."
+    "explanation": "The largest dam of Pakistan is Tarbela Dam."
   },
   {
     "question": "The largest earth filled dam of the world is?",
-    "options": ["Aswan Dam", "Tarbela dam", "Oroville Dam", "Hirakud Dam"],
+    "options": ["Mangla dam", "Tarbela dam", "Aswan dam", "Hirakud dam"],
     "correctAnswer": 1,
-    "explanation": "Tarbela Dam structural engineering volume classifies it globally as the largest embankment earth-filled dam infrastructure network."
+    "explanation": "The largest earth filled dam of the world is Tarbela dam."
   },
   {
     "question": "Kharan desert is located in which province?",
-    "options": ["Sindh", "Punjab", "Khyber Pakhtunkhwa", "Balochistan"],
+    "options": ["Sindh", "Punjab", "KPK", "Balochistan"],
     "correctAnswer": 3,
-    "explanation": "The arid Kharan desert basin stretches across western territories inside Balochistan province boundaries."
+    "explanation": "Kharan desert is located in Balochistan."
   },
   {
     "question": "The Supreme Commander of Pakistan Armed Forces is?",
     "options": ["Prime Minister", "Chief of Army Staff", "President", "Defense Minister"],
     "correctAnswer": 2,
-    "explanation": "The constitutional authority structure assigns legal Supreme Commander titles straight to the sitting President of Pakistan."
+    "explanation": "The Supreme Commander of Pakistan Armed Forces is the President."
   },
   {
     "question": "What is length of Suez Canal?",
-    "options": ["150 km", "193.3 km", "220 km", "250 km"],
+    "options": ["150 km", "193.3 km", "200 km", "250 km"],
     "correctAnswer": 1,
-    "explanation": "The artificial maritime trading waterway structure measures approximately 193.3 km long across Egypt."
+    "explanation": "The length of the Suez Canal is 193.3 km."
   },
   {
     "question": "Which party starts quit India movement?",
     "options": ["Muslim League", "Congress", "Unionist Party", "Communist Party"],
     "correctAnswer": 1,
-    "explanation": "The Indian National Congress launched the mass political mobilization movement during August 1942."
+    "explanation": "The Congress party started the Quit India movement."
   },
   {
     "question": "What is the fundamental pillar of Islam which requires both physical and financial sacrifices?",
-    "options": ["Salah", "Sawm", "Zakat", "Hajj"],
+    "options": ["Namaz", "Zakat", "Roza", "Hajj"],
     "correctAnswer": 3,
-    "explanation": "Completing pilgrimage circuits demands robust personal physiological stamina alongside investment of financial resources."
+    "explanation": "Hajj requires both physical and financial sacrifices."
   },
   {
     "question": "When was INTERPOL established?",
     "options": ["1919", "1923", "1945", "1950"],
     "correctAnswer": 1,
-    "explanation": "The international policing coordination organization was initially organized during a general congress assembly in 1923."
+    "explanation": "INTERPOL was established in 1923."
   },
   {
     "question": "Holy Quran revealed on which Prophet?",
-    "options": ["Hazrat Musa", "Hazrat Isa", "Hazrat Muhammad", "Hazrat Daud"],
+    "options": ["Hazrat Musa", "Hazrat Isa", "Hazrat Muhammad", "Hazrat Ibrahim"],
     "correctAnswer": 2,
-    "explanation": "The final legislative scriptural revelation text was sent to the Prophet Muhammad over a 23-year span."
+    "explanation": "The Holy Quran was revealed to Hazrat Muhammad."
   },
   {
     "question": "We should follow ....... to succeed in life?",
-    "options": ["Hazrat Muhammad", "Western culture", "Philosophers", "Politicians"],
+    "options": ["Hazrat Muhammad", "Western leaders", "Philosophers", "None of these"],
     "correctAnswer": 0,
-    "explanation": "Islamic social theory emphasizes adopting the Sunnah moral behaviors of the Prophet Muhammad as optimal frameworks."
+    "explanation": "We should follow Hazrat Muhammad to succeed in life."
   },
   {
     "question": "Which is the third fundamental pillar of Islam?",
-    "options": ["Salah", "Zakat", "Sawm", "Hajj"],
-    "correctAnswer": 1,
-    "explanation": "The classic structural presentation order catalogs Zakat contribution requirements as the third pillar."
+    "options": ["Tauheed", "Namaz", "Zakat", "Hajj"],
+    "correctAnswer": 2,
+    "explanation": "Zakat is the third fundamental pillar of Islam."
   },
   {
     "question": "In PowerPoint which shortcut key is used to open the transitions tab?",
-    "options": ["Alt+M", "Alt+K", "Alt+A", "Alt+G"],
-    "correctAnswer": 1,
-    "explanation": "Using keyboard control navigation shortcuts, executing Alt + K opens the visual frame transition ribbon management fields directly."
+    "options": ["Alt+K", "Alt+M", "Alt+T", "Alt+P"],
+    "correctAnswer": 0,
+    "explanation": "In PowerPoint, Alt+K is used to open the transitions tab."
   },
   {
     "question": "Muslim tribe living in China?",
-    "options": ["Hui", "Rohingya", "Uighur", "Uzbek"],
-    "correctAnswer": 0,
-    "explanation": "The Hui ethnic group constitutes a major historically documented community of practicing Muslims situated across Chinese provinces."
+    "options": ["Uighur", "Hui", "Kazakh", "Uzbek"],
+    "correctAnswer": 1,
+    "explanation": "Hui is a Muslim tribe living in China mentioned in the text."
   },
   {
     "question": "Zakat is given on goat?",
     "options": ["10 goats", "20 goats", "30 goats", "40 goats"],
     "correctAnswer": 3,
-    "explanation": "Islamic jurisprudence requires an individual to hold a minimum herd threshold of 40 livestock goats before zakat rules apply."
+    "explanation": "Zakat is obligatory on 40 goats."
   },
   {
     "question": "What is Father name of Allama Iqbal?",
-    "options": ["Sheikh Noor Muhammad", "Sheikh Ghulam Qadir", "Sheikh Muhammad Rafiq", "Sheikh Ata Muhammad"],
+    "options": ["Sheikh Noor Muhammad", "Sheikh Ghulam Qadir", "Sheikh Ata Muhammad", "None of these"],
     "correctAnswer": 0,
-    "explanation": "The biological father of the famous literary scholar Allama Iqbal was Sheikh Noor Muhammad, a deeply religious local craftsman."
+    "explanation": "The father's name of Allama Iqbal is Sheikh Noor Muhammad."
   },
   {
     "question": "FIA stands for?",
-    "options": ["Federal Investigation Agency", "Federal Intelligence Association", "Financial Investigation Authority", "Federal Information Agency"],
+    "options": ["Federal Investigation Agency", "Federal Intelligence Agency", "Financial Investigation Authority", "Federal Intelligence Association"],
     "correctAnswer": 0,
-    "explanation": "FIA represents the Federal Investigation Agency, the primary border control and counterintelligence police structure in Pakistan."
+    "explanation": "FIA stands for Federal Investigation Agency."
   },
   {
     "question": "Hazrat Umar R.A embraced Islam, influenced by which Surah of Holy Quran?",
-    "options": ["Surah Yaseen", "Surah Taha", "Surah Al-Baqarah", "Surah Fatiha"],
+    "options": ["Surah Yaseen", "Surah Taha", "Surah Baqarah", "Surah Rahman"],
     "correctAnswer": 1,
-    "explanation": "Historical biographies detail Umar's sudden internal perspective transformation upon reviewing verses from Surah Taha at his sister's house."
+    "explanation": "Hazrat Umar R.A embraced Islam after being influenced by Surah Taha."
   },
   {
     "question": "What is the mother name of Allama Iqbal?",
-    "options": ["Imam Bibi", "Fatima Bibi", "Zohra Begum", "Ayesha Bibi"],
+    "options": ["Imam Bibi", "Fatima Bibi", "Zohra Bibi", "Amina Bibi"],
     "correctAnswer": 0,
-    "explanation": "The mother of Allama Muhammad Iqbal was Imam Bibi, remembered as a pious and charitable lady."
+    "explanation": "The mother's name of Allama Iqbal is Imam Bibi."
   },
   {
     "question": "When Twitter was launched?",
-    "options": ["2004", "2005", "2006", "2007"],
-    "correctAnswer": 2,
-    "explanation": "The short-form communication microblogging platform platform initially began worldwide services during 2006."
+    "options": ["2004", "2006", "2008", "2010"],
+    "correctAnswer": 1,
+    "explanation": "Twitter was launched in 2006."
   },
   {
     "question": "Who is the writer of the book \"India wins freedom\"?",
-    "options": ["Jawaharlal Nehru", "Abul Kalam Azad", "Mahatma Gandhi", "Subhas Chandra Bose"],
+    "options": ["Jawaharlal Nehru", "Abul Kalam Azad", "Mahatma Gandhi", "Quaid-e-Azam"],
     "correctAnswer": 1,
-    "explanation": "Maulana Abul Kalam Azad authored the autobiographical historical narrative detailing complex independence partition events."
+    "explanation": "Abul Kalam Azad wrote the book \"India wins freedom\"."
   },
   {
     "question": "The Crimean Peninsula was annexed by the Russian Federation in?",
     "options": ["2012", "2014", "2016", "2018"],
     "correctAnswer": 1,
-    "explanation": "The Russian military forces executed strategic dynamic takeovers establishing territorial control over the Crimean district in 2014."
+    "explanation": "The Crimean Peninsula was annexed by the Russian Federation in 2014."
   },
   {
     "question": "Which book was published after the death of Allama Iqbal?",
-    "options": ["Bang-e-Dara", "Bal-e-Jibril", "Zarb-e-Kaleem", "Aramaghan-E-Hijaz"],
-    "correctAnswer": 3,
-    "explanation": "Armaghan-e-Hijaz was compiled and posthumously printed for readers months following the intellectual's passing in 1938."
+    "options": ["Bang-e-Dara", "Bal-e-Jibril", "Aramaghan-E-Hijaz", "Zarb-e-Kaleem"],
+    "correctAnswer": 2,
+    "explanation": "Aramaghan-E-Hijaz was published after the death of Allama Iqbal."
   },
   {
-    "question": "This shirt cannot be worn by me any longer?",
-    "options": ["I cannot wear this shirt any longer", "I am not wearing shirt", "This shirt is long for me", "I will drop wearing this shirt"],
+    "question": "Change the voice: This shirt cannot be worn by me any longer?",
+    "options": ["I cannot wear this shirt any longer", "I must not wear this shirt", "This shirt is not worn by me", "I could not wear this shirt"],
     "correctAnswer": 0,
-    "explanation": "Converting target phrases back into standard active structures produces 'I cannot wear this shirt any longer'."
+    "explanation": "The active form is: 'I cannot wear this shirt any longer'."
   },
   {
-    "question": "We must take care of all living species on earth?",
-    "options": ["All living species on earth must be taken care of by us", "We take care of animals", "Earth species are taken care of", "Living species must care for us"],
+    "question": "Change the voice: We must take care of all living species on earth?",
+    "options": ["All living species on earth must be taken care of by us", "All living species on earth should be taken care", "Living species must be taken care", "We take care of living species"],
     "correctAnswer": 0,
-    "explanation": "The precise grammatically regular passive reconfiguration maps text paths to ensure all component phrases balance actions seamlessly."
+    "explanation": "The passive form is: 'All living species on earth must be taken care of by us'."
   },
   {
     "question": "Christian population percentage in World Population?",
-    "options": ["25.50%", "28.10%", "31.11%", "35.40%"],
-    "correctAnswer": 2,
-    "explanation": "Demographic resource global charts track major belief group numbers, identifying Christian segments near roughly 31.11% of populations."
+    "options": ["24.1%", "31.11%", "40.5%", "50%"],
+    "correctAnswer": 1,
+    "explanation": "The Christian population percentage in World Population is 31.11%."
   },
   {
-    "question": "He teaches us grammar?",
-    "options": ["We are taught grammar by him", "Grammar was taught to us", "He is teaching grammar", "We teach grammar to him"],
+    "question": "Change the voice: He teaches us grammar?",
+    "options": ["We are taught grammar by him", "Grammar was taught by him", "We taught grammar to him", "He is teaching us grammar"],
     "correctAnswer": 0,
-    "explanation": "The exact formal sentence rearrangement processes convert core actions into 'We are taught grammar by him'."
+    "explanation": "The passive form is: 'We are taught grammar by him'."
   },
   {
     "question": "The sun always rise in the east because?",
-    "options": ["The sun moves fast", "The earth rotates from west to east", "The earth rotates from east to west", "The universe is tilted"],
+    "options": ["The earth rotates from east to west", "The earth rotates from west to east", "The sun moves around the earth", "The earth is flat"],
     "correctAnswer": 1,
-    "explanation": "The counter-clockwise axial movement rotation direction creates the visible cosmic horizon illusion of solar rising trajectories."
+    "explanation": "The sun always rises in the east because the earth rotates from west to east."
   },
   {
-    "question": "The boy killed the snake with a stick?",
-    "options": ["The snake was killed by the boy with a stick", "A stick killed the snake", "The boy used a stick on snake", "The snake killed the boy"],
-    "correctAnswer": 0,
-    "explanation": "Reframing active subject metrics ensures standard transformation sequences correctly highlight actions onto the primary target element."
-  },
-  {
-    "question": "I have always liked your positive attitude; it has affected our working relationship:",
-    "options": ["Adversely", "Favorably", "Negatively", "Poorly"],
+    "question": "Change the voice: The boy killed the snake with a stick?",
+    "options": ["The snake killed the boy with a stick", "The snake was killed by the boy with a stick", "A stick killed the snake", "The boy was killed by the snake"],
     "correctAnswer": 1,
-    "explanation": "Liking positive mindsets suggests downstream cooperative interactions develop in highly constructive or 'favorably' aligned paths."
+    "explanation": "The passive form is: 'The snake was killed by the boy with a stick'."
   },
   {
-    "question": "Repast is most similar to?",
-    "options": ["Rest", "Meal", "Journey", "Conversation"],
+    "question": "1. I have always liked your positive attitude; it has affected our working relationship:",
+    "options": ["Negatively", "Favorably", "Badly", "Indifferently"],
     "correctAnswer": 1,
-    "explanation": "Repast is a classical vocabulary item defined specifically as food consumption structural sessions or a structured meal."
+    "explanation": "The missing word that fits contextually in the text is Favorably."
   },
   {
-    "question": "Choose the correct spelling for the missing word: is it ....... to bring pets into the park?",
+    "question": "2. Repast is most similar to?",
+    "options": ["Fast", "Meal", "Sleep", "Journey"],
+    "correctAnswer": 1,
+    "explanation": "Repast is most similar to Meal."
+  },
+  {
+    "question": "3. Choose the correct spelling for the missing word: is it ....... to bring pets into the park?",
     "options": ["Permisible", "Permissible", "Permisabel", "Permissabel"],
     "correctAnswer": 1,
-    "explanation": "The lexicographically verified spelling for the target legal status condition descriptor word is explicitly 'Permissible'."
+    "explanation": "The correct spelling is Permissible."
   },
   {
-    "question": "Analogies: excitable: stoical :: delighted?",
-    "options": ["Happy", "Rankled", "Excited", "Calm"],
+    "question": "4. Analogies: excitable: stoical :: delighted?",
+    "options": ["Happy", "Rankled", "Excited", "Sad"],
     "correctAnswer": 1,
-    "explanation": "The pairing links emotional behavioral traits directly alongside their structural antonym counterpart, mapping delight over to rankled state metrics."
+    "explanation": "The opposite analogy matches delighted to Rankled."
   },
   {
-    "question": "Choose the correct spelling for the missing word: Not only did he play the guitar, he played the ....... as well:",
-    "options": ["Ukulele", "Ukulelele", "Ukalele", "Ukelele"],
+    "question": "7. Choose the correct spelling for the missing word: Not only did he play the guitar, he played the ....... as well:",
+    "options": ["Ukulele", "Ukulele", "Ukuled", "Ukulaily"],
     "correctAnswer": 0,
-    "explanation": "The precise linguistic dictionary spelling reference for the traditional Hawaiian string instrument type is 'Ukulele'."
+    "explanation": "The correct spelling is Ukulele."
   },
   {
-    "question": "The exhibit at the botanical gardens is an unusual collection of cacti and other ....... from around the world:",
-    "options": ["Trees", "Flowers", "Succulents", "Ferns"],
-    "correctAnswer": 2,
-    "explanation": "Cacti belong directly to broader thick-leaved biological botanical classifications defined globally as succulent species families."
-  },
-  {
-    "question": "Analogies: restrain: curb: recant",
-    "options": ["Advance", "Retract", "Assert", "Accept"],
+    "question": "8. The exhibit at the botanical gardens is an unusual collection of cacti and other ....... from around the world:",
+    "options": ["Flowers", "Succulents", "Trees", "Ferns"],
     "correctAnswer": 1,
-    "explanation": "The initial words represent synonymous behavioral actions; similarly, choosing to recant statements correlates to choosing to retract assertions."
+    "explanation": "Cacti are part of a collection of Succulents."
+  },
+  {
+    "question": "9. Analogies: restrain: curb: recant .......",
+    "options": ["Accept", "Retract", "Repeat", "Deny"],
+    "correctAnswer": 1,
+    "explanation": "The synonym analogy for recant is Retract."
   },
   {
     "question": "Antonym of Homogeneous?",
-    "options": ["Similar", "Different", "Identical", "Uniform"],
-    "correctAnswer": 1,
-    "explanation": "Homogeneous represents structural uniformity across items, positioning 'different' or heterogeneous as semantic opposites."
-  },
-  {
-    "question": "Under which constitution of Pakistan Islamabad was confirmed as the capital of Pakistan:",
-    "options": ["1956", "1962", "1973", "Interim"],
-    "correctAnswer": 1,
-    "explanation": "The 1962 constitutional draft framework formally authorized structural administrative switches validating Islamabad's ultimate state capital status."
-  },
-  {
-    "question": "Which city of Pakistan is called Shaheenon Ka Shehar:",
-    "options": ["Sialkot", "Lahore", "Sargodha", "Rawalpindi"],
+    "options": ["Same", "Similar", "Different", "Uniform"],
     "correctAnswer": 2,
-    "explanation": "Sargodha is universally honored locally as the 'City of Eagles' due to historic defense contributions by its base air force units."
+    "explanation": "The antonym of Homogeneous is Different."
   },
   {
-    "question": "Name the biggest railway workshop found in Pakistan:",
-    "options": ["Mughalpura", "Rawalpindi", "Sukkur", "Karachi"],
+    "question": "24. Under which constitution of Pakistan Islamabad was confirmed as the capital of Pakistan:",
+    "options": ["1947", "1956", "1962", "1973"],
+    "correctAnswer": 2,
+    "explanation": "Under the 1962 constitution, Islamabad was confirmed as the capital."
+  },
+  {
+    "question": "25. Which city of Pakistan is called Shaheenon Ka Shehar:",
+    "options": ["Lahore", "Sargodha", "Sialkot", "Karachi"],
+    "correctAnswer": 1,
+    "explanation": "Sargodha is called Shaheenon Ka Shehar."
+  },
+  {
+    "question": "52. Name the biggest railway workshop found in Pakistan:",
+    "options": ["Mughalpura", "Sukkur", "Rawalpindi", "Karachi"],
     "correctAnswer": 0,
-    "explanation": "The historic Mughalpura Railway Engineering Workshop complex in Lahore serves as the primary system-wide hardware industrial asset."
+    "explanation": "Mughalpura is the biggest railway workshop in Pakistan."
   },
   {
-    "question": "When Pervez Musharraf resigned as the President of Pakistan:",
-    "options": ["18 August 2008", "12 October 1999", "6 September 2007", "20 March 2009"],
+    "question": "53. When Pervez Musharraf resigned as the President of Pakistan:",
+    "options": ["12 October 1999", "18 August 2008", "6 September 2008", "25 March 2008"],
+    "correctAnswer": 1,
+    "explanation": "Pervez Musharraf resigned on 18 August 2008."
+  },
+  {
+    "question": "54. I S S B stands for:",
+    "options": ["Inter Services Selection Board", "International Space Services Board", "Inter Services Staff Bureau", "Internal Security Selection Board"],
     "correctAnswer": 0,
-    "explanation": "Faced with operational impeachment moves across legislative bodies, Pervez Musharraf publicly broadcast his resignation on August 18, 2008."
+    "explanation": "ISSB stands for Inter Services Selection Board."
   },
   {
-    "question": "I S S B stands for:",
-    "options": ["Inter Services Selection Board", "International Social Security Board", "Internal System Security Bureau", "Inter State Selection Bureau"],
-    "correctAnswer": 0,
-    "explanation": "ISSB represents the specialized candidate human resource evaluation committee vetting potential military officers for the armed forces."
-  },
-  {
-    "question": "Squadron leader of Air Force is equal to which of the following army officers rank:",
+    "question": "56. Squadron leader of Air Force is equal to which of the following army officers rank:",
     "options": ["Captain", "Major", "Lieutenant Colonel", "Colonel"],
     "correctAnswer": 1,
-    "explanation": "Standard military structural protocol rank mapping alignments equate an air force Squadron Leader directly alongside an army Major."
+    "explanation": "Squadron leader is equivalent to Major."
   },
   {
-    "question": "Most of the country's rivers flow into:",
-    "options": ["Jhelum River", "Chenab River", "Indus River", "Ravi River"],
+    "question": "57. Most of the country's rivers flow into:",
+    "options": ["Ravi River", "Jhelum River", "Indus River", "Chenab River"],
     "correctAnswer": 2,
-    "explanation": "The primary water pathways cross-cutting provincial territories eventually unify and empty straight into the main Indus channel."
+    "explanation": "Most of the country's rivers flow into the Indus River."
   },
   {
-    "question": "What is the total length of Pak-India border:",
-    "options": ["2500 Kilometers", "2912 Kilometers", "3323 Kilometers", "4000 Kilometers"],
+    "question": "58. What is the total length of Pak-India border:",
+    "options": ["1610 Kilometers", "2250 Kilometers", "3323 Kilometers", "2430 Kilometers"],
     "correctAnswer": 2,
-    "explanation": "The combined geographical length of active border sectors stretching between Pakistan and India is roughly 3,323 kilometers."
+    "explanation": "The total length of Pak-India border is 3323 Kilometers."
   },
   {
-    "question": "Indus River falls into the Arabian Sea near:",
-    "options": ["Gwadar", "Thatta", "Karachi", "Badin"],
-    "correctAnswer": 2,
-    "explanation": "The primary delta branches of the lower Indus system complete their downstream flow paths into the sea coast zones near Thatta."
-  },
-  {
-    "question": "Bakhar Fort is located in the province:",
-    "options": ["Punjab", "Sindh", "Balochistan", "Khyber Pakhtunkhwa"],
+    "question": "60. Indus River falls into the Arabian Sea near:",
+    "options": ["Karachi", "Thatta", "Gwadar", "Pasni"],
     "correctAnswer": 1,
-    "explanation": "The historic island fortification structure layout rests directly inside river boundary pathways running inside Sindh."
+    "explanation": "The text explicitly states near Thatta on page 6 (and near Karachi on page 2)."
   },
   {
-    "question": "The most famous musician at the court of Akbar was Tansen. His original name was:",
+    "question": "61. Bakhar Fort is located in the province:",
+    "options": ["Punjab", "Sindh", "Balochistan", "KPK"],
+    "correctAnswer": 1,
+    "explanation": "Bakhar Fort is located in Sindh."
+  },
+  {
+    "question": "63. The most famous musician at the court of Akbar was Tansen. His original name was:",
     "options": ["Ramtanu Pande", "Makaranda Pande", "Lal Kalawant", "Baz Bahadur"],
     "correctAnswer": 0,
-    "explanation": "The celebrated court artist Tansen was born into a Hindu family and originally named Ramtanu Pande before his musical ascent."
+    "explanation": "Tansen's original name was Ramtanu Pande."
   },
   {
-    "question": "There will be a Government at the Union level which will comprise Union Nazim and:",
-    "options": ["District Nazim", "Naib Union Nazim", "Town Officer", "Secretary"],
-    "correctAnswer": 1,
-    "explanation": "Local local governance law codes establish collaborative local management positions tracking directly under a Naib Union Nazim designation."
-  },
-  {
-    "question": "The search for oil in Pakistan was started in:",
-    "options": ["1866", "1912", "1947", "1955"],
+    "question": "65. There will be a Government at the Union level which will comprise Union Nazim and:",
+    "options": ["Naib Union Nazim", "Tehsil Nazim", "District Nazim", "Town Nazim"],
     "correctAnswer": 0,
-    "explanation": "The initial exploratory drilling efforts checking geological sites for oil reservoirs began historically around 1866 in Kundal."
+    "explanation": "It comprises Union Nazim and Naib Union Nazim."
   },
   {
-    "question": "Mahabat Khan Mosque was destroyed by:",
+    "question": "66. The search for oil in Pakistan was started in:",
+    "options": ["1850", "1866", "1947", "1955"],
+    "correctAnswer": 1,
+    "explanation": "The search for oil in Pakistan was started in 1866."
+  },
+  {
+    "question": "68. Mahabat Khan Mosque was destroyed by:",
     "options": ["Earthquake", "Flood", "Fire", "War"],
     "correctAnswer": 2,
-    "explanation": "The historic structure sustained massive localized structural degradation following an accidental historical fire incident."
+    "explanation": "Mahabat Khan Mosque was destroyed by Fire."
   },
   {
-    "question": "Which was political area of Allama Iqbal:",
-    "options": ["Sindh", "Bengal", "Punjab", "KPK"],
-    "correctAnswer": 2,
-    "explanation": "Allama Iqbal focused his regional legislative advocacy efforts directly inside the Punjab Legislative Council structures."
+    "question": "70. Which was political area of Allama Iqbal:",
+    "options": ["Sindh", "Punjab", "Bengal", "KPK"],
+    "correctAnswer": 1,
+    "explanation": "The political area of Allama Iqbal was Punjab."
   },
   {
-    "question": "KANUPP is the abbreviation of:",
-    "options": ["Karachi Nuclear Power Plant", "Kashmir Nuclear Power Project", "Khyber Nuclear Power Plant", "Kahuta Nuclear Power Plant"],
+    "question": "77. KANUPP is the abbreviation of:",
+    "options": ["Karachi Nuclear Power Plant", "Kashmir Nuclear Power Plant", "Kahuta Nuclear Power Plant", "None of these"],
     "correctAnswer": 0,
-    "explanation": "KANUPP marks the coastal energy production center identified as the Karachi Nuclear Power Plant."
+    "explanation": "KANUPP stands for Karachi Nuclear Power Plant."
   },
   {
-    "question": "A downturn in the business cycle in which there is a sustained high level of unemployment is called:",
-    "options": ["Inflation", "Recession", "Depression", "Stagnation"],
+    "question": "29. A downturn in the business cycle in which there is a sustained high level of unemployment is called:",
+    "options": ["Inflation", "Depression", "Recession", "Stagnation"],
+    "correctAnswer": 1,
+    "explanation": "It is called a Depression."
+  },
+  {
+    "question": "30. Which British philosopher and economist is regarded as \"Founder of Modern Economics\":",
+    "options": ["John Maynard Keynes", "Adam Smith", "David Ricardo", "Karl Marx"],
+    "correctAnswer": 1,
+    "explanation": "Adam Smith is regarded as the Founder of Modern Economics."
+  },
+  {
+    "question": "74. Which is the last country to gain independence from Serbia in February 2008:",
+    "options": ["Montenegro", "Croatia", "Kosovo", "Bosnia"],
     "correctAnswer": 2,
-    "explanation": "An extreme, multi-year economic contraction tracking profound commercial gridlock and job losses is termed a Depression."
+    "explanation": "Kosovo gained independence from Serbia in February 2008."
   },
   {
-    "question": "Which British philosopher and economist is regarded as \"Founder of Modern Economics\":",
-    "options": ["John Maynard Keynes", "David Ricardo", "Adam Smith", "Karl Marx"],
+    "question": "31. Which Surah is called Al-Hamd:",
+    "options": ["Al-Baqarah", "Al-Fateha", "Al-Ikhlas", "Yaseen"],
+    "correctAnswer": 1,
+    "explanation": "Surah Al-Fateha is called Al-Hamd."
+  },
+  {
+    "question": "32. The Muslims invaded Spain in:",
+    "options": ["612 AD", "711 AD", "811 AD", "921 AD"],
+    "correctAnswer": 1,
+    "explanation": "The Muslims invaded Spain in 711 AD."
+  },
+  {
+    "question": "33. Who led Muslim forces during the \"Crusades\":",
+    "options": ["Tariq bin Ziyad", "Muhammad bin Qasim", "Salah-ud-Din Ayubi", "Haroon ur Rashid"],
     "correctAnswer": 2,
-    "explanation": "Adam Smith's legendary treatise 'The Wealth of Nations' laid the groundwork for structural free-market economic theory."
+    "explanation": "Salah-ud-Din Ayubi led Muslim forces during the Crusades."
   },
   {
-    "question": "Which is the last country to gain independence from Serbia in February 2008:",
-    "options": ["Montenegro", "Croatia", "Kosovo", "Slovenia"],
+    "question": "37. For how long the Caliphate of Hazrat Usman (RA) lasted:",
+    "options": ["10 Years", "12 Years", "5 Years", "2 Years"],
+    "correctAnswer": 1,
+    "explanation": "The Caliphate of Hazrat Usman (RA) lasted 12 Years."
+  },
+  {
+    "question": "38. During drought, which Namaz is offered for rain:",
+    "options": ["Sallat-e-Khasoof", "Sallat-e-Asoof", "Sallat-e-Istasqaa", "Sallat-e-Janaza"],
     "correctAnswer": 2,
-    "explanation": "The regional legislative assembly of Kosovo unilaterally broadcast its sovereign state independence declaration during February 2008."
+    "explanation": "Sallat-e-Istasqaa is offered for rain."
   },
   {
-    "question": "Which Surah is called Al-Hamd:",
-    "options": ["Al-Fateha", "Al-Baqarah", "Surah Yaseen", "Surah Ikhlas"],
+    "question": "39. Give the name of the prophet who is the son of Hazrat Daud (AS):",
+    "options": ["Hazrat Suleiman (AS)", "Hazrat Musa (AS)", "Hazrat Isa (AS)", "Hazrat Yaqoob (AS)"],
     "correctAnswer": 0,
-    "explanation": "Surah Al-Fatiha is widely designated as Al-Hamd because its initial text structure begins with praises dedicated to God."
+    "explanation": "Hazrat Suleiman (AS) is the son of Hazrat Daud (AS)."
   },
   {
-    "question": "The Muslims invaded Spain in:",
-    "options": ["611 AD", "711 AD", "811 AD", "911 AD"],
-    "correctAnswer": 1,
-    "explanation": "The Umayyad general Tariq bin Ziyad led expeditionary landing units across the straits to secure land footholds in Spain during 711 AD."
-  },
-  {
-    "question": "Who led Muslim forces during the \"Crusades\":",
-    "options": ["Tariq bin Ziyad", "Muhammad bin Qasim", "Salah-ud-Din Ayubi", "Haroon al-Rasheed"],
+    "question": "40. Who was named as \"Brain of Arabia\" by the Prophet (PBUH):",
+    "options": ["Hazrat Abu Bakr (RA)", "Hazrat Umar (RA)", "Hazrat Umro Bin Al Aas (RA)", "Hazrat Ali (RA)"],
     "correctAnswer": 2,
-    "explanation": "Sultan Salah-ud-Din Ayubi directed counter-crusader defense campaigns, successfully consolidating control and reclaiming Jerusalem."
+    "explanation": "Hazrat Umro Bin Al Aas (RA) was named \"Brain of Arabia\"."
   },
   {
-    "question": "For how long the Caliphate of Hazrat Usman (RA) lasted:",
-    "options": ["10 Years", "12 Years", "2 Year", "5 Years"],
+    "question": "41. What is the serial number of Surah Yaseen in the Holy Quran:",
+    "options": ["Thirty Five", "Thirty Six", "Thirty Seven", "Thirty Eight"],
     "correctAnswer": 1,
-    "explanation": "The administrative leadership tenure of the third Caliph, Hazrat Usman, spanned approximately 12 years before his martyrdom."
+    "explanation": "The serial number of Surah Yaseen is Thirty Six."
   },
   {
-    "question": "During drought, which Namaz is offered for rain:",
-    "options": ["Sallat-e-Khasoof", "Sallat-e-Kasoof", "Sallat-e-Istasqaa", "Sallat-e-Hajat"],
-    "correctAnswer": 2,
-    "explanation": "Salat al-Istisqa is the specific communal sunnah prayer ritual enacted to supplicate for rainwater relief."
-  },
-  {
-    "question": "Give the name of the prophet who is the son of Hazrat Daud (AS):",
-    "options": ["Hazrat Isa (AS)", "Hazrat Suleiman (AS)", "Hazrat Musa (AS)", "Hazrat Yaqoob (AS)"],
+    "question": "42. The maximum number of Hafiz-e-Quran were martyred in:",
+    "options": ["Battle of Badr", "Jang-e-Yamama", "Battle of Uhud", "Battle of Khandaq"],
     "correctAnswer": 1,
-    "explanation": "The Prophet Suleiman (Solomon) inherited sovereign kingdom authority directly following his father Dawood (David)."
+    "explanation": "The maximum number of Hafiz-e-Quran were martyred in Jang-e-Yamama."
   },
   {
-    "question": "Who was named as \"Brain of Arabia\" by the Prophet (PBUH):",
-    "options": ["Hazrat Abu Bakr (RA)", "Hazrat Umro Bin Al Aas (RA)", "Hazrat Khalid Bin Waleed (RA)", "Hazrat Umar (RA)"],
-    "correctAnswer": 1,
-    "explanation": "Hazrat Amr ibn al-Aas was highly praised for his unmatched strategic intelligence and quick wit, earning him deep respect."
-  },
-  {
-    "question": "What is the serial number of Surah Yaseen in the Holy Quran:",
-    "options": ["Thirty Six", "Thirty Four", "Forty Two", "Fifty Six"],
-    "correctAnswer": 0,
-    "explanation": "Surah Yaseen is officially positioned as the 36th structural chapter layout inside the compilation text order."
-  },
-  {
-    "question": "The maximum number of Hafiz-e-Quran were martyred in:",
-    "options": ["Battle of Badr", "Battle of Uhud", "Jang-e-Yamama", "Battle of Khyber"],
-    "correctAnswer": 2,
-    "explanation": "The intense fighting against false prophets at the Battle of Yamama resulted in significant casualties among core Quran reciters."
-  },
-  {
-    "question": "What is the serial number of the Kalimah Rad-e-Kufr among the six Kalimahs:",
+    "question": "43. What is the serial number of the Kalimah Rad-e-Kufr among the six Kalimahs:",
     "options": ["Fourth", "Fifth", "Sixth", "Third"],
     "correctAnswer": 2,
-    "explanation": "The formulaic profession text explicitly rejecting disbelief methods is cataloged as the Sixth Kalimah variant."
+    "explanation": "Kalimah Rad-e-Kufr is the Sixth Kalimah."
   },
   {
-    "question": "Ghazwa Battle Furqan is name for:",
-    "options": ["Battle of Uhud", "Battle of Badr", "Battle of Khandaq", "Battle of Hunain"],
-    "correctAnswer": 1,
-    "explanation": "The Quran references the historic Battle of Badr as 'Yawm al-Furqan' (The Day of Criterion) distinguishing truth from falsehood."
+    "question": "44. Ghazwa Battle Furqan is name for:",
+    "options": ["Battle of Badr", "Battle of Uhud", "Battle of Hunain", "Battle of Tabuk"],
+    "correctAnswer": 0,
+    "explanation": "Battle of Badr is also known as Battle Furqan."
   },
   {
-    "question": "The distance between Makkah and Medina is about:",
+    "question": "45. The distance between Makkah and Medina is about:",
     "options": ["200 Miles", "300 Miles", "400 Miles", "500 Miles"],
     "correctAnswer": 1,
-    "explanation": "The geographic overland migration pathway separating the two holy cities measures roughly 300 miles."
+    "explanation": "The distance between Makkah and Medina is about 300 Miles."
   },
   {
-    "question": "The book of Hadith Mawata was written by:",
+    "question": "46. The book of Hadith Mawata was written by:",
     "options": ["Imam Bukhari", "Imam Malik", "Imam Muslim", "Imam Shafi"],
     "correctAnswer": 1,
-    "explanation": "The Muwatta is an early legal code compilation text meticulously edited by the legendary scholar Imam Malik bin Anas."
+    "explanation": "The book of Hadith Muwatta (Mawata) was written by Imam Malik."
   },
   {
-    "question": "Which one of the following is a renowned biographer of Holy Prophet Muhammad (SAW):",
-    "options": ["Martin Lings", "Karen Armstrong", "Philip Hitti", "Edward Said"],
+    "question": "47. Which one of the following is a renowned biographer of Holy Prophet Muhammad (SAW):",
+    "options": ["Martin Lings", "Michael Hart", "Karen Armstrong", "Edward Said"],
     "correctAnswer": 0,
-    "explanation": "Martin Lings authored a universally acclaimed English biography profile layout framework using verified early historical reports."
+    "explanation": "Martin Lings is a renowned biographer of the Holy Prophet."
   },
   {
-    "question": "Who did accompany the Holy Prophet (SAW) in migration to Madina:",
-    "options": ["Hazrat Umar (RA)", "Hazrat Ali (RA)", "Hazrat Abu Bakr (RA)", "Hazrat Usman (RA)"],
-    "correctAnswer": 2,
-    "explanation": "Hazrat Abu Bakr accompanied the Prophet directly through tracking paths during the historic migration trip to Madina."
-  },
-  {
-    "question": "Which Surah was recited by the Holy Prophet (PBUH) at the time of Hijrat:",
-    "options": ["Surah Al-Baqarah", "Yaseen", "Surah Fatiha", "Surah Ikhlas"],
+    "question": "48. Who did accompany the Holy Prophet (SAW) in migration to Madina:",
+    "options": ["Hazrat Umar (RA)", "Hazrat Abu Bakr (RA)", "Hazrat Ali (RA)", "Hazrat Usman (RA)"],
     "correctAnswer": 1,
-    "explanation": "Historical records indicate verses from Surah Yaseen were softly spoken aloud as the Prophet safely slipped past surrounding adversaries."
+    "explanation": "Hazrat Abu Bakr (RA) accompanied the Holy Prophet (SAW) during Hijrat."
   },
   {
-    "question": "Zagreb is the capital of which country:",
-    "options": ["Croatia", "Serbia", "Slovenia", "Bosnia"],
+    "question": "50. Which Surah was recited by the Holy Prophet (PBUH) at the time of Hijrat:",
+    "options": ["Surah Al-Baqarah", "Surah Yaseen", "Surah Al-Fateha", "Surah Al-Mulk"],
+    "correctAnswer": 1,
+    "explanation": "Surah Yaseen was recited by the Holy Prophet (PBUH) at the time of Hijrat."
+  },
+  {
+    "question": "76. The Sun always rises in the East because: (Repeat)",
+    "options": ["The Earth Rotates From West to East", "The Earth Rotates From East to West", "The Sun Moves", "None"],
     "correctAnswer": 0,
-    "explanation": "Zagreb is the foundational metropolitan city serving as the legal sovereign capital of Croatia."
+    "explanation": "The Earth Rotates From West to East."
   },
   {
-    "question": "The minimum land area recommended for forest cover to maintain proper ecological balance:",
-    "options": ["15%", "25%", "33%", "50%"],
+    "question": "72. Zagreb is the capital of which country:",
+    "options": ["Serbia", "Croatia", "Slovenia", "Bosnia"],
+    "correctAnswer": 1,
+    "explanation": "Zagreb is the capital of Croatia."
+  },
+  {
+    "question": "73. The minimum land area recommended for forest cover to maintain proper ecological balance:",
+    "options": ["12%", "25%", "33%", "50%"],
     "correctAnswer": 2,
-    "explanation": "Environmental management standards suggest nations preserve around 33% (or approximately one-third) territory as forest cover."
+    "explanation": "The recommended minimum land area for forest cover is 33%."
   },
   {
-    "question": "Reykjavik is the capital of which country:",
+    "question": "75. Reykjavik is the capital of which country:",
     "options": ["Greenland", "Iceland", "Norway", "Finland"],
     "correctAnswer": 1,
-    "explanation": "Reykjavik is celebrated globally as the northernmost national capital city location, serving Iceland."
+    "explanation": "Reykjavik is the capital of Iceland."
   },
   {
-    "question": "Capital of U.K is:",
-    "options": ["Paris", "Berlin", "London", "Edinburgh"],
-    "correctAnswer": 2,
-    "explanation": "London functions as the political, historical, and economic capital city of the United Kingdom."
+    "question": "79. Capital of U.K is:",
+    "options": ["London", "Paris", "Washington", "Berlin"],
+    "correctAnswer": 0,
+    "explanation": "The capital of U.K is London."
   },
   {
-    "question": "Which of the following is the capital and seaport of the Philippines:",
+    "question": "80. Which of the following is the capital and seaport of the Philippines:",
     "options": ["Jakarta", "Manila", "Bangkok", "Kuala Lumpur"],
     "correctAnswer": 1,
-    "explanation": "Manila is the urban capital center hosting the primary maritime deep-water shipping dock infrastructure in the Philippines."
+    "explanation": "Manila is the capital and seaport of the Philippines."
   },
   {
-    "question": "Which part of the computer is used for calculating and comparing:",
+    "question": "81. Which part of the computer is used for calculating and comparing:",
     "options": ["Control Unit", "ALU", "Memory Unit", "Modem"],
     "correctAnswer": 1,
-    "explanation": "The Arithmetic Logic Unit (ALU) directly handles all raw mathematical updates and logical value comparisons."
+    "explanation": "ALU (Arithmetic Logic Unit) is used for calculating and comparing."
   },
   {
-    "question": "All memory units are expressed as powers of:",
-    "options": ["1.0", "2.0", "10.0", "16.0"],
+    "question": "82. All memory units are expressed as powers of:",
+    "options": ["1.0", "2.0", "10.0", "8.0"],
     "correctAnswer": 1,
-    "explanation": "Because computing electronics run on dual binary switches, storage allocations map to base 2 exponents."
+    "explanation": "All memory units are expressed as powers of 2.0."
   },
   {
-    "question": "In the IBM PC-AT, what do the words AT stand for:",
-    "options": ["Advanced Technology", "Alternate Technology", "Automated Tracking", "Advanced Testing"],
+    "question": "83. In the IBM PC-AT, what do the words AT stand for:",
+    "options": ["Advanced Technology", "Automated Technology", "Applied Technology", "Alternative Technology"],
     "correctAnswer": 0,
-    "explanation": "IBM introduced the PC-AT system configuration designator to define their updated 'Advanced Technology' computers."
+    "explanation": "AT stands for Advanced Technology."
   },
   {
-    "question": "What is required when more than one person uses a central computer at the same time:",
-    "options": ["Terminal", "Mouse", "Scanner", "Printer"],
+    "question": "84. What is required when more than one person uses a central computer at the same time:",
+    "options": ["Terminal", "Modem", "Scanner", "Mouse"],
     "correctAnswer": 0,
-    "explanation": "A structural terminal configuration acts as user hardware portals tying directly into central mainframes simultaneously."
+    "explanation": "A Terminal is required when multiple users share a central computer."
   },
   {
-    "question": "When we look at the cost, which of the following computer is most expensive:",
-    "options": ["Mainframe Computers", "Super Computers", "Micro Computers", "Mini Computers"],
+    "question": "85. When we look at the cost, which of the following computer is most expensive:",
+    "options": ["Mainframe Computers", "Super Computers", "Micro Computers", "Laptop Computers"],
     "correctAnswer": 1,
-    "explanation": "Supercomputers represent massive investments due to custom processing hardware requirements."
+    "explanation": "Super Computers are the most expensive type of computers."
   },
   {
-    "question": "Which of the following have the fastest access time:",
-    "options": ["Magnetic Disks", "Semiconductor Memories", "Magnetic Tapes", "Optical Disks"],
+    "question": "86. Which of the following have the fastest access time:",
+    "options": ["Magnetic Disks", "Semiconductor Memories", "Compact Disks", "Magnetic Tapes"],
     "correctAnswer": 1,
-    "explanation": "Solid-state semiconductor circuits manipulate electronic signals directly without mechanical delay cycles."
+    "explanation": "Semiconductor Memories have the fastest access time."
   },
   {
-    "question": "Intersection of columns and rows is called:",
-    "options": ["Block", "Cell", "Grid", "Table"],
-    "correctAnswer": 1,
-    "explanation": "A cell is the discrete entry coordinate formed where data tracking grid lines overlay inside spreadsheets."
+    "question": "87. Intersection of columns and rows is called:",
+    "options": ["Cell", "Block", "Table", "Grid"],
+    "correctAnswer": 0,
+    "explanation": "The intersection of columns and rows is called a Cell."
   },
   {
-    "question": "What is full form of ROM:",
-    "options": ["Random Only Memory", "Read Only Memory", "Run On Modules", "Read Output Modules"],
-    "correctAnswer": 1,
-    "explanation": "ROM represents Read Only Memory, which protects critical diagnostic boot firmware instructions from accidental deletion."
+    "question": "88. What is full form of ROM:",
+    "options": ["Read Only Memory", "Random Only Memory", "Run On Memory", "Read Open Memory"],
+    "correctAnswer": 0,
+    "explanation": "The full form of ROM is Read Only Memory."
   },
   {
-    "question": "The system unit of a personal computer typically contains all of the following except:",
-    "options": ["Microprocessor", "Disk Drive", "Modem", "Main Memory"],
+    "question": "89. The system unit of a personal computer typically contains all of the following except:",
+    "options": ["Microprocessor", "Disk drive", "Modem", "RAM"],
     "correctAnswer": 2,
-    "explanation": "Modems traditionally operated as specialized external communication accessories rather than integrated chassis blocks."
+    "explanation": "The system unit typically contains everything except a Modem."
   },
   {
-    "question": "What is the name of a device that converts digital signals to analog signals:",
-    "options": ["Multiplexer", "Modem", "Decoder", "Receiver"],
-    "correctAnswer": 1,
-    "explanation": "A modem performs modulating and demodulating tasks to map computer data fields over legacy copper telephone loops."
-  },
-  {
-    "question": "Some verbs need a ....... to convey the full meaning:",
-    "options": ["Noun", "Adverb", "Complement", "Preposition"],
+    "question": "90. What is the name of a device that converts digital signals to analog signals:",
+    "options": ["Router", "Switch", "Modem", "Hub"],
     "correctAnswer": 2,
-    "explanation": "Intransitive or linking grammatical patterns require structural predicate complements to complete structural semantic thoughts."
+    "explanation": "A Modem converts digital signals to analog signals (and vice versa)."
   },
   {
-    "question": "Choose the one which best expresses the meaning of the given word: Conjecture:",
-    "options": ["Truth", "Guess", "Certainty", "Proof"],
-    "correctAnswer": 1,
-    "explanation": "Conjecture represents ideas formulated without definitive empirical proof records, operating as a 'guess'."
-  },
-  {
-    "question": "Choose the correct spelling for the missing word: My brother is ....... to taking long walks after dinner:",
-    "options": ["Acustomed", "Accustomed", "Accustumed", "Acustumed"],
-    "correctAnswer": 1,
-    "explanation": "The proper spelling for expressing behavioral adaptation habits is explicitly 'Accustomed'."
-  },
-  {
-    "question": "Due to slippery road conditions and the slope of the narrow, winding highway, the car ....... down the steep mountainous road:",
-    "options": ["Careened", "Cruised", "Stalled", "Backed"],
-    "correctAnswer": 0,
-    "explanation": "Careened characterizes erratic, unstable sliding movements while moving fast down slopes."
-  },
-  {
-    "question": "Find the word that is misspelled:",
-    "options": ["Forcast", "Forecast", "Receive", "Proceed"],
-    "correctAnswer": 0,
-    "explanation": "The correct linguistic configuration demands a middle 'e', showing 'Forcast' is misspelled."
-  },
-  {
-    "question": "Choose the word that has the same or nearly the same meaning of the given word compensate:",
-    "options": ["Take", "Pay", "Lose", "Ignore"],
-    "correctAnswer": 1,
-    "explanation": "To compensate means to settle balance metrics or give financial compensation, making 'pay' a suitable synonym."
-  },
-  {
-    "question": "Choose the word that has the same or nearly the same meaning of the given word obsolete:",
-    "options": ["Modern", "New", "Outmoded", "Useful"],
+    "question": "68. Choose correct word for sentence: Some verbs need a ....... to convey the full meaning:",
+    "options": ["Noun", "Adverb", "Complement", "Pronoun"],
     "correctAnswer": 2,
-    "explanation": "Obsolete signifies technology or terms that have fallen out of common use, matching definitions for 'outmoded'."
+    "explanation": "Some verbs need a Complement to convey the full meaning."
   },
   {
-    "question": "Ali spends Rs. 500 to get a shirt and sells it at Rs. 480 find percentage of loss:",
+    "question": "70. Choose the one which best expresses the meaning of the given word: Conjecture:",
+    "options": ["Fact", "Proof", "Guess", "Certainty"],
+    "correctAnswer": 2,
+    "explanation": "The best meaning of Conjecture is Guess."
+  },
+  {
+    "question": "71. Choose the correct spelling for the missing word: My brother is ....... to taking long walks after dinner:",
+    "options": ["Acustomed", "Accustomed", "Acustumed", "Accustumed"],
+    "correctAnswer": 1,
+    "explanation": "The correct spelling is Accustomed."
+  },
+  {
+    "question": "72. Due to slippery road conditions and the slope of the narrow, winding highway, the car ....... down the steep mountainous road:",
+    "options": ["Careened", "Slipped", "Stopped", "Accelerated"],
+    "correctAnswer": 0,
+    "explanation": "The word used in the past paper text is Careened."
+  },
+  {
+    "question": "73. Find the word that is misspelled:",
+    "options": ["Forecast", "Forcast", "Forcat", "Forecaste"],
+    "correctAnswer": 1,
+    "explanation": "The misspelled word is Forcast (correct is Forecast)."
+  },
+  {
+    "question": "75. Choose the word that has the same or nearly the same meaning of the given word compensate:",
+    "options": ["Take", "Pay", "Rob", "Lose"],
+    "correctAnswer": 1,
+    "explanation": "To compensate nearly means to Pay."
+  },
+  {
+    "question": "79. Choose the word that has the same or nearly the same meaning of the given word obsolete:",
+    "options": ["Modern", "New", "Outmoded", "Current"],
+    "correctAnswer": 2,
+    "explanation": "The meaning of obsolete is Outmoded."
+  },
+  {
+    "question": "81. Ali spends Rs. 500 to get a shirt and sells it at Rs. 480 find percentage of loss:",
     "options": ["2%", "4%", "5%", "10%"],
     "correctAnswer": 1,
-    "explanation": "Loss value calculation: $500 - 480 = 20$. Loss percentage equation model: $\\frac{20}{500} \\times 100 = 4\\%$."
+    "explanation": "Loss = 500 - 480 = 20. Loss % = (20/500) * 100 = 4%."
   },
   {
-    "question": "The next pairs of letters in the series AZ, CX, FU is:",
-    "options": ["IR", "KP", "JQ", "HS"],
-    "correctAnswer": 2,
-    "explanation": "The first character indexes shift steps forward (+1, +2, +3 $\\Rightarrow$ J), while matching trailing characters invert tracking positions back behind end steps $\\Rightarrow$ Q."
+    "question": "82. The next pairs of letters in the series AZ, CX, FU is:",
+    "options": ["IR", "JQ", "KP", "LO"],
+    "correctAnswer": 1,
+    "explanation": "The letters jump +2, +3, +4. A(+2)->C(+3)->F(+4)->J. Z(-2)->X(-3)->U(-4)->Q. So JQ."
   },
   {
-    "question": "If ten oranges cost Rs. 70, what is the cost of one dozen:",
+    "question": "84. If ten oranges cost Rs. 70, what is the cost of one dozen:",
     "options": ["72", "80", "84", "96"],
     "correctAnswer": 2,
-    "explanation": "Unit rate value: $70 / 10 = 7$ per fruit item. A standard dozen grouping tracks 12 items: $12 \\times 7 = 84$."
+    "explanation": "Cost of 1 orange = 70/10 = 7. Cost of one dozen (12) = 12 * 7 = 84."
   },
   {
-    "question": "The 30 members of a club decided to play a badminton singles tournament. Every time a member loses a game he is out of the tournament. There are no ties. What is the minimum number of matches that must be played to determine the winner:",
-    "options": ["15", "29", "30", "59"],
+    "question": "85. The 30 members of a club decided to play a badminton singles tournament. Every time a member loses a game he is out of the tournament. There are no ties. What is the minimum number of matches that must be played to determine the winner:",
+    "options": ["15", "29", "30", "31"],
     "correctAnswer": 1,
-    "explanation": "In direct knockout configurations, crowning a single champion out of $N$ players requires eliminating exactly $N-1$ individuals ($30 - 1 = 29$)."
+    "explanation": "To eliminate 29 players in a single-elimination tournament, 29 matches must be played."
   },
   {
-    "question": "Find the average of 8, 16, 32, 49, 51:",
-    "options": ["28.5", "31.2", "35.0", "42.1"],
+    "question": "86. Find the average of 8, 16, 32, 49, 51:",
+    "options": ["30", "31.2", "32.5", "35"],
     "correctAnswer": 1,
-    "explanation": "Sum value: $8 + 16 + 32 + 49 + 51 = 156$. Average equation: $156 / 5 = 31.2$."
+    "explanation": "Sum = 8+16+32+49+51 = 156. Average = 156/5 = 31.2."
   },
   {
-    "question": "Find the odd man out: 3, 5, 11, 14, 17, 21:",
-    "options": ["5", "11", "14", "17"],
+    "question": "87. Find the odd man out: 3, 5, 11, 14, 17, 21:",
+    "options": ["3", "11", "14", "17"],
     "correctAnswer": 2,
-    "explanation": "The tracking series structure comprises odd numerical values, making the single even value '14' the odd item out."
+    "explanation": "14 is the only even number among the choices, or based on prime numbers."
   },
   {
-    "question": "Find the average of 110, 216, 419, 810:",
-    "options": ["350.25", "388.75", "400.00", "412.50"],
+    "question": "88. Find the average of 110, 216, 419, 810:",
+    "options": ["350", "388.75", "400", "412.5"],
     "correctAnswer": 1,
-    "explanation": "Sum value: $110 + 216 + 419 + 810 = 1555$. Mean calculation: $1555 / 4 = 388.75$."
+    "explanation": "Sum = 110+216+419+810 = 1555. Average = 1555/4 = 388.75."
   },
   {
-    "question": "Sequence of numbers: 105, 85, 60, 30, 0, -45, -90:",
-    "options": ["60", "30", "0", "-45"],
-    "correctAnswer": 2,
-    "explanation": "The intervals between numbers decrement progressively by cumulative values (-20, -25, -30 $\\Rightarrow$ tracking trends require 30 - 35 = -5 instead of 0)."
+    "question": "90. Sequence of numbers: 105, 85, 60, 30, 0, -45, -90: (Find missing/odd)",
+    "options": ["30", "0", "-45", "-90"],
+    "correctAnswer": 1,
+    "explanation": "The text lists '0' as the marked answer or odd man out in this sequence group."
   },
   {
-    "question": "When a warm air is lifted off the surface in temperature depression it is called:",
-    "options": ["An Occlusion", "A Front", "An Inversion", "A Cyclone"],
+    "question": "16. When a warm air is lifted off the surface in temperature depression it is called:",
+    "options": ["An Occlusion", "An Inversion", "A Front", "A Cyclone"],
     "correctAnswer": 0,
-    "explanation": "An occlusion takes place during cyclogenesis when a fast-moving cold front overtakes a warm front, lifting the warm air aloft."
+    "explanation": "It is called An Occlusion."
   },
   {
-    "question": "The Stevenson screen contains all of these EXCEPT:",
-    "options": ["Thermometer", "Hygrometer", "Anemometer", "Barometer"],
+    "question": "25. The Stevenson screen contains all of these EXCEPT:",
+    "options": ["Thermometer", "Barometer", "Anemometer", "Hygrometer"],
     "correctAnswer": 2,
-    "explanation": "An anemometer requires direct open fluid exposure to measure wind speed, preventing it from being enclosed inside a Stevenson screen."
+    "explanation": "An Anemometer is not contained inside a Stevenson screen."
   },
   {
-    "question": "The key F12 opens a dialog box which contains option:",
+    "question": "56. The key F12 opens a dialog box which contains option:",
     "options": ["Open", "Save", "Save As", "Close"],
     "correctAnswer": 2,
-    "explanation": "Pressing the F12 function button inside office documents opens the 'Save As' management panel directly."
+    "explanation": "F12 opens the Save As dialog box."
   },
   {
-    "question": "What is the keyboard shortcut for creating a chart from the selected cell-range:",
+    "question": "57. What is the keyboard shortcut for creating a chart from the selected cell-range:",
     "options": ["F2", "F5", "F11", "F12"],
     "correctAnswer": 2,
-    "explanation": "Executing the F11 key shortcut command builds a distinct automated chart visual tab matching highlighted block variables instantly."
+    "explanation": "F11 creates a chart from the selected range in Excel."
   },
   {
-    "question": "Default number of sheet in MS Excel is:",
-    "options": ["1", "2", "3", "5"],
+    "question": "58. Default number of sheet in MS Excel is:",
+    "options": ["1", "2", "3", "4"],
     "correctAnswer": 2,
-    "explanation": "Legacy program default structures generated exactly 3 worksheet sheets within newly created data book projects."
+    "explanation": "The default number of sheets in classic MS Excel versions is 3."
   },
   {
-    "question": "In MS Word we use short cut key to split a table:",
-    "options": ["Ctrl-Enter", "Ctrl-shift-Enter", "Alt-Enter", "Shift-Enter"],
+    "question": "61. In MS Word we use short cut key to split a table:",
+    "options": ["Ctrl-Enter", "Ctrl-shift-Enter", "Alt-Shift-Enter", "Shift-Enter"],
     "correctAnswer": 1,
-    "explanation": "Placing selection vectors within a table row and executing Ctrl + Shift + Enter splits the matrix block apart cleanly."
+    "explanation": "Ctrl+Shift+Enter splits a table in MS Word."
   },
   {
-    "question": "Protocol which assigns IP address to client connected to internet is:",
-    "options": ["DHCP", "HTTP", "FTP", "SMTP"],
+    "question": "65. Protocol which assigns IP address to client connected to internet is:",
+    "options": ["HTTP", "DHCP", "FTP", "SMTP"],
+    "correctAnswer": 1,
+    "explanation": "DHCP automatically assigns IP addresses to clients."
+  },
+  {
+    "question": "19. SURMA is the name of:",
+    "options": ["Mountain", "River", "Desert", "City"],
+    "correctAnswer": 1,
+    "explanation": "SURMA is the name of a River."
+  },
+  {
+    "question": "21. Which part of Punjab is famous for shisham timber Forests:",
+    "options": ["Changa manga", "Murree", "Thal", "Sargodha"],
     "correctAnswer": 0,
-    "explanation": "The Dynamic Host Configuration Protocol (DHCP) assigns network configuration parameters such as IP addresses automatically."
+    "explanation": "Changa manga is famous for shisham timber forests."
   },
   {
-    "question": "SURMA is the name of:",
-    "options": ["Mountain", "River", "Desert", "Island"],
-    "correctAnswer": 1,
-    "explanation": "The Surma River is a major water system dividing into separate channels across parts of Bangladesh and India."
-  },
-  {
-    "question": "Which part of Punjab is famous for shisham timber Forests:",
-    "options": ["Murree", "Changa Manga", "Thal", "Salt Range"],
-    "correctAnswer": 1,
-    "explanation": "Changa Manga is a historic, intentionally planted forest reserve prized for its production of high-quality shisham timber."
-  },
-  {
-    "question": "Cyprus is an island in the:",
-    "options": ["Red Sea", "Caribbean Sea", "Mediterranean Sea", "Caspian Sea"],
+    "question": "23. Cyprus is an island in the:",
+    "options": ["Red Sea", "Arabian Sea", "Mediterranean Sea", "Caspian Sea"],
     "correctAnswer": 2,
-    "explanation": "Cyprus is a major island nation situated in the eastern basin of the Mediterranean Sea."
+    "explanation": "Cyprus is an island in the Mediterranean Sea."
   },
   {
-    "question": "Balloki Headworks is situated in the river:",
-    "options": ["Indus", "Ravi", "Sutlej", "Jhelum"],
-    "correctAnswer": 1,
-    "explanation": "The Balloki irrigation flow control headworks cross directly over the Ravi river path in Punjab."
-  },
-  {
-    "question": "The Bari Doab canal originates from the river:",
-    "options": ["Ravi", "Chenab", "Jhelum", "Indus"],
-    "correctAnswer": 0,
-    "explanation": "The main distribution feeds serving the Bari Doab agricultural canal lines branch off directly from the Ravi river."
-  },
-  {
-    "question": "Which of the following regions of the world is most thickly populated:",
-    "options": ["North America", "Europe", "South Asia", "East Africa"],
+    "question": "37. Balloki Headworks is situated in the river:",
+    "options": ["Indus", "Jhelum", "Ravi", "Chenab"],
     "correctAnswer": 2,
-    "explanation": "South Asia contains exceptionally high demographic density counts, driven by large municipal populations."
+    "explanation": "Balloki Headworks is situated on the Ravi river."
   },
   {
-    "question": "What is the percentage of Muslim population in Egypt?",
-    "options": ["50%", "75%", "90%", "99%"],
+    "question": "48. The Bari Doab canal originates from the river:",
+    "options": ["Indus", "Chenab", "Jhelum", "Ravi"],
+    "correctAnswer": 3,
+    "explanation": "The Bari Doab canal originates from the Ravi river."
+  },
+  {
+    "question": "96. Which of the following regions of the world is most thickly populated:",
+    "options": ["North America", "South Asia", "Central Asia", "Western Europe"],
+    "correctAnswer": 1,
+    "explanation": "South Asia is one of the most thickly populated regions."
+  },
+  {
+    "question": "99. What is the percentage of Muslim population in Egypt?",
+    "options": ["70%", "80%", "90%", "95%"],
     "correctAnswer": 2,
-    "explanation": "Egypt's demographic composition is predominantly Islamic, with Muslims making up approximately 90% of the total citizenry."
+    "explanation": "The percentage of Muslim population in Egypt is 90% according to the text."
   },
   {
-    "question": "Which Surrah of Quran has Bismillah twice?",
-    "options": ["Al-Baqarah", "Namal", "Yaseen", "Taubah"],
+    "question": "9. Which Surrah of Quran has Bismillah twice?",
+    "options": ["Surah Baqarah", "Surah Namal", "Surah Yaseen", "Surah Tauba"],
     "correctAnswer": 1,
-    "explanation": "Surah Al-Naml contains the baseline introductory phrase at the start, alongside a secondary instance written within verse 30."
+    "explanation": "Surah Namal has Bismillah twice."
   },
   {
-    "question": "Which are the two famous books of Hadith of 2nd century?",
-    "options": ["Bukhari and Muslim", "Mottalmam Malak, Kitab Al-assarv", "Tirmidhi and Abu Dawud", "Ibne Maja and Nisai"],
+    "question": "10. Which are the two famous books of Hadith of 2nd century?",
+    "options": ["Bukhari and Muslim", "Mottalmam Malak, Kitab Al-assarv", "Tirmidhi and Abu Dawood", "None of these"],
     "correctAnswer": 1,
-    "explanation": "The early centuries featured early classical compilations such as Imam Malik's Muwatta and Imam Muhammad's Kitab al-Athar."
+    "explanation": "The books are Mottalmam Malak (Muwatta Imam Malik) and Kitab Al-assarv."
   },
   {
-    "question": "Where was Imam Muslim bin Al Hiajaj born?",
-    "options": ["Bukhara", "Nisha Pure", "Baghdad", "Medina"],
+    "question": "11. Where was Imam Muslim bin Al Hiajaj born?",
+    "options": ["Bukhara", "Nisha Pure", "Baghdad", "Makkah"],
     "correctAnswer": 1,
-    "explanation": "The celebrated scholar Imam Muslim was born in Nishapur, a historic cultural center located within northeastern Iran."
+    "explanation": "Imam Muslim was born in Nishapur (spelled Nisha Pure)."
   },
   {
-    "question": "S'ddique was the title of:",
+    "question": "27. S'ddique was the title of:",
     "options": ["Hazrat Abu Bakr (R.A)", "Hazrat Umar (R.A)", "Hazrat Usman (R.A)", "Hazrat Ali (R.A)"],
     "correctAnswer": 0,
-    "explanation": "Hazrat Abu Bakr was given the honorific title 'As-Siddiq' (The Truthful) by the Prophet for his immediate belief in the Isra and Mi'raj."
+    "explanation": "Siddique was the title of Hazrat Abu Bakr (R.A)."
   },
   {
-    "question": "Central Asia became the part of Muslim Empire during the reign of:",
-    "options": ["Hazrat Umar", "Waleed", "Haroon al-Rasheed", "Sulaiman"],
+    "question": "28. Central Asia became the part of Muslim Empire during the reign of:",
+    "options": ["Hazrat Umar", "Waleed", "Haroon ur Rashid", "Mamoon"],
     "correctAnswer": 1,
-    "explanation": "Extensive eastern military campaigns led by Qutayba bin Muslim expanded Umayyad state control under Caliph Al-Walid I."
+    "explanation": "Central Asia became part of the empire during the reign of Waleed (Walid I)."
   },
   {
-    "question": "Who FIRSTLY arranged and wrote the Quran on paper in book form:",
+    "question": "29. Who FIRSTLY arranged and wrote the Quran on paper in book form:",
     "options": ["Hazrat Abu Bakr (R.A)", "Hazrat Zaid Bin Sabit (R.A)", "Hazrat Umar (R.A)", "Hazrat Usman (R.A)"],
     "correctAnswer": 1,
-    "explanation": "Hazrat Zaid bin Thabit was chosen by leadership groups to direct the initial collection and transcription of texts into a unified document set."
+    "explanation": "Hazrat Zaid Bin Sabit (R.A) compiled and wrote it on paper under instructions."
   },
   {
-    "question": "Ijma is the consensus of the Islamic community on some point of:",
-    "options": ["History", "Language", "Law", "Philosophy"],
-    "correctAnswer": 2,
-    "explanation": "Ijma represents one of the secondary sources of Islamic jurisprudence, defined as the consensus of scholars on legal issues."
-  },
-  {
-    "question": "Name the 1st Muslim ruler who established Navy:",
-    "options": ["Hazrat Ameer Muawiya (R.A)", "Hazrat Umar (R.A)", "Hazrat Ali (R.A)", "Abu Bakr (R.A)"],
+    "question": "30. Ijma is the consensus of the Islamic community on some point of:",
+    "options": ["Law", "History", "Grammar", "Poetry"],
     "correctAnswer": 0,
-    "explanation": "Hazrat Muawiya built the initial Mediterranean naval fleets during his tenure as governor of Syria to secure coastal sectors."
+    "explanation": "Ijma is the consensus of scholars/community on a point of Law."
   },
   {
-    "question": "What is Called a code of law for the Islamic way of life which Allah has revealed for the mankind and commanded us to follow:",
+    "question": "31. Name the 1st Muslim ruler who established Navy:",
+    "options": ["Hazrat Umar (R.A)", "Hazrat Ammer Muawiya (R.A)", "Hazrat Ali (R.A)", "Hazrat Usman (R.A)"],
+    "correctAnswer": 1,
+    "explanation": "Hazrat Ameer Muawiya (R.A) established the first Muslim Navy."
+  },
+  {
+    "question": "32. What is Called a code of law for the Islamic way of life which Allah has revealed for the mankind and commanded us to follow:",
     "options": ["Hadith", "Shariah", "Fiqh", "Sunnah"],
     "correctAnswer": 1,
-    "explanation": "Shariah defines the complete divine legal and moral system framework derived directly from primary Islamic sources."
+    "explanation": "It is called Shariah."
   },
   {
-    "question": "What is called the 1st Ashra (10 days) of Ramazan:",
-    "options": ["Ashra-e-Maghfirat", "Ashra-e-Najat", "Ashra-e-rehmat", "Ashra-e-Ibadat"],
+    "question": "35. What is called the 1st Ashra (10 days) of Ramazan:",
+    "options": ["Ashra-e-maghfirat", "Ashra-e-rehmat", "Ashra-e-nijat", "None"],
+    "correctAnswer": 1,
+    "explanation": "The 1st Ashra is Ashra-e-rehmat."
+  },
+  {
+    "question": "38. How many seats are reserved for minorities in Baluchistan provincial assembly:",
+    "options": ["1", "2", "3", "4"],
     "correctAnswer": 2,
-    "explanation": "The initial ten days of the holy month of fasting are traditionally designated as the Days of Mercy (Rehmat)."
+    "explanation": "3 seats are reserved for minorities in the Balochistan Assembly."
   },
   {
-    "question": "How many seats are reserved for minorities in Baluchistan provincial assembly:",
-    "options": ["3", "5", "8", "10"],
+    "question": "39. Who was elected as the chairman of Senate on 12th March 2015:",
+    "options": ["Raza Rabbani", "Sadiq Sanjrani", "Yousaf Raza Gillani", "Chaudhry Shujaat"],
     "correctAnswer": 0,
-    "explanation": "The statutory framework allocates exactly 3 reserved minority community legislative seats within the Balochistan Assembly."
+    "explanation": "Raza Rabbani was elected as the Chairman of Senate."
   },
   {
-    "question": "Who was elected as the chairman of Senate on 12th March 2015:",
-    "options": ["Raza Rabbani", "Sadiq Sanjrani", "Yousaf Raza Gillani", "Farooq Naek"],
-    "correctAnswer": 0,
-    "explanation": "Senator Mian Raza Rabbani was elected unopposed as Chairman of the Senate of Pakistan in March 2015."
-  },
-  {
-    "question": "Indian Khailafat deputation visited England to put their views before Lloyd George in:",
+    "question": "40. Indian Khailafat deputation visited England to put their views before Lloyd George in:",
     "options": ["1918", "1919", "1920", "1921"],
     "correctAnswer": 2,
-    "explanation": "The formal Khilafat movement delegation traveled to Europe during early 1920 to present core religious boundary appeals directly to the British Prime Minister."
+    "explanation": "The Khilafat deputation visited England in 1920."
   },
   {
-    "question": "In Bhutto era when government in order to dissipate the fears of the private sector announced the credit policy:",
-    "options": ["Jan 1972", "August 1973", "December 1974", "March 1975"],
+    "question": "41. In Bhutto era when government in order to dissipate the fears of the private sector announced the credit policy:",
+    "options": ["Jan 1972", "Dec 1973", "March 1974", "August 1975"],
     "correctAnswer": 0,
-    "explanation": "To settle commercial anxieties following initial nationalization steps, financial administrators introduced adjusted credit rules during January 1972."
+    "explanation": "The credit policy was announced in Jan 1972."
   },
   {
-    "question": "When Zia issued the referendum order:",
-    "options": ["1982", "1984", "1985", "1988"],
+    "question": "42. When Zia issued the referendum order:",
+    "options": ["1977", "1979", "1984", "1985"],
+    "correctAnswer": 2,
+    "explanation": "General Zia issued the referendum order in 1984."
+  },
+  {
+    "question": "44. Which name is associated with Khailafat Movement:",
+    "options": ["Sir Syed Ahmed Khan", "Maulana Muhammad Ali Jauhar", "Allama Iqbal", "Quaid-e-Azam"],
     "correctAnswer": 1,
-    "explanation": "General Zia-ul-Haq formalized presidential validation extensions via a national referendum process organized during December 1984."
+    "explanation": "Maulana Muhammad Ali Jauhar is associated with the Khilafat Movement."
   },
   {
-    "question": "Which name is associated with Khailafat Movement:",
-    "options": ["Sir Syed Ahmed Khan", "Maulana Muhammad Ali Jauhar", "Quaid-e-Azam", "Allama Iqbal"],
-    "correctAnswer": 1,
-    "explanation": "The Ali brothers, particularly Maulana Muhammad Ali Jauhar, were central figures who spearheaded the Khilafat Movement in India."
-  },
-  {
-    "question": "The first constructed Barrage of Pakistan was:",
+    "question": "45. The first constructed Barrage of Pakistan was:",
     "options": ["Sukkar Barrage", "Guddu Barrage", "Kotri Barrage", "Taunsa Barrage"],
     "correctAnswer": 0,
-    "explanation": "The Sukkur Barrage (originally named Lloyd Barrage), completed in 1932 on the Indus River, is the oldest operational barrage infrastructure in Pakistan."
+    "explanation": "The first constructed Barrage of Pakistan was Sukkur Barrage."
   },
   {
-    "question": "The basic democracy system was Introduced by:",
-    "options": ["Zia-ul-Haq", "Ayub Khan", "Zulfikar Ali Bhutto", "Pervez Musharraf"],
-    "correctAnswer": 1,
-    "explanation": "President Ayub Khan introduced the Basic Democracies system in 1959, creating an electoral college of local representatives."
+    "question": "46. The basic democracy system was Introduced by:",
+    "options": ["Ayub Khan", "Zulfikar Ali Bhutto", "Zia ul Haq", "Pervez Musharraf"],
+    "correctAnswer": 0,
+    "explanation": "The basic democracy system was introduced by Ayub Khan."
   },
   {
-    "question": "The Governor is appointed by:",
+    "question": "50. The Governor is appointed by:",
     "options": ["The Prime Minister", "The President", "The Chief Justice", "The Chief Minister"],
     "correctAnswer": 1,
-    "explanation": "In Pakistan, the provincial Governors are formally appointed by the President on the advice of the Prime Minister."
+    "explanation": "The Governor is appointed by the President."
   },
   {
-    "question": "Military in Inc. inside Pakistan's Military Economy was written by:",
-    "options": ["Ayesha Siddiqa", "Ahmed Rashid", "Tariq Ali", "Maleeha Lodhi"],
+    "question": "51. Military in Inc. inside Pakistan's Military Economy was written by:",
+    "options": ["Ayesha Siddiqa", "Asma Jahangir", "Maleeha Lodhi", "Nasim Zehra"],
     "correctAnswer": 0,
-    "explanation": "Dr. Ayesha Siddiqa authored the extensive critical research publication 'Military Inc.: Inside Pakistan's Military Economy'."
+    "explanation": "The book 'Military Inc.' was written by Ayesha Siddiqa."
   },
   {
-    "question": "The landholdings were limited to how much areas of an irrigated land in the second phase of privatization 1977:",
-    "options": ["50", "100", "150", "300"],
+    "question": "52. The landholdings were limited to how much areas of an irrigated land in the second phase of privatization 1977:",
+    "options": ["50", "100", "150", "500"],
     "correctAnswer": 1,
-    "explanation": "The statutory agricultural reform updates passed during early 1977 adjusted individual irrigated landholding ceilings to a maximum of 100 acres."
+    "explanation": "Landholdings were limited to 100 acres of irrigated land."
   },
   {
-    "question": "When Quaid-e-Azam presented his historical fourteen points:",
-    "options": ["March 1920", "March 1929", "August 1940", "December 1930"],
+    "question": "53. When Quaid-e-Azam presented his historical fourteen points:",
+    "options": ["March 1928", "March 1929", "March 1930", "August 1928"],
     "correctAnswer": 1,
-    "explanation": "Muhammad Ali Jinnah formulated his famous Fourteen Points in March 1929 as a constitutional counter-proposal to the Nehru Report."
+    "explanation": "Quaid-e-Azam presented his fourteen points in March 1929."
   },
   {
-    "question": "The headquarter of Pakistan Air Force is located at:",
-    "options": ["Peshawar", "Rawalpindi", "Karachi", "Islamabad"],
+    "question": "54. The headquarter of Pakistan Air Force is located at:",
+    "options": ["Rawalpindi", "Karachi", "Islamabad", "Peshawar"],
+    "correctAnswer": 2,
+    "explanation": "The headquarter of Pakistan Air Force is located at Islamabad."
+  },
+  {
+    "question": "94. NRB is the abbreviation of:",
+    "options": ["National Reconstruction Bureau", "National Revenue Bureau", "National Reconstruction Board", "None of these"],
+    "correctAnswer": 0,
+    "explanation": "NRB stands for National Reconstruction Bureau."
+  },
+  {
+    "question": "2. Psychologically, Alexander the Great was:",
+    "options": ["A Genius", "A Mad Man", "A Saint", "A Diplomat"],
+    "correctAnswer": 1,
+    "explanation": "According to the past paper choice listed, he was termed 'A Mad Man'."
+  },
+  {
+    "question": "3. When power may bring happiness?",
+    "options": ["Always", "Never", "It is Within Reasonable Limits", "When unlimited"],
+    "correctAnswer": 2,
+    "explanation": "Power may bring happiness when 'It is Within Reasonable Limits'."
+  },
+  {
+    "question": "17. Which is the largest tea producing country in the world?",
+    "options": ["India", "Sri Lanka", "China", "Kenya"],
+    "correctAnswer": 2,
+    "explanation": "China is the largest tea producing country in the world."
+  },
+  {
+    "question": "22. Which of the following country is largest by population:",
+    "options": ["China", "India", "USA", "Indonesia"],
+    "correctAnswer": 1,
+    "explanation": "The text lists India as the answer."
+  },
+  {
+    "question": "49. The 2014 FIFA World Cup was hosted by:",
+    "options": ["South Africa", "Brazil", "Russia", "Germany"],
+    "correctAnswer": 1,
+    "explanation": "The 2014 FIFA World Cup was hosted by Brazil."
+  },
+  {
+    "question": "55. Who conquered Gandhara division between 325-327 BC:",
+    "options": ["Chandragupta", "Alexander the Great", "Ashoka", "Cyrus"],
+    "correctAnswer": 1,
+    "explanation": "Alexander the Great conquered Gandhara during this period."
+  },
+  {
+    "question": "91. Name the world famous and finest harbor:",
+    "options": ["New York Harbour", "Sydney", "Singapore Harbour", "Shanghai Harbour"],
+    "correctAnswer": 1,
+    "explanation": "Sydney is named as a world-famous and finest harbor."
+  },
+  {
+    "question": "92. Cuban Peso is the currency. Which is the capital of Cuba?",
+    "options": ["Havana", "Santiago", "Kingston", "Nassau"],
+    "correctAnswer": 0,
+    "explanation": "The capital of Cuba is Havana."
+  },
+  {
+    "question": "93. Which of the following state is located on Balkan Peninsula in South East Europe:",
+    "options": ["Spain", "Bosnia and Herzegovina", "Italy", "Greece"],
+    "correctAnswer": 1,
+    "explanation": "Bosnia and Herzegovina is located on the Balkan Peninsula."
+  },
+  {
+    "question": "95. PLO is the abbreviation of:",
+    "options": ["Palestine Liberation Organization", "Pakistan Liberation Organization", "Palestine Legal Office", "None of these"],
+    "correctAnswer": 0,
+    "explanation": "PLO stands for Palestine Liberation Organization."
+  },
+  {
+    "question": "97. AWACS is the abbreviation of:",
+    "options": ["Airborne Warning and Control System", "Automated Warning and Control System", "Airborne Weapon and Combat System", "None of these"],
+    "correctAnswer": 0,
+    "explanation": "AWACS stands for Airborne Warning and Control System."
+  },
+  {
+    "question": "98. The abbreviation NAEP stands for:",
+    "options": ["National Assessment of Educational Progress", "National Association of Educational Programs", "National Agency for Educational Planning", "None of these"],
+    "correctAnswer": 0,
+    "explanation": "NAEP stands for National Assessment of Educational Progress."
+  },
+  {
+    "question": "100. Official language of Netherland is:",
+    "options": ["German", "Dutch", "English", "French"],
+    "correctAnswer": 1,
+    "explanation": "The official language of Netherlands is Dutch."
+  },
+  {
+    "question": "1. He decided to dress in gray suit in order to be :",
+    "options": ["Conspicuous", "Inconspicuous", "Elegant", "Formal"],
+    "correctAnswer": 1,
+    "explanation": "He wore a gray suit to be Inconspicuous."
+  },
+  {
+    "question": "3. Nonchalant is most dissimilar to:",
+    "options": ["Indifferent", "Calm", "Concerned", "Casual"],
+    "correctAnswer": 2,
+    "explanation": "Nonchalant means indifferent, so its opposite is Concerned."
+  },
+  {
+    "question": "5. Choose the correct spelling for the missing word: the baby soft skin was ....... to the harsh winter wind:",
+    "options": ["Sensitive", "Sencitive", "Sensative", "Senzitive"],
+    "correctAnswer": 0,
+    "explanation": "The correct spelling is Sensitive."
+  },
+  {
+    "question": "6. Choose the correct spelling for the missing word: the customer service representative gave his ....... that the refund would be made within two weeks :",
+    "options": ["Asurance", "Assurance", "Assurans", "Asurranse"],
+    "correctAnswer": 1,
+    "explanation": "The correct spelling is Assurance."
+  },
+  {
+    "question": "7. Choose correct word for the sentence: He quarreled with his boss, ....... of the consequences:",
+    "options": ["Heedful", "Heedless", "Careful", "Mindful"],
+    "correctAnswer": 1,
+    "explanation": "He quarreled with his boss, Heedless of the consequences."
+  },
+  {
+    "question": "8. Analogies: Refined: Plebeian :: Selective:",
+    "options": ["Choosy", "Indiscriminate", "Careful", "Particular"],
+    "correctAnswer": 1,
+    "explanation": "Refined is opposite to Plebeian, as Selective is opposite to Indiscriminate."
+  },
+  {
+    "question": "9. Find the word that is misspelled: (In this sentence group)",
+    "options": ["No Mistakes", "Misspelled", "Wrong", "None"],
+    "correctAnswer": 0,
+    "explanation": "The paper explicitly writes 'No Mistakes' for question 9."
+  },
+  {
+    "question": "10. Choose the word that has the same or nearly same meaning of the given word Compensate : (Repeat)",
+    "options": ["Lose", "Pay", "Reward", "Take"],
+    "correctAnswer": 1,
+    "explanation": "Compensate means to Pay."
+  },
+  {
+    "question": "60. Doctor: Nurse::?:",
+    "options": ["Follower: Leader", "Leader: Follower", "Teacher: Student", "Employer: Employee"],
+    "correctAnswer": 0,
+    "explanation": "The text lists 'Follower: Leader' as the analogous text choice answer match."
+  },
+  {
+    "question": "61. Arrange the words given below on meaningful sequence: 1. Key 2. Door 3. Lock 4. Room 5. Switch on :",
+    "options": ["1, 2, 3, 4, 5", "1, 3, 2, 4, 5", "4, 2, 1, 3, 5", "1, 2, 4, 3, 5"],
+    "correctAnswer": 1,
+    "explanation": "The correct sequential path is 1 (Key), 3 (Lock), 2 (Door), 4 (Room), 5 (Switch on)."
+  },
+  {
+    "question": "62. Choose the correct verb: She ....... for effective follow up of agenda:",
+    "options": ["Called", "Calling", "Call", "Was call"],
+    "correctAnswer": 0,
+    "explanation": "The past paper uses 'Called'."
+  },
+  {
+    "question": "65. I like travelling to visit different places of world. (Which word is verbal noun):",
+    "options": ["like", "travelling", "visit", "places"],
+    "correctAnswer": 1,
+    "explanation": "'Travelling' serves as a gerund (verbal noun) here."
+  },
+  {
+    "question": "66. Choose the correct verb: He ....... around filthy room:",
+    "options": ["Looked", "Looking", "Look", "Looks"],
+    "correctAnswer": 0,
+    "explanation": "The matching past paper option answer is Looked."
+  },
+  {
+    "question": "67. Choose the correct verb: Each country is responsible to keep ....... for peace in region.:",
+    "options": ["Work", "Working", "Worked", "To work"],
+    "correctAnswer": 1,
+    "explanation": "The required form after 'keep' is the participle 'Working'."
+  },
+  {
+    "question": "68. Choose the correct verb: For his novelty, gift ordered to me ....... very lovely:",
+    "options": ["Were", "Was", "Are", "Is"],
+    "correctAnswer": 1,
+    "explanation": "The text lists 'Was' as the singular past verb."
+  },
+  {
+    "question": "69. Choose the correct verb: It is necessary for government to ....... their people's life better:",
+    "options": ["Made", "Makes", "Make", "Making"],
+    "correctAnswer": 2,
+    "explanation": "An infinitive 'to' takes the base form 'Make'."
+  },
+  {
+    "question": "70. Identify parts of speech in brackets: the hunter aimed (at) the dove:",
+    "options": ["Preposition", "Conjunction", "Verb", "Noun"],
+    "correctAnswer": 0,
+    "explanation": "'at' acts as a Preposition."
+  },
+  {
+    "question": "54. In which type of rocks are coal and petroleum found?",
+    "options": ["Igneous", "Sedimentary", "Metamorphic", "None"],
+    "correctAnswer": 1,
+    "explanation": "Coal and petroleum are found in Sedimentary rocks."
+  },
+  {
+    "question": "55. Which of the following is an Igneous rock?",
+    "options": ["Shale", "Limestone", "Granite", "Coal"],
+    "correctAnswer": 2,
+    "explanation": "Granite is a well-known example of an Igneous rock."
+  },
+  {
+    "question": "57. Find out the missing number: (16, 33, 65, 131, 261, .......)",
+    "options": ["521", "522", "523", "525"],
+    "correctAnswer": 2,
+    "explanation": "Pattern: x*2 + 1, x*2 - 1, x*2 + 1... 261 * 2 + 1 = 523."
+  },
+  {
+    "question": "58. Find out the odd man out: 2, 5, 10, 17, 26, 37, 50, 64:",
+    "options": ["17", "37", "50", "64"],
     "correctAnswer": 3,
-    "explanation": "The operational command center (Air Headquarters) of the Pakistan Air Force is stationed within the capital city of Islamabad."
+    "explanation": "The pattern is n^2 + 1. 1^2+1=2, 2^2+1=5... 8^2+1 should be 65, so 64 is odd."
   },
   {
-    "question": "NRB is the abbreviation of:",
-    "options": ["National Reconstruction Bureau", "National Revenue Board", "National Roads Bureau", "National Recovery Bureau"],
+    "question": "59. A tailor had a number of shirt pieces to cut from a roll of Fabric. He cut each roll of equal length into 10 pieces. He cut at the rate of 45 cuts a minute. How many rolls would be cut in 24 minutes?",
+    "options": ["100 rolls", "120 rolls", "150 rolls", "200 rolls"],
+    "correctAnswer": 1,
+    "explanation": "Total cuts = 45 * 24 = 1080. It takes 9 cuts to make 10 pieces from 1 roll. Rolls = 1080 / 9 = 120 rolls."
+  },
+  {
+    "question": "76. Tafseer Al-Durr-ul-Mansoor is written by?",
+    "options": ["Imam Jalal ud din Suyuti", "Imam Ibn Kathir", "Imam Ghazali", "Imam Kurtubi"],
     "correctAnswer": 0,
-    "explanation": "The National Reconstruction Bureau (NRB) was a government think-tank set up during the Musharraf administration to design local government reforms."
+    "explanation": "Tafseer Al-Durr-ul-Mansoor is written by Imam Jalal ud din Suyuti."
   },
   {
-    "question": "Psychologically, Alexander the Great was:",
-    "options": ["A Genius", "A Mad Man", "A Coward", "A Saint"],
-    "correctAnswer": 1,
-    "explanation": "Certain historical critical breakdowns analyze the leader's extreme behaviors and absolute drive as signs of a 'mad man'."
+    "question": "77. Wine was declared Haram in?",
+    "options": ["2nd Hijri", "3rd Hijri", "4th Hijri", "5th Hijri"],
+    "correctAnswer": 2,
+    "explanation": "Wine was declared Haram in 4th Hijri."
   },
   {
-    "question": "When power may bring happiness?",
-    "options": ["When it is unlimited", "It is Within Reasonable Limits", "When used to destroy", "Never"],
+    "question": "78. Which Surah of Quran has Bismillah twice: (Repeat)",
+    "options": ["Al Naml", "Al Baqarah", "Al Imran", "Al Tauba"],
+    "correctAnswer": 0,
+    "explanation": "Surah Al Naml has Bismillah twice."
+  },
+  {
+    "question": "79. Fatwa Qazi Khan is an authentic Fatwa of:",
+    "options": ["Fiqh Maliki", "Fiqh Hanafi", "Fiqh Shafi", "Fiqh Hanbali"],
     "correctAnswer": 1,
-    "explanation": "Philosophical behavioral texts indicate power metrics function healthily when held within constructive, balanced, and reasonable boundaries."
+    "explanation": "Fatwa Qazi Khan belongs to Fiqh Hanafi."
+  },
+  {
+    "question": "80. What is meant by Ijma?",
+    "options": ["Individual opinion", "Agreement of Ulama", "Analogy", "Modern study"],
+    "correctAnswer": 1,
+    "explanation": "Ijma means Agreement of Ulama."
+  },
+  {
+    "question": "81. How many camels render is to pay Zakat?",
+    "options": ["1", "3", "5", "10"],
+    "correctAnswer": 2,
+    "explanation": "Zakat becomes due when a person owns 5 or more camels."
+  },
+  {
+    "question": "82. The author of Al-Hidaya is:",
+    "options": ["Burhan ud Din", "Imam Abu Hanifa", "Imam Malik", "Imam Shafi"],
+    "correctAnswer": 0,
+    "explanation": "The author of Al-Hidaya is Burhan ud Din."
+  },
+  {
+    "question": "83. When Hazrat Umer (RA) embraced Islam?",
+    "options": ["610 AD", "612 AD", "616 AD", "622 AD"],
+    "correctAnswer": 2,
+    "explanation": "Hazrat Umer (RA) embraced Islam around 616 AD."
+  },
+  {
+    "question": "84. What is the full title of Tafseer-e-Ibn-e-Kaseer?",
+    "options": ["Tafseer Quran-e-Azeem", "Tafseer al-Jalalayn", "Tafseer al-Kabeer", "None"],
+    "correctAnswer": 0,
+    "explanation": "The full title of Tafseer-e-Ibn-e-Kaseer is Tafseer Quran-e-Azeem."
+  },
+  {
+    "question": "85. Who established the department of Police?",
+    "options": ["Hazrat Abu Bakr", "Hazrat Umar Farooqi (RA)", "Hazrat Usman", "Hazrat Ali"],
+    "correctAnswer": 1,
+    "explanation": "Hazrat Umar Farooqi (RA) established the police department."
+  },
+  {
+    "question": "86. In which Surah of the Quran are the details of heritage?",
+    "options": ["Surah e Nisa", "Surah e Baqarah", "Surah e Al-Imran", "Surah e Maidah"],
+    "correctAnswer": 0,
+    "explanation": "The details of inheritance (heritage) are in Surah e Nisa."
+  },
+  {
+    "question": "87. Azan for prayer was adopted in?",
+    "options": ["1st Hijra", "2nd Hijra", "3rd Hijra", "4th Hijra"],
+    "correctAnswer": 0,
+    "explanation": "Azan for prayer was adopted in 1st Hijra."
+  },
+  {
+    "question": "88. How many Surah/Chapters of the Quran are named after the name of animals?",
+    "options": ["4", "5", "6", "7"],
+    "correctAnswer": 2,
+    "explanation": "There are 6 Surahs named after animals."
+  },
+  {
+    "question": "89. When first Namaz of Eid-ul-Fitr was offered?",
+    "options": ["1st Sawall 2nd Hijri", "1st Sawall 1st Hijri", "10th ZilHajj 2nd Hijri", "None"],
+    "correctAnswer": 0,
+    "explanation": "The first Eid-ul-Fitr prayer was offered on 1st Shawwal, 2nd Hijri."
+  },
+  {
+    "question": "90. How many goats render to be pay Zakat?",
+    "options": ["10", "20", "30", "40"],
+    "correctAnswer": 3,
+    "explanation": "Zakat applies when ownership reaches 40 goats."
+  },
+  {
+    "question": "92. Battle between Taloot and Jaloot is described in which Surah of Al Quran?",
+    "options": ["Al Baqra", "Al Imran", "Al Nisa", "Al Maidah"],
+    "correctAnswer": 0,
+    "explanation": "The battle between Taloot and Jaloot is mentioned in Surah Al Baqra."
+  },
+  {
+    "question": "93. Which country is called the \"Land of Prophets\"?",
+    "options": ["Saudi Arabia", "Egypt", "Palestine", "Syria"],
+    "correctAnswer": 2,
+    "explanation": "Palestine is called the \"Land of Prophets\"."
+  },
+  {
+    "question": "12. ....... is the largest peninsula of the world:",
+    "options": ["India", "Arabia", "Alaska", "Scandinavia"],
+    "correctAnswer": 1,
+    "explanation": "Arabia is the largest peninsula of the world."
+  },
+  {
+    "question": "13. ....... is the river passing through Washington:",
+    "options": ["Mississippi", "Potomac", "Hudson", "Amazon"],
+    "correctAnswer": 1,
+    "explanation": "The Potomac river passes through Washington."
+  },
+  {
+    "question": "47. Which one of the following is not a form of precipitation?",
+    "options": ["Rain", "Snow", "Fog", "Hail"],
+    "correctAnswer": 2,
+    "explanation": "Fog is a cloud near the ground level, not a form of precipitation falling from clouds."
+  },
+  {
+    "question": "48. In which region Bangladesh is situated:",
+    "options": ["Southeast Asia", "South Asia", "East Asia", "Central Asia"],
+    "correctAnswer": 1,
+    "explanation": "Bangladesh is situated in South Asia."
+  },
+  {
+    "question": "17. Excel INDEX function:",
+    "options": ["Returns the value at given position in a Range or Array", "Finds text inside a cell", "Counts numbers", "Calculates average"],
+    "correctAnswer": 0,
+    "explanation": "The INDEX function returns the value at a specified position in a range/array."
+  },
+  {
+    "question": "18. Which keys we press to increase font size of selected text in MS Word :",
+    "options": ["Ctrl + <", "Ctrl + ]", "Ctrl + Shift + F", "Alt + +"],
+    "correctAnswer": 1,
+    "explanation": "Ctrl + ] is used to increase font size of selected text by 1 point."
+  },
+  {
+    "question": "19. If you want to repair software bug, it is available free of cost on internet called:",
+    "options": ["Version", "Patch", "Update", "Crack"],
+    "correctAnswer": 1,
+    "explanation": "A free program to fix a specific software bug is called a Patch."
+  },
+  {
+    "question": "21. What is the font size available in MS Word font size tool in formatting toolbar?",
+    "options": ["1 to 100", "8 to 72", "10 to 50", "12 to 48"],
+    "correctAnswer": 1,
+    "explanation": "The standard dropdown list provides values from 8 to 72."
+  },
+  {
+    "question": "22. MS Word 2007 can maximum zoom in a document :",
+    "options": ["100%", "200%", "400%", "500%"],
+    "correctAnswer": 3,
+    "explanation": "The maximum zoom limit in MS Word is 500%."
+  },
+  {
+    "question": "23. Protocol which assigns IP address to client connected to internet is: (Repeat)",
+    "options": ["DHCP", "HTTP", "FTP", "DNS"],
+    "correctAnswer": 0,
+    "explanation": "DHCP is the protocol that automatically assigns IP addresses."
+  },
+  {
+    "question": "24. What is the name of the program that is specifically made for email checks:",
+    "options": ["Internet Explorer", "Outlook Express", "WordPad", "MS Paint"],
+    "correctAnswer": 1,
+    "explanation": "Outlook Express is historically known as an email client software tool."
+  },
+  {
+    "question": "25. Which file type cannot be attached with email:",
+    "options": ["pdf", "jpg", "doc", "exe"],
+    "correctAnswer": 3,
+    "explanation": ".exe files are typically blocked as email attachments for security reasons."
+  },
+  {
+    "question": "46. PLO is abbreviation of: (Repeat)",
+    "options": ["Palestine Liberation Organization", "Pakistan Lawyers Office", "None", "Both"],
+    "correctAnswer": 0,
+    "explanation": "PLO stands for Palestine Liberation Organization."
+  },
+  {
+    "question": "11. \"The Daily Dawn\" was started in 1941 from:",
+    "options": ["Karachi", "Delhi", "Lahore", "Bombay"],
+    "correctAnswer": 1,
+    "explanation": "The Daily Dawn newspaper was started in 1941 from Delhi."
+  },
+  {
+    "question": "28. Name the person who took over after the dismissal of Khawaja Nazim ud Din :",
+    "options": ["Liaquat Ali Khan", "Muhammad Ali Bogra", "Ayub Khan", "Iskander Mirza"],
+    "correctAnswer": 1,
+    "explanation": "Muhammad Ali Bogra became the next Prime Minister after Khawaja Nazimuddin."
+  },
+  {
+    "question": "30. The Indian states that were annexed by invoking the Doctrine of Lapse included:",
+    "options": ["Delhi", "Jhansi, Nagpur, Satara", "Bengal", "Punjab"],
+    "correctAnswer": 1,
+    "explanation": "The British annexed Jhansi, Nagpur, and Satara via the Doctrine of Lapse."
+  },
+  {
+    "question": "31. How many Muslim Leaders were included in Simla Deputation?",
+    "options": ["25", "30", "35", "40"],
+    "correctAnswer": 2,
+    "explanation": "There were 35 leaders in the Simla Deputation."
+  },
+  {
+    "question": "32. Who was the second Governor General of Pakistan?",
+    "options": ["Quaid-e-Azam", "Khawaja Nazim-ud-din", "Malik Ghulam Muhammad", "Iskander Mirza"],
+    "correctAnswer": 1,
+    "explanation": "Khawaja Nazim-ud-din was the second Governor General."
+  },
+  {
+    "question": "34. Arrange the Following in chronological order: (Specific numbered events match answer)",
+    "options": ["1, 2, 3, 4, 5, 6", "4, 2, 5, 3, 1, 6", "6, 5, 4, 3, 2, 1", "None"],
+    "correctAnswer": 1,
+    "explanation": "The paper provides '4, 2, 5, 3, 1, 6' as the definitive matching chronological answer key."
+  },
+  {
+    "question": "36. Who will be the head of the Tehsil Government?",
+    "options": ["District Nazim", "Tehsil Nazim", "Union Nazim", "DCO"],
+    "correctAnswer": 1,
+    "explanation": "The Tehsil Nazim is the head of the Tehsil Government."
+  },
+  {
+    "question": "37. Yousef Raza Gillani took the oath of Office of Prime Minister from President Parvez Musharraf on?",
+    "options": ["23 March, 2008", "25 March, 2008", "18 August, 2008", "12 October, 1999"],
+    "correctAnswer": 1,
+    "explanation": "Yousef Raza Gillani took oath on 25 March, 2008."
+  },
+  {
+    "question": "38. When was M.A.O College established in Aligarh?",
+    "options": ["1875", "1877", "1879", "1885"],
+    "correctAnswer": 1,
+    "explanation": "M.A.O College was upgraded and formally completed as a college tracking key records in 1877."
+  },
+  {
+    "question": "39. Two Nation Theory for the 1st time was introduced by:",
+    "options": ["Sir Syed Ahmed Khan", "Allama Iqbal", "Quaid-e-Azam", "Liaquat Ali Khan"],
+    "correctAnswer": 0,
+    "explanation": "Sir Syed Ahmed Khan for the first time clearly articulated the concept of two nations."
+  },
+  {
+    "question": "40. Consider the following statement the Regulating Act of 1773 was passed by the British Parliament in order to:",
+    "options": ["1 only", "2 only", "1 and 2", "None"],
+    "correctAnswer": 2,
+    "explanation": "The provided paper key text identifies '1 and 2' as the selected answer statement choices."
+  },
+  {
+    "question": "41. When and Where did Prime Minister Nawaz Sharif meet the Indian Prime Minister, Narender Modi?",
+    "options": ["27th May 2014, Delhi", "15th June 2014, Islamabad", "23rd March 2015, Lahore", "None"],
+    "correctAnswer": 0,
+    "explanation": "They met on 27th May 2014 in Delhi during Modi's inauguration."
+  },
+  {
+    "question": "42. The Great Bath of the Indus Valley Civilization was discovered in:",
+    "options": ["Harappa", "Mohenjo-Daro", "Taxila", "Kot Diji"],
+    "correctAnswer": 1,
+    "explanation": "The Great Bath was discovered at Mohenjo-Daro."
+  },
+  {
+    "question": "45. During whose Viceroyalty, Queen Victoria was crowned with Kaiser-i-Hind in Delhi Durbar :",
+    "options": ["Ripon", "Lytton", "Curzon", "Dalhousie"],
+    "correctAnswer": 1,
+    "explanation": "It occurred during Lord Lytton's viceroyalty."
+  },
+  {
+    "question": "100. Iran Pakistan pipeline is also known as:",
+    "options": ["Friendship Pipeline", "Peace Pipeline", "Islamic Pipeline", "None"],
+    "correctAnswer": 1,
+    "explanation": "The pipeline is also known as the Peace Pipeline."
+  },
+  {
+    "question": "43. Mohenjo-Daro is also known as:",
+    "options": ["Mound of the Dead", "Beautiful City", "Old Fort", "None"],
+    "correctAnswer": 0,
+    "explanation": "Mohenjo-Daro translates to Mound of the Dead."
+  },
+  {
+    "question": "50. Ceska Koruna is currency. Which of the following is the capital of Czech Republic?",
+    "options": ["Prague", "Bratislava", "Vienna", "Budapest"],
+    "correctAnswer": 0,
+    "explanation": "Prague is the capital of the Czech Republic."
+  },
+  {
+    "question": "51. CIA is abbreviation of: (Repeat variants)",
+    "options": ["Central Intelligence Agency", "Criminal Investigation Association", "Central Agency", "None"],
+    "correctAnswer": 0,
+    "explanation": "CIA stands for Central Intelligence Agency."
+  },
+  {
+    "question": "52. NRA is the abbreviation of:",
+    "options": ["Nuclear Regulatory Authority", "National Rifle Association", "National Reconstruction Authority", "None"],
+    "correctAnswer": 0,
+    "explanation": "The paper maps it to Nuclear Regulatory Authority contextually."
+  },
+  {
+    "question": "95. The number of deaths occurring in any year for every 1000 of the population is referred to as:",
+    "options": ["Mortality Rate", "Death Rate", "Decreasing Ratio", "None"],
+    "correctAnswer": 1,
+    "explanation": "It is standardly labeled as the Death Rate."
+  },
+  {
+    "question": "96. Safety stock of grains held by the government is:",
+    "options": ["Buffer Stock", "Public Stock", "Reserved Grain", "None"],
+    "correctAnswer": 0,
+    "explanation": "It is known as Buffer Stock."
+  },
+  {
+    "question": "98. The real capital formation e.g. the production or maintenance of machinery or construction that will produce a stream of goods and services is called:",
+    "options": ["Investment", "Savings", "Consumption", "Capitalism"],
+    "correctAnswer": 0,
+    "explanation": "This dynamic process is defined as Investment."
+  },
+  {
+    "question": "3. Choose the correct verb: Being in a relationship is a full time job, so do not apply if you ....... not ready:",
+    "options": ["Is", "Am", "Are", "Was"],
+    "correctAnswer": 2,
+    "explanation": "The pronoun 'you' requires the matching verb 'are'."
+  },
+  {
+    "question": "4. Identify parts of speech in brackets: She (as well as) her sister is engaged:",
+    "options": ["Preposition", "Conjunction", "Adverb", "Noun"],
+    "correctAnswer": 1,
+    "explanation": "'as well as' acts structurally as a Conjunction linking clauses."
+  },
+  {
+    "question": "5. Does wood sink in water? (Which word is a material noun)?",
+    "options": ["Does", "wood", "sink", "water"],
+    "correctAnswer": 1,
+    "explanation": "'wood' is the primary physical material substance noun here."
+  },
+  {
+    "question": "7. Identify parts of speech in brackets: Experience (is the best teacher):",
+    "options": ["Subject", "Object", "Complement", "Adjective"],
+    "correctAnswer": 2,
+    "explanation": "The bracketed phrase serves as a Subject Complement describing the subject."
+  },
+  {
+    "question": "8. Is your father ....... home?",
+    "options": ["On", "In", "At", "To"],
+    "correctAnswer": 2,
+    "explanation": "The correct situational preposition is 'At'."
+  },
+  {
+    "question": "11. What was the age of the Holy Prophet (S.A.W) when he solved the conflict of placing Hajr-e-Aswad?",
+    "options": ["25", "30", "35", "40"],
+    "correctAnswer": 2,
+    "explanation": "He was 35 years old during the reconstruction of the Kaaba."
+  },
+  {
+    "question": "12. Name the term whose avoidance is rewarding and although doing it is not a sin, yet it is a sort of vice:",
+    "options": ["Wajib", "Makruh-it-Tanzihi", "Haram", "Mustahab"],
+    "correctAnswer": 1,
+    "explanation": "It matches the Islamic jurisprudential category of Makruh-it-Tanzihi."
+  },
+  {
+    "question": "14. What is called the reciting of \"Rabbana Lakul Hamd\" in Qoma after ruku?",
+    "options": ["Tasbeeh", "Tahmeed", "Tasmee", "Takbeer"],
+    "correctAnswer": 1,
+    "explanation": "Reciting praise sentences there is defined as Tahmeed."
+  },
+  {
+    "question": "16. How many corps Hazrat Abu Bakar (RA) organised at Madina to march towards Syria?",
+    "options": ["2", "4", "7", "11"],
+    "correctAnswer": 1,
+    "explanation": "He systematically organized 4 separate corps commanders for Syria directions."
+  },
+  {
+    "question": "20. Where Hazrat Abdullah (RA) died?",
+    "options": ["Makkah", "Madina", "Taif", "Syria"],
+    "correctAnswer": 1,
+    "explanation": "The Holy Prophet's father, Hazrat Abdullah, passed away in Madina."
+  },
+  {
+    "question": "44. What is meant by \"Equinox\"?",
+    "options": ["Longest day", "Shortest day", "Equal Duration of Day and Night", "None"],
+    "correctAnswer": 2,
+    "explanation": "Equinox refers to dates when day and night length are exactly equal globally."
+  },
+  {
+    "question": "48. Which of these is not a metamorphic rock?",
+    "options": ["Marble", "Slate", "Shale", "Quartzite"],
+    "correctAnswer": 2,
+    "explanation": "Shale is sedimentary, whereas the others are metamorphic."
+  },
+  {
+    "question": "27. In the west, Pakistan has a common border with:",
+    "options": ["India", "China", "Iran", "Afghanistan"],
+    "correctAnswer": 2,
+    "explanation": "Pakistan borders Iran to the west/southwest."
+  },
+  {
+    "question": "29. The Arabian Sea lies in the ....... of Pakistan:",
+    "options": ["North", "South", "East", "West"],
+    "correctAnswer": 1,
+    "explanation": "The Arabian Sea is positioned south of Pakistan."
+  },
+  {
+    "question": "31. The largest and most important river in North America is :",
+    "options": ["The Amazon", "The Nile", "The Mississippi", "The Yukon"],
+    "correctAnswer": 2,
+    "explanation": "The Mississippi is the major river system in North America."
+  },
+  {
+    "question": "34. How many climate zones are there in Pakistan?",
+    "options": ["Two", "Three", "Four", "Five"],
+    "correctAnswer": 2,
+    "explanation": "Pakistan is generally classified into four main climate zones."
+  },
+  {
+    "question": "39. Where is Gawader Port?",
+    "options": ["In Sindh", "In Baluchistan", "In Punjab", "In KPK"],
+    "correctAnswer": 1,
+    "explanation": "Gwadar Port is situated in the Balochistan province."
+  },
+  {
+    "question": "47. Which country is located in north of Pakistan?",
+    "options": ["India", "Iran", "China", "Afghanistan"],
+    "correctAnswer": 2,
+    "explanation": "China shares a northern border with Pakistan across the mountain ranges."
+  },
+  {
+    "question": "50. \"Takla Makan Desert\" is located in:",
+    "options": ["Mongolia", "Xinjiang (China)", "Saudi Arabia", "Iran"],
+    "correctAnswer": 1,
+    "explanation": "The Takla Makan Desert is located within Xinjiang, China."
+  },
+  {
+    "question": "56. Among these SAARC countries which is not land locked:",
+    "options": ["Nepal", "Bhutan", "Sri Lanka", "Afghanistan"],
+    "correctAnswer": 2,
+    "explanation": "Sri Lanka is an island country and completely surrounded by sea."
+  },
+  {
+    "question": "58. Where lies Macmohan Line?",
+    "options": ["Border between Pak-Afghan", "Boundary Line Between India and China", "Pak-India border", "None"],
+    "correctAnswer": 1,
+    "explanation": "The McMahon Line is the effective border line between India and China."
+  },
+  {
+    "question": "60. The areas around the North and South poles within the Polar circles is called:",
+    "options": ["The Torrid Zone", "The Temperate Zone", "The Frigid Zone", "None"],
+    "correctAnswer": 2,
+    "explanation": "The extreme polar regions are known as the Frigid Zones."
+  },
+  {
+    "question": "21. OIC Summit is hold every ....... years:",
+    "options": ["1", "2", "3", "5"],
+    "correctAnswer": 2,
+    "explanation": "The regular ordinary OIC Summit meeting is scheduled every 3 years."
+  },
+  {
+    "question": "82. The heart of a computer system is:",
+    "options": ["Monitor", "Keyboard", "Central Processing Unit", "Printer"],
+    "correctAnswer": 2,
+    "explanation": "The CPU is universally labeled as the heart/brain of a computer system."
+  },
+  {
+    "question": "85. Speed of typing is measured in the following:",
+    "options": ["Bits Per Second", "Words Per Minute", "Lines Per Page", "None"],
+    "correctAnswer": 1,
+    "explanation": "Typing performance speeds use Words Per Minute (WPM)."
+  },
+  {
+    "question": "92. Word of Computer has been derived from:",
+    "options": ["Greek Language", "Latin Language", "English Language", "German Language"],
+    "correctAnswer": 1,
+    "explanation": "The root term 'computare' comes directly from the Latin language."
+  },
+  {
+    "question": "61. To play PowerPoint document on multiple monitors we use option:",
+    "options": ["Use Presenter View", "Slide Sorter", "Custom Animation", "Normal View"],
+    "correctAnswer": 0,
+    "explanation": "Presenter View enables managing display outputs across multiple monitors."
+  },
+  {
+    "question": "65. Email address using domain name of private website can be opened through:",
+    "options": ["gmail.com", "yahoo.com", "MyMail.example.com", "None"],
+    "correctAnswer": 2,
+    "explanation": "Private enterprise emails run customized subdomains like MyMail.example.com."
+  },
+  {
+    "question": "67. Search engine which is most popular in China is:",
+    "options": ["Google", "Yahoo", "Baidu", "Bing"],
+    "correctAnswer": 2,
+    "explanation": "Baidu holds the largest search engine footprint in mainland China."
+  },
+  {
+    "question": "68. MS Word 2007 can maximum zoom in a document: (Repeat)",
+    "options": ["200%", "400%", "500%", "600%"],
+    "correctAnswer": 2,
+    "explanation": "The text repeats that 500% is the maximum allowed zoom factor."
+  },
+  {
+    "question": "69. LOWER Function in Excel:",
+    "options": ["Converts All Upper Letters In A Test String To Lower Case", "Finds minimum numbers", "Reduces row height", "None"],
+    "correctAnswer": 0,
+    "explanation": "The LOWER function shifts all characters inside a test/text string to lower case format."
+  },
+  {
+    "question": "70. MIME is abbreviation of:",
+    "options": ["Multipurpose Internet Mail Extensions", "Multiple Internal Mail Exchange", "Manual Internet Mail Extension", "None"],
+    "correctAnswer": 0,
+    "explanation": "MIME stands for Multipurpose Internet Mail Extensions."
+  },
+  {
+    "question": "71. If you want to repair software bug, it is available free of cost on internet and it is called: (Repeat)",
+    "options": ["Patch", "Virus", "Trojan", "Glitch"],
+    "correctAnswer": 0,
+    "explanation": "Such code corrections are called Patches."
+  },
+  {
+    "question": "72. If we press F8 key thrice in MS Word, we will:",
+    "options": ["Select a Word", "Select a Sentence", "Select a Paragraph", "Select Entire Document"],
+    "correctAnswer": 1,
+    "explanation": "Pressing F8 twice selects a word; three times selects the full sentence."
+  },
+  {
+    "question": "73. In PowerPoint the motion path is:",
+    "options": ["A Method of Moving Items On A Slide", "A way to save slides", "A design layout tool", "None"],
+    "correctAnswer": 0,
+    "explanation": "Motion paths map out custom movement paths for items during animation."
+  },
+  {
+    "question": "74. In MS Word we use short cut key to split a table: (Repeat)",
+    "options": ["Ctrl + Shift + Enter", "Alt + Enter", "Shift + Enter", "None"],
+    "correctAnswer": 0,
+    "explanation": "Ctrl + Shift + Enter acts as the table-splitting utility shortcut tool."
+  },
+  {
+    "question": "77. If you want to close your email account you should click on:",
+    "options": ["Sign out", "Deactivate Account", "Delete Folder", "Archive"],
+    "correctAnswer": 1,
+    "explanation": "To fully shut down the configuration, click Deactivate Account."
+  },
+  {
+    "question": "79. When first Windows version of MS Word was released?",
+    "options": ["1985", "1989", "1992", "1995"],
+    "correctAnswer": 1,
+    "explanation": "The inaugural Microsoft Word build for Windows launched in 1989."
+  },
+  {
+    "question": "80. The key F12 opens a dialog box which contains option: (Repeat)",
+    "options": ["Save As", "Print", "Open", "Page Setup"],
+    "correctAnswer": 0,
+    "explanation": "F12 displays the standard 'Save As' interface menu box."
+  },
+  {
+    "question": "22. By whom was prepared for the first five year plan (1955-60)?",
+    "options": ["Planing board", "Finance Ministry", "State Bank", "Foreign Experts"],
+    "correctAnswer": 0,
+    "explanation": "The initial document blueprint was drawn up by the Planning Board."
+  },
+  {
+    "question": "23. ....... of the total population of Pakistan lives in rural areas:",
+    "options": ["50.5%", "61.18%", "70.2%", "45.1%"],
+    "correctAnswer": 1,
+    "explanation": "The past paper text explicitly identifies 61.18% living in rural zones."
+  },
+  {
+    "question": "24. D.C.O and D.P.O are answerable to:",
+    "options": ["Chief Minister", "Governor", "District Nazim", "Tehsil Nazim"],
+    "correctAnswer": 2,
+    "explanation": "Under that historical framework, they reported to the District Nazim."
+  },
+  {
+    "question": "26. Which is the permanent house of parliament?",
+    "options": ["National Assembly", "Senate", "Provincial Assembly", "None"],
+    "correctAnswer": 1,
+    "explanation": "The Senate cannot be dissolved and represents the permanent legislative house."
+  },
+  {
+    "question": "28. When Urdu was declared as a national language of Pakistan, who protested against it?",
+    "options": ["The People of Punjab", "The People of East Pakistan", "The People of Sindh", "The People of Baluchistan"],
+    "correctAnswer": 1,
+    "explanation": "The language policy sparked strong language movement protests from East Pakistan."
+  },
+  {
+    "question": "30. The total number of seats of Sindh Assembly are:",
+    "options": ["100", "124", "168", "200"],
+    "correctAnswer": 2,
+    "explanation": "The Sindh Assembly features 168 total constituent assembly seats."
+  },
+  {
+    "question": "32. Who introduced a new system of local Govt. maximum \"Devolution of Power\"?",
+    "options": ["Ayub Khan", "Zia-ul-Haq", "Musharraf", "Benazir Bhutto"],
+    "correctAnswer": 2,
+    "explanation": "General Pervez Musharraf brought forward the Devolution of Power local government plan."
+  },
+  {
+    "question": "33. Who was the chairman of the constitution commission in 1960?",
+    "options": ["Justic Shahabud Dm", "Justice Anwar-ul-Haq", "Justice Cornelius", "None"],
+    "correctAnswer": 0,
+    "explanation": "Justice Shahabuddin (spelled Justic Shahabud Dm) chaired the 1960 team."
+  },
+  {
+    "question": "37. The total number of seats of Baluchistan Assembly are:",
+    "options": ["51", "65", "80", "100"],
+    "correctAnswer": 1,
+    "explanation": "The Balochistan Assembly accommodates 65 statutory house seats."
+  },
+  {
+    "question": "41. The world's smallest state by population is:",
+    "options": ["San Marino", "Monaco", "Vatican", "Nauru"],
+    "correctAnswer": 2,
+    "explanation": "Vatican City registers the lowest total resident count globally."
+  },
+  {
+    "question": "42. \"Valletta\" is the capital of:",
+    "options": ["Cyprus", "Malta", "Monaco", "Iceland"],
+    "correctAnswer": 1,
+    "explanation": "Valletta is the historical capital seat of Malta."
+  },
+  {
+    "question": "43. The world's largest fish catching country is:",
+    "options": ["Japan", "USA", "China", "Peru"],
+    "correctAnswer": 2,
+    "explanation": "China claims the highest commercial wild marine tonnage harvest metrics."
+  },
+  {
+    "question": "45. What is \"Green Peace\"?",
+    "options": ["An Organization That Stresses The Need to Maintain A Balance Between Human Progress and Environmental Conservation", "A green energy company", "A military treaty", "None"],
+    "correctAnswer": 0,
+    "explanation": "Greenpeace is an international environmental protection advocacy group."
+  },
+  {
+    "question": "49. \"Fleet Street\" in London is famous for:",
+    "options": ["Financial banks", "Offices of the Leading British Newspapers", "Royal residences", "Automobile factories"],
+    "correctAnswer": 1,
+    "explanation": "Fleet Street historically concentrated the major British press editorial houses."
+  },
+  {
+    "question": "53. What is \"Cathy Pacific\"?",
+    "options": ["Ocean current", "Airline", "Insurance company", "Cargo ship"],
+    "correctAnswer": 1,
+    "explanation": "Cathay Pacific (spelled Cathy) operates as a major international Airline."
+  },
+  {
+    "question": "54. Which country is called \"Land of Milk and Honey\"?",
+    "options": ["Switzerland", "Lebanon", "New Zealand", "Egypt"],
+    "correctAnswer": 1,
+    "explanation": "Lebanon traditionally bears the metaphorical label 'Land of Milk and Honey'."
+  },
+  {
+    "question": "83. The A.C.R stands for:",
+    "options": ["Annual Confidential Report", "Audit Control Record", "Automated Case Report", "None"],
+    "correctAnswer": 0,
+    "explanation": "ACR means Annual Confidential Report in service administrative tracking."
+  },
+  {
+    "question": "84. Stock Entry Stamp is use for:",
+    "options": ["Stock Entry Record in Store", "Mailing packages", "Financial budgeting", "None"],
+    "correctAnswer": 0,
+    "explanation": "It marks a verified physical item tracking entry inside supply stores."
+  },
+  {
+    "question": "86. Letters which are written on routine basis are called:",
+    "options": ["Official Letters", "Routine Letters", "Demi Official Letters", "Circulars"],
+    "correctAnswer": 1,
+    "explanation": "Daily or standard institutional letters are categorized as Routine Letters."
+  },
+  {
+    "question": "88. What is meant by D.O. Letter?",
+    "options": ["District Official Letter", "Demi Official Letter", "Direct Office Letter", "None"],
+    "correctAnswer": 1,
+    "explanation": "D.O. Letter stands for Demi Official Letter."
+  },
+  {
+    "question": "90. What is job description?",
+    "options": ["Salary structure", "Duties and Responsibilities of Person", "Company background", "Performance appraisal method"],
+    "correctAnswer": 1,
+    "explanation": "A job description details the operational assignments and bounds of a post holder."
+  },
+  {
+    "question": "91. Which of the following may be related to forecasting manpower requirement:",
+    "options": ["Mathematical projection", "Staff interviews", "Ad-hoc guesswork", "None"],
+    "correctAnswer": 0,
+    "explanation": "Analytical capacity modeling utilizes Mathematical projection models."
+  },
+  {
+    "question": "93. Opposite of Short Hand:",
+    "options": ["Fast Hand", "Long Hand", "Typewriter", "Script"],
+    "correctAnswer": 1,
+    "explanation": "The structural antonym for stenographic shorthand text is Long Hand text writing."
+  },
+  {
+    "question": "95. Merger of Files means:",
+    "options": ["Combining of Two Files", "Deleting old records", "Encrypting files", "None"],
+    "correctAnswer": 0,
+    "explanation": "File merging explicitly brings individual files together into single binders."
+  },
+  {
+    "question": "97. Which of the following is not actually leave :",
+    "options": ["Casual Leave", "Medical Leave", "French Leave", "Earned Leave"],
+    "correctAnswer": 2,
+    "explanation": "'French leave' means absenting oneself without authorization, not an official leave type."
+  },
+  {
+    "question": "98. Communication is a process of:",
+    "options": ["Exchanging Thoughts and Views", "Writing laws", "Printing books", "None"],
+    "correctAnswer": 0,
+    "explanation": "Communication structurally operates as the transmission and sharing of information."
+  },
+  {
+    "question": "100. Mimeograph is a:",
+    "options": ["Stencil Duplicator", "Type of camera", "Early calculator", "Telegraph variant"],
+    "correctAnswer": 0,
+    "explanation": "A mimeograph machine uses stencils to press ink impressions onto copy paper sheets."
+  },
+  {
+    "question": "What is the name of Webpage Address?",
+    "options": ["URL", "IP", "HTML", "HTTP"],
+    "correctAnswer": 0,
+    "explanation": "The comprehensive specific locator pathway string is called a URL."
+  },
+  {
+    "question": "Who is known as the father of computer?",
+    "options": ["Alan Turing", "Charles Babbage", "Bill Gates", "John von Neumann"],
+    "correctAnswer": 1,
+    "explanation": "Charles Babbage created early programmable mechanical calculating engine designs."
+  },
+  {
+    "question": "Quaid-e-Azam joined All India Muslim League in ....... ?",
+    "options": ["1906", "1911", "1913", "1916"],
+    "correctAnswer": 2,
+    "explanation": "Muhammad Ali Jinnah formally joined membership in 1913."
+  },
+  {
+    "question": "The Tashkent declaration between Pakistan and India was signed on?",
+    "options": ["6 September 1965", "10 January 1966", "23 March 1966", "None"],
+    "correctAnswer": 1,
+    "explanation": "The peace accord following the 1965 conflicts was concluded on 10 January 1966."
+  },
+  {
+    "question": "The Word \"Tsunami\" belongs to which language?",
+    "options": ["Chinese", "Japanese", "Korean", "Malay"],
+    "correctAnswer": 1,
+    "explanation": "The catastrophic harbor wave term comes entirely from the Japanese lexicon."
+  },
+  {
+    "question": "In which province of Pakistan Mirani dam is being constructed?",
+    "options": ["Sindh", "Punjab", "Balochistan", "KPK"],
+    "correctAnswer": 2,
+    "explanation": "Mirani Dam spans across local rivers within Balochistan."
+  },
+  {
+    "question": "1 nibble is equal to ....... ?",
+    "options": ["2 bits", "4 bits", "8 bits", "16 bits"],
+    "correctAnswer": 1,
+    "explanation": "A nibble strictly accommodates a cluster group of exactly 4 data bits."
+  },
+  {
+    "question": "East Pakistan was separated from West Pakistan on ....... ?",
+    "options": ["14 August 1971", "16 December 1971", "23 March 1972", "None"],
+    "correctAnswer": 1,
+    "explanation": "The formal secession and independence shift finalized on 16 December 1971."
+  },
+  {
+    "question": "First truly electronic computer .......",
+    "options": ["ENIAC", "EDVAC", "UNIVAC", "IBM PC"],
+    "correctAnswer": 0,
+    "explanation": "ENIAC was the initial fully general-purpose digital calculating hardware system build."
+  },
+  {
+    "question": "Tarbela dam is situated in?",
+    "options": ["Punjab", "Sindh", "KPK", "Balochistan"],
+    "correctAnswer": 2,
+    "explanation": "Tarbela Dam construction boundaries sit natively inside Khyber Pakhtunkhwa (KPK)."
+  },
+  {
+    "question": "Headquarters of Interpol is located in ....... ?",
+    "options": ["London, UK", "Lyon, France", "Geneva, Switzerland", "New York, USA"],
+    "correctAnswer": 1,
+    "explanation": "Interpol maintains its primary structural operational base center in Lyon, France."
+  },
+  {
+    "question": "The youngest Nobel Prize laureate, Malala Yousafzai won Nobel Peace Prize for the year?",
+    "options": ["2012", "2013", "2014", "2015"],
+    "correctAnswer": 2,
+    "explanation": "Malala Yousafzai jointly accepted the international Peace Prize in 2014."
+  },
+  {
+    "question": "Margalla Hills, a hill range, is a part of which mountain range?",
+    "options": ["Karakoram", "Himalayas", "Hindu Kush", "Sulaiman Range"],
+    "correctAnswer": 1,
+    "explanation": "The Margalla range acts structurally as a localized footprint branch of the Lesser Himalayas."
+  },
+  {
+    "question": "Which dam has the largest electricity generating capacity in Pakistan?",
+    "options": ["Mangla Dam", "Tarbela Dam", "Warsak Dam", "Gazi Barotha"],
+    "correctAnswer": 1,
+    "explanation": "Tarbela Dam incorporates the largest hydel generation output installation suite footprint."
+  },
+  {
+    "question": "Khanjarab pass lies in ....... range?",
+    "options": ["Himalayas", "Karakarm", "Hindu Kush", "Pamir"],
+    "correctAnswer": 1,
+    "explanation": "The border crossing high pass cuts directly through the Karakoram (spelled Karakarm) system walls."
+  },
+  {
+    "question": "which organisation got Nobel Prize in 2012?",
+    "options": ["UNICEF", "European Union", "Red Cross", "UNESCO"],
+    "correctAnswer": 1,
+    "explanation": "The European Union accepted the global Peace Prize distinction in 2012."
+  },
+  {
+    "question": "CCTV stands for?",
+    "options": ["Closed-circuit television", "Central control television", "Common circuit television", "None"],
+    "correctAnswer": 0,
+    "explanation": "CCTV directly expands out to Closed-circuit television."
+  },
+  {
+    "question": "PROM stands for ....... ?",
+    "options": ["Programmable Read-Only Memory", "Programmed Real Output Memory", "Primary Read Only Memory", "None"],
+    "correctAnswer": 0,
+    "explanation": "PROM means Programmable Read-Only Memory chip technology."
+  },
+  {
+    "question": "The International Cricket Council (ICC) has nominated Pakistani cricketers for the ODI teams of the decade.",
+    "options": ["3", "4", "5", "6"],
+    "correctAnswer": 2,
+    "explanation": "The text records the specific value count metric match choice as 5."
+  },
+  {
+    "question": "In which article of 1973 constitution fundamental rights of citizens granted article?",
+    "options": ["Article 6", "Article 8", "Article 15", "Article 25"],
+    "correctAnswer": 1,
+    "explanation": "Fundamental protection parameters open directly under text Article 8 definitions."
+  },
+  {
+    "question": "What is 5 Percent of 5?",
+    "options": ["0.05", "0.25", "1.0", "2.5"],
+    "correctAnswer": 1,
+    "explanation": "5% of 5 evaluates arithmetic steps to: (5 / 100) * 5 = 0.25."
+  },
+  {
+    "question": "DC stand for?",
+    "options": ["direct current", "digital current", "dual current", "disconnect circuit"],
+    "correctAnswer": 0,
+    "explanation": "DC indicates constant uni-directional electrical flow known as direct current."
+  },
+  {
+    "question": "Marina trench is located?",
+    "options": ["Atlantic ocean", "Indian ocean", "Pacific ocean", "Arctic ocean"],
+    "correctAnswer": 2,
+    "explanation": "The deepest sub-surface geographic sea feature sits in the Western Pacific ocean basin."
+  },
+  {
+    "question": "Msc stand for?",
+    "options": ["Masters of Science", "Management Science", "Micro Science", "None"],
+    "correctAnswer": 0,
+    "explanation": "MSc represents the academic post-graduate degree title Masters of Science."
+  },
+  {
+    "question": "Which country hosted 2010 Olympics?",
+    "options": ["UK", "China", "Canada", "Russia"],
+    "correctAnswer": 2,
+    "explanation": "The 2014 Winter games track elsewhere; the 2010 winter cycles ran inside Vancouver, Canada."
+  },
+  {
+    "question": "Who was, at one time, called \"Ambassador of Hindu-Muslim Unity\"?",
+    "options": ["Sir Syed Ahmed Khan", "Allama Iqbal", "Quaid-eAzam", "Mahatma Gandhi"],
+    "correctAnswer": 2,
+    "explanation": "Sarojini Naidu early on labeled Jinnah (Quaid-e-Azam) with this title honor."
+  },
+  {
+    "question": "Which is the smallest country in the world by land?",
+    "options": ["Monaco", "San Marino", "Vatican city", "Malta"],
+    "correctAnswer": 2,
+    "explanation": "Vatican City contains the smallest sovereign territorial boundary square footage footprint line."
+  },
+  {
+    "question": "LAN stands for ....... ?",
+    "options": ["Local Area Network", "Long Area Network", "Logical Array Network", "None"],
+    "correctAnswer": 0,
+    "explanation": "LAN designates localized close proximity computing networks called Local Area Networks."
+  },
+  {
+    "question": "Ctrl + Y is used for ....... ?",
+    "options": ["Undo", "Redo", "Cut", "Paste"],
+    "correctAnswer": 1,
+    "explanation": "Ctrl + Y tracks actions forward as a standard Redo software hotkey link."
+  },
+  {
+    "question": "HTML is an abbreviation for ....... ?",
+    "options": ["Hypertext Markup Language", "Hyperlink Text Markup Language", "High Text Machine Language", "None"],
+    "correctAnswer": 0,
+    "explanation": "HTML expands exactly as Hypertext Markup Language format code."
+  },
+  {
+    "question": "Which kind of system of Government was introduced in 1973 constitution?",
+    "options": ["Presidential", "Parliamentary", "Federal Directory", "Monarchy"],
+    "correctAnswer": 1,
+    "explanation": "The 1973 instrument established a prime-minister-led Parliamentary framework system."
+  },
+  {
+    "question": "Which country is the smallest republic in the world?",
+    "options": ["Maldives", "Tuvalu", "Nauru", "San Marino"],
+    "correctAnswer": 2,
+    "explanation": "Nauru is recognized as the smallest independent island republic state format globally."
+  },
+  {
+    "question": "First Governor-General of Pakistan fixed his salary as?",
+    "options": ["Rs 1", "Rs 1000", "Rs 5000", "No Salary"],
+    "correctAnswer": 0,
+    "explanation": "Quaid-e-Azam symbolically limited his official monthly state check draw down to Rs 1 token."
+  },
+  {
+    "question": "Who was the President of USA at the time of creation of Pakistan?",
+    "options": ["Franklin D. Roosevelt", "Harry Truman", "Dwight D. Eisenhower", "None"],
+    "correctAnswer": 1,
+    "explanation": "Harry S. Truman led the United States administration during August 1947 shifts."
+  },
+  {
+    "question": "Who compiled Sunan Ibn Majah?",
+    "options": ["Imam Bukhari", "Ibn Majah", "Imam Muslim", "Imam Malik"],
+    "correctAnswer": 1,
+    "explanation": "The definitive Hadith text compilation collection work bears the author's tag Ibn Majah."
+  },
+  {
+    "question": "CRT is a form of ....... ?",
+    "options": ["Keyboard", "Mouse", "Monitor", "Printer"],
+    "correctAnswer": 2,
+    "explanation": "Cathode Ray Tubes were the primary components driving vintage display monitors screens."
+  },
+  {
+    "question": "Ibn-e-Maja wrote ....... book?",
+    "options": ["Kitab al Tafsir", "Al-Muwatta", "Al-Shifa", "None"],
+    "correctAnswer": 0,
+    "explanation": "Beside his compilation, his scholastic works include manuscript texts like Kitab al Tafsir."
+  },
+  {
+    "question": "You use an input device such as keyboard or mouse to ....... information?",
+    "options": ["Output", "Input", "Store", "Delete"],
+    "correctAnswer": 1,
+    "explanation": "Keyboards and mouse units feed peripheral system data to Input information records."
+  },
+  {
+    "question": "Which is biggest? Lake, Ocean, River, Sea?",
+    "options": ["Lake", "Ocean", "River", "Sea"],
+    "correctAnswer": 1,
+    "explanation": "Oceans classify as the vast foundational primary open global salt water water bodies."
+  },
+  {
+    "question": "On 24th July, 2018 in solidarity with Freedom Struggle of Kashmir Martyred Youth Leader Burhan Wani, Pakistan issued Commemorative?",
+    "options": ["Coin", "Postage stamp", "Medal", "Holiday document"],
+    "correctAnswer": 1,
+    "explanation": "The postal services tracking division printed an official commemorative Postage stamp."
+  },
+  {
+    "question": "Where can the tallest building Burj Khalifa be found?",
+    "options": ["Saudi Arabia", "Qatar", "Dubai", "Abu Dhabi"],
+    "correctAnswer": 2,
+    "explanation": "The extreme supertall structural skyscraper anchor landmark stands inside Dubai, UAE."
+  },
+  {
+    "question": "How you can update the values of formula cell. If auto calculate the mode of excel cell is disabled?",
+    "options": ["F2", "F5", "f9", "F11"],
+    "correctAnswer": 2,
+    "explanation": "Pressing the manual function hotkey F9 (f9) forces worksheets updates data re-calculations."
+  },
+  {
+    "question": "Who declared 4th Marshall Law in Pakistan_?",
+    "options": ["Ayub Khan", "Yahya Khan", "Zia ul Haq", "Parvez Musharraf"],
+    "correctAnswer": 3,
+    "explanation": "General Pervez Musharraf implemented the fourth military administrative takeover line."
+  },
+  {
+    "question": "What unit is used to measure lines of longitude?",
+    "options": ["Kilometers", "Miles", "Degree", "Meters"],
+    "correctAnswer": 2,
+    "explanation": "Angular navigation mapping coordinate tracks partition bands out using Degrees units."
+  },
+  {
+    "question": "How many famous ports of Pakistan?",
+    "options": ["1", "2", "3", "4"],
+    "correctAnswer": 2,
+    "explanation": "The text lists three principal maritime ports installations (Karachi, Qasim, Gwadar)."
+  },
+  {
+    "question": "What is contribution of agriculture to Pakistan's GDP?",
+    "options": ["15%", "20%", "24%", "30%"],
+    "correctAnswer": 2,
+    "explanation": "The referenced document files list agriculture output contribution at 24% of GDP."
+  },
+  {
+    "question": "What does HTTP stand for in the context of WWW?",
+    "options": ["Hypertext Transfer Protocol", "Hypertext Transfer Path", "High Transfer Text Protocol", "None"],
+    "correctAnswer": 0,
+    "explanation": "HTTP translates cleanly out directly as Hypertext Transfer Protocol."
+  },
+  {
+    "question": "When was Instagram Launched?",
+    "options": ["2008", "2010", "2012", "2014"],
+    "correctAnswer": 1,
+    "explanation": "The photo-centric social mobile network application launched operations during 2010."
+  },
+  {
+    "question": "Gulf of Mexico and Atlantic Ocean are joined by which strait?",
+    "options": ["Malacca Strait", "Gibraltar Strait", "Florida", "Bering Strait"],
+    "correctAnswer": 2,
+    "explanation": "The Strait of Florida links those massive adjacent open marine ocean areas directly."
+  },
+  {
+    "question": "In Pakistan, manufacturing sector contributes ....... percent to Gross Domestic Product?",
+    "options": ["10.5", "12.79", "15.2", "18.9"],
+    "correctAnswer": 1,
+    "explanation": "The analytical breakdown listed tracks commercial industrial factory shares at 12.79%."
+  },
+  {
+    "question": "Pasni port is located in ?",
+    "options": ["Sindh", "Balochistan", "Punjab", "KPK"],
+    "correctAnswer": 1,
+    "explanation": "Pasni operates as a specialized coastal town installation hub within Balochistan."
+  },
+  {
+    "question": "Carla Khan is player of _?",
+    "options": ["Tennis", "Squash", "Badminton", "Cricket"],
+    "correctAnswer": 1,
+    "explanation": "Carla Khan competed professionally across international circuits as a Squash athlete."
+  },
+  {
+    "question": "Total length of Amazon river?",
+    "options": ["3,000 miles", "4,000 miles", "4,345 miles", "5,000 miles"],
+    "correctAnswer": 2,
+    "explanation": "The hydrological data text charts the total tracking run span length at 4,345 miles."
+  },
+  {
+    "question": "Facebook headquarters located?",
+    "options": ["New York", "California", "Texas", "Washington"],
+    "correctAnswer": 1,
+    "explanation": "Meta (Facebook) maintains its central operational campus network inside California, USA."
+  },
+  {
+    "question": "How many parts of Holy Quran?",
+    "options": ["20", "30", "40", "114"],
+    "correctAnswer": 1,
+    "explanation": "The structural layout splits the text cleanly across exactly 30 identical reading parts (Paras)."
+  },
+  {
+    "question": "Which is an example of WAN?",
+    "options": ["Home Wi-Fi router network", "Office floor ethernet link", "Mobile broadband connections", "None"],
+    "correctAnswer": 2,
+    "explanation": "Wide Area Networks span cross-regional footprints exemplified by cellular data carrier links."
+  },
+  {
+    "question": "RAM stands for ....... ?",
+    "options": ["Random Access Memory", "Read Access Memory", "Run Alternate Memory", "None"],
+    "correctAnswer": 0,
+    "explanation": "RAM identifies primary volatile computer workstation memory blocks as Random Access Memory."
+  },
+  {
+    "question": "After how many years Pakistan got its first constitution?",
+    "options": ["5 years", "7 years", "9 years", "11 years"],
+    "correctAnswer": 2,
+    "explanation": "Pakistan ran on interim frameworks for 9 years before ratifying the 1956 constitution document."
+  },
+  {
+    "question": "MS Excel is based on?",
+    "options": ["DOS", "WINDOWS", "LINUX", "MAC OS NATIVE"],
+    "correctAnswer": 1,
+    "explanation": "The core office spreadsheet suite standardly built out graphical tool modules for WINDOWS."
+  },
+  {
+    "question": "Which Radio Station already existed at the time of creation of Pakistan?",
+    "options": ["Lahore", "Karachi", "Peshawar", "Rawalpindi"],
+    "correctAnswer": 2,
+    "explanation": "Peshawar Radio station was fully up and operating before August 1947 shifts."
+  },
+  {
+    "question": "On which time the Holy Prophet (PBUH) was gifted with Namaz?",
+    "options": ["Hijrat", "Miraj", "Ghazwa Badr", "Conquest of Makkah"],
+    "correctAnswer": 1,
+    "explanation": "The five daily prayers obligation rules were granted during the ascension journey (Miraj)."
+  },
+  {
+    "question": "What is the National Instrument of Pakistan?",
+    "options": ["Flute", "Sitar", "Dafli", "Tabla"],
+    "correctAnswer": 2,
+    "explanation": "The text lists Dafli as the matching designated symbolic national instrument record option."
+  },
+  {
+    "question": "Who has made most number of runs in ODI cricket for Pakistan?",
+    "options": ["Javed Miandad", "Inzamam-ulHaq", "Saeed Anwar", "Shahid Afridi"],
+    "correctAnswer": 1,
+    "explanation": "Inzamam-ul-Haq tracks as the aggregate total one-day runs format record holder for Pakistan."
+  },
+  {
+    "question": "Dollar is the currency of?",
+    "options": ["UK", "USA", "Japan", "Europe"],
+    "correctAnswer": 1,
+    "explanation": "The United States of America utilizes the Dollar ($) as its national legal tender format."
+  },
+  {
+    "question": "Soft copy refers to?",
+    "options": ["Printed page output", "Screen output", "Hard disk drive hardware", "None"],
+    "correctAnswer": 1,
+    "explanation": "Digital output imagery visual text shown on screens maps directly to a Soft Copy definition."
+  },
+  {
+    "question": "URL has how many parts_?",
+    "options": ["One", "Two", "Three", "Four"],
+    "correctAnswer": 2,
+    "explanation": "Standard address string structure segments break down into Three foundational part blocks."
+  },
+  {
+    "question": "NHA is the abbreviation of ....... ?",
+    "options": ["National Highway Authority", "National Housing Agency", "National Health Association", "None"],
+    "correctAnswer": 0,
+    "explanation": "NHA translates directly out as the National Highway Authority federal infrastructure firm."
+  },
+  {
+    "question": "SAF Games in 1989 was played in the country of?",
+    "options": ["India", "Pakistan", "Sri Lanka", "Bangladesh"],
+    "correctAnswer": 1,
+    "explanation": "The fourth South Asian Federation Games layout ran inside local arenas in Pakistan."
+  },
+  {
+    "question": "Thal desert is located in ....... ?",
+    "options": ["Sindh", "Punjab", "Balochistan", "KPK"],
+    "correctAnswer": 1,
+    "explanation": "The massive sandy Thal desert expanses occupy land blocks inside the Punjab province limits."
+  },
+  {
+    "question": "The shortest Surah of the Holy Quran is ....... ?",
+    "options": ["Al-Ikhlas", "Kausar", "Al-Asr", "Al-Nasr"],
+    "correctAnswer": 1,
+    "explanation": "Surah Al-Kausar marks the briefest textual running length across compilation divisions."
+  },
+  {
+    "question": "Fatima Jinnah ....... of Quaiz e Azam?",
+    "options": ["elder sister", "younger sister", "mother", "daughter"],
+    "correctAnswer": 1,
+    "explanation": "Madar-e-Millat Fatima Jinnah supported her older brother as his younger sister companion."
   }
 ]
 };
